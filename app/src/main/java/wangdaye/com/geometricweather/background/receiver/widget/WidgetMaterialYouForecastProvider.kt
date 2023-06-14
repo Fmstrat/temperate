@@ -1,0 +1,3 @@
+package wangdaye.com.geometricweather.background.receiver.widget
+
+class WidgetMaterialYouForecastProvider: AbstractWidgetProvider()
