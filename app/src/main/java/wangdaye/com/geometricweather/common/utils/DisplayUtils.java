@@ -29,9 +29,6 @@ import androidx.core.graphics.ColorUtils;
 
 import com.google.android.material.resources.TextAppearance;
 
-import java.util.Calendar;
-import java.util.TimeZone;
-
 public class DisplayUtils {
 
     public static final Interpolator FLOATING_DECELERATE_INTERPOLATOR
@@ -215,16 +212,6 @@ public class DisplayUtils {
         return !DateFormat.is24HourFormat(context);
     }
 
-    public static boolean isDaylight(TimeZone timeZone) {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTimeZone(timeZone);
-        int time = 60 * calendar.get(Calendar.HOUR_OF_DAY) + calendar.get(Calendar.MINUTE);
-
-        int sr = 60 * 6;
-        int ss = 60 * 18;
-        return sr < time && time < ss;
-    }
-
     // translationY, scaleX, scaleY
     @Size(3)
     public static Animator[] getFloatingOvershotEnterAnimators(View view) {
@@ -259,25 +246,23 @@ public class DisplayUtils {
     }
 
     public static void getVisibleDisplayFrame(View view, Rect rect) {
-        /*
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            DisplayMetrics metrics = new DisplayMetrics();
-            WindowManager wm = (WindowManager) view.getContext().getSystemService(
-                    Context.WINDOW_SERVICE);
-            wm.getDefaultDisplay().getRealMetrics(metrics);
-
-            WindowInsets insets = view.getRootWindowInsets();
-
-            rect.set(
-                    insets.getSystemWindowInsetLeft(),
-                    insets.getSystemWindowInsetTop(),
-                    metrics.widthPixels - insets.getSystemWindowInsetRight(),
-                    metrics.heightPixels - insets.getSystemWindowInsetBottom()
-            );
-        } else {
-            view.getWindowVisibleDisplayFrame(rect);
-        }
-        */
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+//            DisplayMetrics metrics = new DisplayMetrics();
+//            WindowManager wm = (WindowManager) view.getContext().getSystemService(
+//                    Context.WINDOW_SERVICE);
+//            wm.getDefaultDisplay().getRealMetrics(metrics);
+//
+//            WindowInsets insets = view.getRootWindowInsets();
+//
+//            rect.set(
+//                    insets.getSystemWindowInsetLeft(),
+//                    insets.getSystemWindowInsetTop(),
+//                    metrics.widthPixels - insets.getSystemWindowInsetRight(),
+//                    metrics.heightPixels - insets.getSystemWindowInsetBottom()
+//            );
+//        } else {
+//            view.getWindowVisibleDisplayFrame(rect);
+//        }
         // looks like has a good performance.
         view.getWindowVisibleDisplayFrame(rect);
     }

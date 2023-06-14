@@ -5,9 +5,8 @@ import android.content.Intent
 import android.os.Build
 import android.provider.Settings
 import androidx.annotation.RequiresApi
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.runtime.*
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -28,7 +27,12 @@ import wangdaye.com.geometricweather.settings.preference.composables.*
 import wangdaye.com.geometricweather.theme.ThemeManager
 
 @Composable
-fun RootSettingsView(context: Context, navController: NavHostController) {
+fun RootSettingsView(
+    context: Context,
+    navController: NavHostController,
+    paddingValues: PaddingValues,
+    postNotificationPermissionEnsurer: (succeedCallback: () -> Unit) -> Unit,
+) {
     val todayForecastEnabledState = remember {
         mutableStateOf(
             SettingsManager
@@ -58,7 +62,7 @@ fun RootSettingsView(context: Context, navController: NavHostController) {
         )
     }
 
-    PreferenceScreen {
+    PreferenceScreen(paddingValues = paddingValues) {
         // basic.
         sectionHeaderItem(R.string.settings_category_basic)
         checkboxPreferenceItem(R.string.settings_title_background_free) { id ->
@@ -69,13 +73,15 @@ fun RootSettingsView(context: Context, navController: NavHostController) {
                 checked = SettingsManager.getInstance(context).isBackgroundFree,
                 onValueChanged = {
                     SettingsManager.getInstance(context).isBackgroundFree = it
-
-                    PollingManager.resetNormalBackgroundTask(context, false)
                     if (!it) {
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                            showBlockNotificationGroupDialog(context)
-                        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                            showIgnoreBatteryOptimizationDialog(context)
+                        postNotificationPermissionEnsurer {
+                            PollingManager.resetNormalBackgroundTask(context, false)
+
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                                showBlockNotificationGroupDialog(context)
+                            } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                                showIgnoreBatteryOptimizationDialog(context)
+                            }
                         }
                     }
                 },
@@ -89,7 +95,11 @@ fun RootSettingsView(context: Context, navController: NavHostController) {
                 checked = SettingsManager.getInstance(context).isAlertPushEnabled,
                 onValueChanged = {
                     SettingsManager.getInstance(context).isAlertPushEnabled = it
-                    PollingManager.resetNormalBackgroundTask(context, false)
+                    if (it) {
+                        postNotificationPermissionEnsurer {
+                            PollingManager.resetNormalBackgroundTask(context, false)
+                        }
+                    }
                 },
             )
         }
@@ -101,7 +111,11 @@ fun RootSettingsView(context: Context, navController: NavHostController) {
                 checked = SettingsManager.getInstance(context).isPrecipitationPushEnabled,
                 onValueChanged = {
                     SettingsManager.getInstance(context).isPrecipitationPushEnabled = it
-                    PollingManager.resetNormalBackgroundTask(context, false)
+                    if (it) {
+                        postNotificationPermissionEnsurer {
+                            PollingManager.resetNormalBackgroundTask(context, false)
+                        }
+                    }
                 },
             )
         }
@@ -260,77 +274,77 @@ fun RootSettingsView(context: Context, navController: NavHostController) {
             )
         }
         if (DayWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_day) {
+            clickablePreferenceItem(R.string.widget_day) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, DayWidgetConfigActivity::class.java))
                 }
             }
         }
         if (WeekWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_week) {
+            clickablePreferenceItem(R.string.widget_week) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, WeekWidgetConfigActivity::class.java))
                 }
             }
         }
         if (DayWeekWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_day_week) {
+            clickablePreferenceItem(R.string.widget_day_week) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, DayWeekWidgetConfigActivity::class.java))
                 }
             }
         }
         if (ClockDayHorizontalWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_clock_day_horizontal) {
+            clickablePreferenceItem(R.string.widget_clock_day_horizontal) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, ClockDayHorizontalWidgetConfigActivity::class.java))
                 }
             }
         }
         if (ClockDayDetailsWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_clock_day_details) {
+            clickablePreferenceItem(R.string.widget_clock_day_details) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, ClockDayDetailsWidgetConfigActivity::class.java))
                 }
             }
         }
         if (ClockDayVerticalWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_clock_day_vertical) {
+            clickablePreferenceItem(R.string.widget_clock_day_vertical) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, ClockDayVerticalWidgetConfigActivity::class.java))
                 }
             }
         }
         if (ClockDayWeekWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_clock_day_week) {
+            clickablePreferenceItem(R.string.widget_clock_day_week) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, ClockDayWeekWidgetConfigActivity::class.java))
                 }
             }
         }
         if (TextWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_text) {
+            clickablePreferenceItem(R.string.widget_text) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, TextWidgetConfigActivity::class.java))
                 }
             }
         }
         if (DailyTrendWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_trend_daily) {
+            clickablePreferenceItem(R.string.widget_trend_daily) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, DailyTrendWidgetConfigActivity::class.java))
                 }
             }
         }
         if (HourlyTrendWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_trend_hourly) {
+            clickablePreferenceItem(R.string.widget_trend_hourly) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, HourlyTrendWidgetConfigActivity::class.java))
                 }
             }
         }
         if (MultiCityWidgetIMP.isEnable(context)) {
-            clickablePreferenceItem(R.string.key_widget_multi_city) {
+            clickablePreferenceItem(R.string.widget_multi_city) {
                 PreferenceView(title = stringResource(it)) {
                     context.startActivity(Intent(context, MultiCityWidgetConfigActivity::class.java))
                 }
@@ -351,7 +365,9 @@ fun RootSettingsView(context: Context, navController: NavHostController) {
                     notificationEnabledState.value = it
 
                     if (it) { // open notification.
-                        PollingManager.resetNormalBackgroundTask(context, true)
+                        postNotificationPermissionEnsurer {
+                            PollingManager.resetNormalBackgroundTask(context, true)
+                        }
                     } else { // close notification.
                         NormalNotificationIMP.cancelNotification(context)
                         PollingManager.resetNormalBackgroundTask(context, false)

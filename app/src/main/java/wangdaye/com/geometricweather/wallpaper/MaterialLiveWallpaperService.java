@@ -1,5 +1,6 @@
 package wangdaye.com.geometricweather.wallpaper;
 
+import android.app.WallpaperColors;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.PixelFormat;
@@ -8,6 +9,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.os.Build;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Process;
@@ -18,6 +20,7 @@ import android.view.SurfaceHolder;
 import android.view.WindowManager;
 
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.annotation.Size;
 import androidx.core.content.res.ResourcesCompat;
 
@@ -90,9 +93,9 @@ public class MaterialLiveWallpaperService extends WallpaperService {
                 mRotators[0].updateRotation(mRotation2D, mIntervalComputer.getInterval());
                 mRotators[1].updateRotation(mRotation3D, mIntervalComputer.getInterval());
 
-                Canvas canvas = mHolder.lockCanvas();
-                if (canvas != null) {
-                    try {
+                try {
+                    Canvas canvas = mHolder.lockCanvas();
+                    if (canvas != null) {
                         if (mSizes[0] != canvas.getWidth()
                                 || mSizes[1] != canvas.getHeight()) {
                             mSizes[0] = canvas.getWidth();
@@ -126,10 +129,10 @@ public class MaterialLiveWallpaperService extends WallpaperService {
                                 (float) mRotators[1].getRotation()
                         );
                         canvas.restore();
-                    } catch (Exception ignored) {
-                        // do nothing.
+                        mHolder.unlockCanvasAndPost(canvas);
                     }
-                    mHolder.unlockCanvasAndPost(canvas);
+                } catch (Throwable ignore) {
+                    // do nothing.
                 }
             }
         };
@@ -230,6 +233,10 @@ public class MaterialLiveWallpaperService extends WallpaperService {
             );
             if (mBackground != null) {
                 mBackground.setBounds(0, 0, mSizes[0], mSizes[1]);
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
+                    notifyColorsChanged();
+                }
             }
         }
 
@@ -336,12 +343,8 @@ public class MaterialLiveWallpaperService extends WallpaperService {
                                 : "";
                     }
                     String dayNightType = configManager.getDayNightType();
-                    boolean daytime = true;
+                    boolean daytime = location.isDaylight();
                     switch (dayNightType) {
-                        case "auto":
-                            daytime = location.isDaylight();
-                            break;
-
                         case "day":
                             daytime = true;
                             break;
@@ -390,6 +393,17 @@ public class MaterialLiveWallpaperService extends WallpaperService {
                     }
                     mOrientationListener.disable();
                 }
+            }
+        }
+
+        @RequiresApi(Build.VERSION_CODES.O_MR1)
+        @Nullable
+        @Override
+        public WallpaperColors onComputeColors() {
+            if (mBackground != null) {
+                return WallpaperColors.fromDrawable(mBackground);
+            } else {
+                return null;
             }
         }
 
