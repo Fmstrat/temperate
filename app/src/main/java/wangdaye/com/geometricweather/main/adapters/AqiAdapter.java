@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters;
+package nowsci.com.temperateweather.main.adapters;
 
 import android.animation.AnimatorSet;
 import android.animation.ArgbEvaluator;
@@ -21,13 +21,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.AirQualityCOUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.AirQualityUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.AirQuality;
-import wangdaye.com.geometricweather.common.ui.widgets.RoundProgress;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.AirQualityCOUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.AirQualityUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.AirQuality;
+import nowsci.com.temperateweather.common.ui.widgets.RoundProgress;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
 
 public class AqiAdapter extends RecyclerView.Adapter<AqiAdapter.ViewHolder> {
 

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.trend.daily;
+package nowsci.com.temperateweather.main.adapters.trend.daily;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -8,16 +8,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.TimeZone;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.Daily;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerView;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerViewAdapter;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.item.DailyTrendItemView;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.Daily;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerView;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerViewAdapter;
+import nowsci.com.temperateweather.common.ui.widgets.trend.item.DailyTrendItemView;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
 
 public abstract class AbsDailyTrendAdapter extends TrendRecyclerViewAdapter<AbsDailyTrendAdapter.ViewHolder>  {
 

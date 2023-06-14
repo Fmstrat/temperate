@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.main.holder;
+package nowsci.com.temperateweather.main.adapters.main.holder;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,14 +11,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.main.adapters.main.FirstCardHeaderController;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
-import wangdaye.com.geometricweather.theme.ThemeManager;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherThemeDelegate;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.main.adapters.main.FirstCardHeaderController;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.theme.ThemeManager;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.weatherView.WeatherThemeDelegate;
 
 public abstract class AbstractMainCardViewHolder extends AbstractMainViewHolder {
 

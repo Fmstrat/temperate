@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.wallpaper
+package nowsci.com.temperateweather.wallpaper
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -26,13 +26,13 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.toSize
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.GeoActivity
-import wangdaye.com.geometricweather.common.ui.widgets.Material3Scaffold
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitStatusBarTopAppBar
-import wangdaye.com.geometricweather.theme.compose.DayNightTheme
-import wangdaye.com.geometricweather.theme.compose.GeometricWeatherTheme
-import wangdaye.com.geometricweather.theme.compose.rememberThemeRipple
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.GeoActivity
+import nowsci.com.temperateweather.common.ui.widgets.Material3Scaffold
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitStatusBarTopAppBar
+import nowsci.com.temperateweather.theme.compose.DayNightTheme
+import nowsci.com.temperateweather.theme.compose.TemperateWeatherTheme
+import nowsci.com.temperateweather.theme.compose.rememberThemeRipple
 
 class LiveWallpaperConfigActivity : GeoActivity() {
 
@@ -60,7 +60,7 @@ class LiveWallpaperConfigActivity : GeoActivity() {
         dayNightTypeValues = resources.getStringArray(R.array.live_wallpaper_day_night_type_values)
 
         setContent {
-            GeometricWeatherTheme(lightTheme = !isSystemInDarkTheme()) {
+            TemperateWeatherTheme(lightTheme = !isSystemInDarkTheme()) {
                 ContentView()
             }
         }

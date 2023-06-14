@@ -1,6 +1,6 @@
-package wangdaye.com.geometricweather.search.ui.adapter.source;
+package nowsci.com.temperateweather.search.ui.adapter.source;
 
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
 
 class WeatherSourceModel {
 

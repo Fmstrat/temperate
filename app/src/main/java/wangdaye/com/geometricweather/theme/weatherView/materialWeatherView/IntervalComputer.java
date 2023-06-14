@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.weatherView.materialWeatherView;
+package nowsci.com.temperateweather.theme.weatherView.materialWeatherView;
 
 public class IntervalComputer {
 

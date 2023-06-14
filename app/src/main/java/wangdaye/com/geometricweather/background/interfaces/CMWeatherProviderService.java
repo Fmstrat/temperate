@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.interfaces;
+package nowsci.com.temperateweather.background.interfaces;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,13 +16,13 @@ import cyanogenmod.weatherservice.ServiceRequest;
 import cyanogenmod.weatherservice.ServiceRequestResult;
 import cyanogenmod.weatherservice.WeatherProviderService;
 import dagger.hilt.android.AndroidEntryPoint;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.location.LocationHelper;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.weather.WeatherHelper;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.location.LocationHelper;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.weather.WeatherHelper;
 
 /**
  * CM weather provider service.

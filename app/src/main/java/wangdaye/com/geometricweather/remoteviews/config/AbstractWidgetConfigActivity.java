@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews.config;
+package nowsci.com.temperateweather.remoteviews.config;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -43,17 +43,17 @@ import com.xw.repo.BubbleSeekBar;
 
 import javax.inject.Inject;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.background.polling.PollingManager;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarNestedScrollView;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.SnackbarHelper;
-import wangdaye.com.geometricweather.db.DatabaseHelper;
-import wangdaye.com.geometricweather.settings.ConfigStore;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.weather.WeatherHelper;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.background.polling.PollingManager;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarNestedScrollView;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.helpers.SnackbarHelper;
+import nowsci.com.temperateweather.db.DatabaseHelper;
+import nowsci.com.temperateweather.settings.ConfigStore;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.weather.WeatherHelper;
 
 /**
  * Abstract widget config activity.

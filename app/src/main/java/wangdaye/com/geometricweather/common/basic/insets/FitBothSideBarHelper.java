@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic.insets;
+package nowsci.com.temperateweather.common.basic.insets;
 
 import android.graphics.Rect;
 import android.view.View;

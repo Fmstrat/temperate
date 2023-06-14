@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.polling.services.permanent.observer;
+package nowsci.com.temperateweather.background.polling.services.permanent.observer;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -18,12 +18,12 @@ import android.text.TextUtils;
 
 import java.util.Calendar;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.background.polling.services.permanent.update.ForegroundNormalUpdateService;
-import wangdaye.com.geometricweather.background.polling.services.permanent.update.ForegroundTodayForecastUpdateService;
-import wangdaye.com.geometricweather.background.polling.services.permanent.update.ForegroundTomorrowForecastUpdateService;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.background.polling.services.permanent.update.ForegroundNormalUpdateService;
+import nowsci.com.temperateweather.background.polling.services.permanent.update.ForegroundTodayForecastUpdateService;
+import nowsci.com.temperateweather.background.polling.services.permanent.update.ForegroundTomorrowForecastUpdateService;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 /**
  * Time observer service.
@@ -168,9 +168,9 @@ public class TimeObserverService extends Service {
     private void startForeground() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel(
-                    GeometricWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND,
-                    GeometricWeather.getNotificationChannelName(
-                            this, GeometricWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND),
+                    TemperateWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND,
+                    TemperateWeather.getNotificationChannelName(
+                            this, TemperateWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND),
                     NotificationManager.IMPORTANCE_MIN
             );
             channel.setShowBadge(false);
@@ -180,18 +180,18 @@ public class TimeObserverService extends Service {
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             startForeground(
-                    GeometricWeather.NOTIFICATION_ID_RUNNING_IN_BACKGROUND,
+                    TemperateWeather.NOTIFICATION_ID_RUNNING_IN_BACKGROUND,
                     getForegroundNotification(this, true)
             );
         } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             startForeground(
-                    GeometricWeather.NOTIFICATION_ID_RUNNING_IN_BACKGROUND,
+                    TemperateWeather.NOTIFICATION_ID_RUNNING_IN_BACKGROUND,
                     getForegroundNotification(this, false)
             );
             startService(new Intent(this, FakeForegroundService.class));
         } else {
             startForeground(
-                    GeometricWeather.NOTIFICATION_ID_RUNNING_IN_BACKGROUND,
+                    TemperateWeather.NOTIFICATION_ID_RUNNING_IN_BACKGROUND,
                     getForegroundNotification(this, true)
             );
             startService(new Intent(this, FakeForegroundService.class));
@@ -199,7 +199,7 @@ public class TimeObserverService extends Service {
     }
 
     public static Notification getForegroundNotification(Context context, boolean setIcon) {
-        return new NotificationCompat.Builder(context, GeometricWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND)
+        return new NotificationCompat.Builder(context, TemperateWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND)
                 .setSmallIcon(setIcon ? R.drawable.ic_running_in_background : 0)
                 .setContentTitle(context.getString(R.string.geometric_weather))
                 .setContentText(context.getString(R.string.feedback_running_in_background))

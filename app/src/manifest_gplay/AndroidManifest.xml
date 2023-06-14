@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="wangdaye.com.geometricweather">
+    package="nowsci.com.temperateweather">
 
     <!-- required by Google Play Store. -->
     <uses-permission android:name="android.permission.INSTANT_APP_FOREGROUND_SERVICE"

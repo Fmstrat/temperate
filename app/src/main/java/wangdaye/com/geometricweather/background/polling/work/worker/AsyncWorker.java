@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.polling.work.worker;
+package nowsci.com.temperateweather.background.polling.work.worker;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

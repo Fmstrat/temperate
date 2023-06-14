@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.services;
+package nowsci.com.temperateweather.weather.services;
 
 import android.content.Context;
 
@@ -12,20 +12,20 @@ import javax.inject.Inject;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.CompositeDisposable;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.rxjava.BaseObserver;
-import wangdaye.com.geometricweather.common.rxjava.ObserverContainer;
-import wangdaye.com.geometricweather.common.rxjava.SchedulerTransformer;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.weather.apis.AccuWeatherApi;
-import wangdaye.com.geometricweather.weather.converters.AccuResultConverter;
-import wangdaye.com.geometricweather.weather.json.accu.AccuAlertResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuAqiResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuCurrentResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuDailyResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuHourlyResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuLocationResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuMinuteResult;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.rxjava.BaseObserver;
+import nowsci.com.temperateweather.common.rxjava.ObserverContainer;
+import nowsci.com.temperateweather.common.rxjava.SchedulerTransformer;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.weather.apis.AccuWeatherApi;
+import nowsci.com.temperateweather.weather.converters.AccuResultConverter;
+import nowsci.com.temperateweather.weather.json.accu.AccuAlertResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuAqiResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuCurrentResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuDailyResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuHourlyResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuLocationResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuMinuteResult;
 
 /**
  * Accu weather service.

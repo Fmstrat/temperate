@@ -1,13 +1,13 @@
-package wangdaye.com.geometricweather.common.basic.models.weather;
+package nowsci.com.temperateweather.common.basic.models.weather;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.io.Serializable;
 
-import wangdaye.com.geometricweather.common.basic.models.options.unit.DistanceUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.RelativeHumidityUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.DistanceUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.RelativeHumidityUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
 
 /**
  * Current.

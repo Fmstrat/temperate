@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.polling.services.basic;
+package nowsci.com.temperateweather.background.polling.services.basic;
 
 import android.app.Service;
 import android.content.Context;
@@ -13,14 +13,14 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import wangdaye.com.geometricweather.background.polling.PollingUpdateHelper;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper;
-import wangdaye.com.geometricweather.common.utils.helpers.ShortcutsHelper;
-import wangdaye.com.geometricweather.location.LocationHelper;
-import wangdaye.com.geometricweather.remoteviews.NotificationHelper;
-import wangdaye.com.geometricweather.weather.WeatherHelper;
+import nowsci.com.temperateweather.background.polling.PollingUpdateHelper;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper;
+import nowsci.com.temperateweather.common.utils.helpers.ShortcutsHelper;
+import nowsci.com.temperateweather.location.LocationHelper;
+import nowsci.com.temperateweather.remoteviews.NotificationHelper;
+import nowsci.com.temperateweather.weather.WeatherHelper;
 
 public abstract class UpdateService extends Service
         implements PollingUpdateHelper.OnPollingUpdateListener {

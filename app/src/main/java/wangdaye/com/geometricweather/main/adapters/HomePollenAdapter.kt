@@ -1,17 +1,17 @@
-package wangdaye.com.geometricweather.main.adapters
+package nowsci.com.temperateweather.main.adapters
 
 import android.annotation.SuppressLint
 import android.content.res.ColorStateList
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.models.Location
-import wangdaye.com.geometricweather.common.basic.models.options.unit.PollenUnit
-import wangdaye.com.geometricweather.common.basic.models.weather.Daily
-import wangdaye.com.geometricweather.common.basic.models.weather.Pollen
-import wangdaye.com.geometricweather.databinding.ItemPollenDailyBinding
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.basic.models.options.unit.PollenUnit
+import nowsci.com.temperateweather.common.basic.models.weather.Daily
+import nowsci.com.temperateweather.common.basic.models.weather.Pollen
+import nowsci.com.temperateweather.databinding.ItemPollenDailyBinding
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider
 
 open class HomePollenAdapter @JvmOverloads constructor(
     private val location: Location,

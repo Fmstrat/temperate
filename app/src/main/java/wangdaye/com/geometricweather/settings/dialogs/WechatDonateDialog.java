@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.dialogs;
+package nowsci.com.temperateweather.settings.dialogs;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import androidx.appcompat.widget.AppCompatImageView;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.utils.helpers.ImageHelper;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.utils.helpers.ImageHelper;
 
 public class WechatDonateDialog {
 

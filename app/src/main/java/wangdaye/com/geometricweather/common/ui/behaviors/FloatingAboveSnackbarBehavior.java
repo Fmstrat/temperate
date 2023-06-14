@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.behaviors;
+package nowsci.com.temperateweather.common.ui.behaviors;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
-import wangdaye.com.geometricweather.common.snackbar.Snackbar;
+import nowsci.com.temperateweather.common.snackbar.Snackbar;
 
 public class FloatingAboveSnackbarBehavior<V extends View> extends CoordinatorLayout.Behavior<V> {
 

@@ -1,13 +1,13 @@
-package wangdaye.com.geometricweather.search.ui.adapter.location;
+package nowsci.com.temperateweather.search.ui.adapter.location;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class LocationModel {
 

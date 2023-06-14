@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.search.ui.adapter.source;
+package nowsci.com.temperateweather.search.ui.adapter.source;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.databinding.ItemWeatherSourceBinding;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.databinding.ItemWeatherSourceBinding;
 
 public class WeatherSourceAdapter extends RecyclerView.Adapter<WeatherSourceHolder> {
 

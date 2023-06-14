@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews.presenters.notification;
+package nowsci.com.temperateweather.remoteviews.presenters.notification;
 
 import android.Manifest;
 import android.app.Notification;
@@ -19,21 +19,21 @@ import androidx.core.app.NotificationManagerCompat;
 import java.util.Date;
 import java.util.List;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.NotificationTextColor;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Temperature;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.utils.LanguageUtils;
-import wangdaye.com.geometricweather.common.utils.ObjectUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.LunarHelper;
-import wangdaye.com.geometricweather.remoteviews.presenters.AbstractRemoteViewsPresenter;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.NotificationTextColor;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Temperature;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.utils.LanguageUtils;
+import nowsci.com.temperateweather.common.utils.ObjectUtils;
+import nowsci.com.temperateweather.common.utils.helpers.LunarHelper;
+import nowsci.com.temperateweather.remoteviews.presenters.AbstractRemoteViewsPresenter;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class MultiCityNotificationIMP extends AbstractRemoteViewsPresenter {
 
@@ -61,10 +61,10 @@ public class MultiCityNotificationIMP extends AbstractRemoteViewsPresenter {
         NotificationManagerCompat manager = NotificationManagerCompat.from(context);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel(
-                    GeometricWeather.NOTIFICATION_CHANNEL_ID_NORMALLY,
-                    GeometricWeather.getNotificationChannelName(
+                    TemperateWeather.NOTIFICATION_CHANNEL_ID_NORMALLY,
+                    TemperateWeather.getNotificationChannelName(
                             context,
-                            GeometricWeather.NOTIFICATION_CHANNEL_ID_NORMALLY
+                            TemperateWeather.NOTIFICATION_CHANNEL_ID_NORMALLY
                     ),
                     NotificationManager.IMPORTANCE_LOW
             );
@@ -77,7 +77,7 @@ public class MultiCityNotificationIMP extends AbstractRemoteViewsPresenter {
         // get manager & builder.
         NotificationCompat.Builder builder = new NotificationCompat.Builder(
                 context,
-                GeometricWeather.NOTIFICATION_CHANNEL_ID_NORMALLY
+                TemperateWeather.NOTIFICATION_CHANNEL_ID_NORMALLY
         );
 
         // set notification level.
@@ -114,7 +114,7 @@ public class MultiCityNotificationIMP extends AbstractRemoteViewsPresenter {
         );
 
         builder.setContentIntent(
-                getWeatherPendingIntent(context, null, GeometricWeather.NOTIFICATION_ID_NORMALLY)
+                getWeatherPendingIntent(context, null, TemperateWeather.NOTIFICATION_ID_NORMALLY)
         );
 
         // build big view.
@@ -155,7 +155,7 @@ public class MultiCityNotificationIMP extends AbstractRemoteViewsPresenter {
                 context,
                 Manifest.permission.POST_NOTIFICATIONS
         ) == PackageManager.PERMISSION_GRANTED) {
-            manager.notify(GeometricWeather.NOTIFICATION_ID_NORMALLY, notification);
+            manager.notify(TemperateWeather.NOTIFICATION_ID_NORMALLY, notification);
         }
     }
 

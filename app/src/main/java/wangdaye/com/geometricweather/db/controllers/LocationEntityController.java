@@ -1,13 +1,13 @@
-package wangdaye.com.geometricweather.db.controllers;
+package nowsci.com.temperateweather.db.controllers;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.db.entities.DaoSession;
-import wangdaye.com.geometricweather.db.entities.LocationEntity;
-import wangdaye.com.geometricweather.db.entities.LocationEntityDao;
+import nowsci.com.temperateweather.db.entities.DaoSession;
+import nowsci.com.temperateweather.db.entities.LocationEntity;
+import nowsci.com.temperateweather.db.entities.LocationEntityDao;
 
 public class LocationEntityController extends AbsEntityController {
 

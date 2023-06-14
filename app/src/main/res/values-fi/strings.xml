@@ -3,7 +3,7 @@
 
     <!-- app. -->
     <string name="app_name">Sää</string>
-    <string name="geometric_weather">Geometric Weather</string>
+    <string name="geometric_weather">Temperate Weather</string>
 
     <!-- keyword. -->
     <string name="current_location">Nykyinen sijainti</string>
@@ -289,7 +289,7 @@
     <string name="feedback_interpret_notification_group_content">Kun olet kytkenyt \"Free background\" pois päältä, ilmoituspalkkiin ilmestyy ilmoitus joka osoittaa, että taustapalvelu on käynnissä. Voit poistaa Taustatietokanavan käytöstä sovelluksen tietosivulla estääksesi nämä ilmoitukset.</string>
 
     <string name="feedback_ignore_battery_optimizations_title">Jätä akun optimointi huomiotta</string>
-    <string name="feedback_ignore_battery_optimizations_content">Varmistaaksesi, että taustapalvelut voivat jatkaa toimintaansa, jätä GeometricWeatherin akkuoptimointi huomiotta.</string>
+    <string name="feedback_ignore_battery_optimizations_content">Varmistaaksesi, että taustapalvelut voivat jatkaa toimintaansa, jätä TemperateWeatherin akkuoptimointi huomiotta.</string>
     
     <string name="feedback_cannot_start_live_wallpaper_activity">Livetaustakuvan esikatselua ei voi käynnistää</string>
 
@@ -300,7 +300,7 @@
     <string name="feedback_short_term_precipitation_alert">Seuraavien tuntien  aikana saattaa sataa.</string>
 
     <string name="feedback_resident_location">Aseta kotikaupungiksi</string>
-    <string name="feedback_resident_location_description">GeometricWeather näyttää ja piilottaa automaattisesti asuinkaupungit nykyisen sijaintisi perusteella.\nVoit esimerkiksi asettaa kotikaupunkisi asuinkaupungiksi. Voit tarkistaa kotikaupunkisi sään matkalla ollessasi. Kun pääset kotiin, kotikaupunkisi sää piilotetaan ja korvataan nykyisen sijaintisi säällä.</string>
+    <string name="feedback_resident_location_description">TemperateWeather näyttää ja piilottaa automaattisesti asuinkaupungit nykyisen sijaintisi perusteella.\nVoit esimerkiksi asettaa kotikaupunkisi asuinkaupungiksi. Voit tarkistaa kotikaupunkisi sään matkalla ollessasi. Kun pääset kotiin, kotikaupunkisi sää piilotetaan ja korvataan nykyisen sijaintisi säällä.</string>
 
     <string name="feedback_click_to_get_more">Klikkaa saadaksesi lisää…</string>
     <string name="feedback_click_again_to_exit">Klikkaa uudelleen poistuaksesi</string>

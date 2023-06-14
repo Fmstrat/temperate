@@ -1,12 +1,12 @@
-package wangdaye.com.geometricweather.db.generators;
+package nowsci.com.temperateweather.db.generators;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.common.basic.models.weather.Minutely;
-import wangdaye.com.geometricweather.db.entities.MinutelyEntity;
-import wangdaye.com.geometricweather.db.converters.WeatherSourceConverter;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.basic.models.weather.Minutely;
+import nowsci.com.temperateweather.db.entities.MinutelyEntity;
+import nowsci.com.temperateweather.db.converters.WeatherSourceConverter;
 
 public class MinutelyEntityGenerator {
 

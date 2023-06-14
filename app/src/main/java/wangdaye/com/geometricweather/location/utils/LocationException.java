@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.location.utils;
+package nowsci.com.temperateweather.location.utils;
 
 public class LocationException extends Exception {
 

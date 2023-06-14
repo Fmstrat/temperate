@@ -1,11 +1,11 @@
-package wangdaye.com.geometricweather.background.receiver;
+package nowsci.com.temperateweather.background.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.text.TextUtils;
 
-import wangdaye.com.geometricweather.background.polling.PollingManager;
+import nowsci.com.temperateweather.background.polling.PollingManager;
 
 /**
  * Main receiver.

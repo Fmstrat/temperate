@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews.presenters;
+package nowsci.com.temperateweather.remoteviews.presenters;
 
 import android.annotation.SuppressLint;
 import android.appwidget.AppWidgetManager;
@@ -16,23 +16,23 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.background.receiver.widget.WidgetTrendHourlyProvider;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Hourly;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.theme.ThemeManager;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.remoteviews.trend.TrendLinearLayout;
-import wangdaye.com.geometricweather.remoteviews.trend.WidgetItemView;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherViewController;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.background.receiver.widget.WidgetTrendHourlyProvider;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Hourly;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.theme.ThemeManager;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.remoteviews.trend.TrendLinearLayout;
+import nowsci.com.temperateweather.remoteviews.trend.WidgetItemView;
+import nowsci.com.temperateweather.theme.weatherView.WeatherViewController;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper;
 
 public class HourlyTrendWidgetIMP extends AbstractRemoteViewsPresenter {
 
@@ -311,7 +311,7 @@ public class HourlyTrendWidgetIMP extends AbstractRemoteViewsPresenter {
                 getWeatherPendingIntent(
                         context,
                         location,
-                        GeometricWeather.WIDGET_TREND_HOURLY_PENDING_INTENT_CODE_WEATHER
+                        TemperateWeather.WIDGET_TREND_HOURLY_PENDING_INTENT_CODE_WEATHER
                 )
         );
     }

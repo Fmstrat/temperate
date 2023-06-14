@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.preference.composables
+package nowsci.com.temperateweather.settings.preference.composables
 
 import android.content.Context
 import androidx.annotation.StringRes
@@ -20,11 +20,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.ui.widgets.Material3CardListItem
-import wangdaye.com.geometricweather.common.ui.widgets.defaultCardListItemElevation
-import wangdaye.com.geometricweather.theme.compose.DayNightTheme
-import wangdaye.com.geometricweather.theme.compose.rememberThemeRipple
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.ui.widgets.Material3CardListItem
+import nowsci.com.temperateweather.common.ui.widgets.defaultCardListItemElevation
+import nowsci.com.temperateweather.theme.compose.DayNightTheme
+import nowsci.com.temperateweather.theme.compose.rememberThemeRipple
 
 @Composable
 fun CheckboxPreferenceView(

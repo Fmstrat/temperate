@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.search;
+package nowsci.com.temperateweather.search;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -13,12 +13,12 @@ import java.util.List;
 import javax.inject.Inject;
 
 import dagger.hilt.android.qualifiers.ApplicationContext;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper;
-import wangdaye.com.geometricweather.settings.ConfigStore;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.weather.WeatherHelper;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper;
+import nowsci.com.temperateweather.settings.ConfigStore;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.weather.WeatherHelper;
 
 public class SearchActivityRepository {
 

@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarAppBarLayout
+    <nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarAppBarLayout
         android:id="@+id/appBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -76,9 +76,9 @@
 
         </FrameLayout>
 
-    </wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarAppBarLayout>
+    </nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarAppBarLayout>
 
-    <wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarRecyclerView
+    <nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarRecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

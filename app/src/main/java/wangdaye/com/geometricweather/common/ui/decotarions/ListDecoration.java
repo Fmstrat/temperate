@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.decotarions;
+package nowsci.com.temperateweather.common.ui.decotarions;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Px;
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 /**
  * List decoration.

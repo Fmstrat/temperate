@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.preference
+package nowsci.com.temperateweather.settings.preference
 
 import androidx.annotation.StringRes
 

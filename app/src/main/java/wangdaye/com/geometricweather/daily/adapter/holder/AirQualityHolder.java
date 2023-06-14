@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.daily.adapter.holder;
+package nowsci.com.temperateweather.daily.adapter.holder;
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
@@ -7,11 +7,11 @@ import android.widget.TextView;
 
 import androidx.core.graphics.ColorUtils;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.weather.AirQuality;
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
-import wangdaye.com.geometricweather.daily.adapter.model.DailyAirQuality;
-import wangdaye.com.geometricweather.common.ui.widgets.RoundProgress;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.weather.AirQuality;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.daily.adapter.model.DailyAirQuality;
+import nowsci.com.temperateweather.common.ui.widgets.RoundProgress;
 
 public class AirQualityHolder extends DailyWeatherAdapter.ViewHolder {
 

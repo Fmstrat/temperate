@@ -1,13 +1,13 @@
-package wangdaye.com.geometricweather.daily.adapter.holder;
+package nowsci.com.temperateweather.daily.adapter.holder;
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
-import wangdaye.com.geometricweather.daily.adapter.model.Value;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.daily.adapter.model.Value;
 
 public class ValueHolder extends DailyWeatherAdapter.ViewHolder {
 

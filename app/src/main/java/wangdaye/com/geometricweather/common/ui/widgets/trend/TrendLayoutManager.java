@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.trend;
+package nowsci.com.temperateweather.common.ui.widgets.trend;
 
 import android.content.Context;
 

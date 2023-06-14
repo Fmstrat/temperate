@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.horizontal;
+package nowsci.com.temperateweather.common.ui.widgets.horizontal;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

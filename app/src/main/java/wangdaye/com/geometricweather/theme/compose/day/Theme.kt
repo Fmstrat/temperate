@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.compose.day
+package nowsci.com.temperateweather.theme.compose.day
 
 import android.content.Context
 import android.os.Build

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.resource.providers;
+package nowsci.com.temperateweather.theme.resource.providers;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -22,14 +22,14 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.theme.resource.utils.Constants;
-import wangdaye.com.geometricweather.theme.resource.utils.ResourceUtils;
-import wangdaye.com.geometricweather.theme.resource.utils.XmlHelper;
-import wangdaye.com.geometricweather.common.ui.images.MoonDrawable;
-import wangdaye.com.geometricweather.common.ui.images.SunDrawable;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.theme.resource.utils.Constants;
+import nowsci.com.temperateweather.theme.resource.utils.ResourceUtils;
+import nowsci.com.temperateweather.theme.resource.utils.XmlHelper;
+import nowsci.com.temperateweather.common.ui.images.MoonDrawable;
+import nowsci.com.temperateweather.common.ui.images.SunDrawable;
 
 public class DefaultResourceProvider extends ResourceProvider {
 
@@ -42,7 +42,7 @@ public class DefaultResourceProvider extends ResourceProvider {
     private Map<String, String> mShortcutFilter;
 
     public DefaultResourceProvider() {
-        mContext = GeometricWeather.getInstance();
+        mContext = TemperateWeather.getInstance();
         mProviderName = mContext.getString(R.string.geometric_weather);
         mIconDrawable = mContext.getApplicationInfo().loadIcon(mContext.getPackageManager());
 
@@ -60,7 +60,7 @@ public class DefaultResourceProvider extends ResourceProvider {
 
     public static boolean isDefaultIconProvider(@NonNull String packageName) {
         return packageName.equals(
-                GeometricWeather.getInstance().getPackageName());
+                TemperateWeather.getInstance().getPackageName());
     }
 
     @NonNull

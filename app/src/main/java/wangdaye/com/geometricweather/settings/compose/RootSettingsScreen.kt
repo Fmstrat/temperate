@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.compose
+package nowsci.com.temperateweather.settings.compose
 
 import android.content.Context
 import android.content.Intent
@@ -10,21 +10,21 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.background.polling.PollingManager
-import wangdaye.com.geometricweather.common.basic.models.options.DarkMode
-import wangdaye.com.geometricweather.common.basic.models.options.NotificationStyle
-import wangdaye.com.geometricweather.common.basic.models.options.UpdateInterval
-import wangdaye.com.geometricweather.common.basic.models.options.WidgetWeekIconMode
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper
-import wangdaye.com.geometricweather.remoteviews.config.*
-import wangdaye.com.geometricweather.remoteviews.presenters.*
-import wangdaye.com.geometricweather.remoteviews.presenters.notification.NormalNotificationIMP
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.settings.preference.*
-import wangdaye.com.geometricweather.settings.preference.composables.*
-import wangdaye.com.geometricweather.theme.ThemeManager
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.background.polling.PollingManager
+import nowsci.com.temperateweather.common.basic.models.options.DarkMode
+import nowsci.com.temperateweather.common.basic.models.options.NotificationStyle
+import nowsci.com.temperateweather.common.basic.models.options.UpdateInterval
+import nowsci.com.temperateweather.common.basic.models.options.WidgetWeekIconMode
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper
+import nowsci.com.temperateweather.remoteviews.config.*
+import nowsci.com.temperateweather.remoteviews.presenters.*
+import nowsci.com.temperateweather.remoteviews.presenters.notification.NormalNotificationIMP
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.settings.preference.*
+import nowsci.com.temperateweather.settings.preference.composables.*
+import nowsci.com.temperateweather.theme.ThemeManager
 
 @Composable
 fun RootSettingsView(

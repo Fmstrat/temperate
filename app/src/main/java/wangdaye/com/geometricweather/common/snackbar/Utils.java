@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.snackbar;
+package nowsci.com.temperateweather.common.snackbar;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -8,9 +8,9 @@ import android.view.animation.Interpolator;
 
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarHelper;
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarView;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarHelper;
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarView;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 class Utils extends android.view.animation.AnimationUtils {
 

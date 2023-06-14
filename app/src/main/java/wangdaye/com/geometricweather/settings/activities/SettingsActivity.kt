@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.activities
+package nowsci.com.temperateweather.settings.activities
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -22,17 +22,17 @@ import androidx.core.content.ContextCompat
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.GeoActivity
-import wangdaye.com.geometricweather.common.bus.EventBus
-import wangdaye.com.geometricweather.common.ui.widgets.Material3Scaffold
-import wangdaye.com.geometricweather.common.ui.widgets.generateCollapsedScrollBehavior
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitStatusBarTopAppBar
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper
-import wangdaye.com.geometricweather.settings.SettingsChangedMessage
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.settings.compose.*
-import wangdaye.com.geometricweather.theme.compose.GeometricWeatherTheme
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.GeoActivity
+import nowsci.com.temperateweather.common.bus.EventBus
+import nowsci.com.temperateweather.common.ui.widgets.Material3Scaffold
+import nowsci.com.temperateweather.common.ui.widgets.generateCollapsedScrollBehavior
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitStatusBarTopAppBar
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper
+import nowsci.com.temperateweather.settings.SettingsChangedMessage
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.settings.compose.*
+import nowsci.com.temperateweather.theme.compose.TemperateWeatherTheme
 
 private const val PERMISSION_CODE_POST_NOTIFICATION = 0
 
@@ -54,7 +54,7 @@ class SettingsActivity : GeoActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            GeometricWeatherTheme(lightTheme = !isSystemInDarkTheme()) {
+            TemperateWeatherTheme(lightTheme = !isSystemInDarkTheme()) {
                 ContentView()
             }
         }
@@ -186,7 +186,7 @@ class SettingsActivity : GeoActivity() {
     @Preview
     @Composable
     private fun DefaultPreview() {
-        GeometricWeatherTheme(lightTheme = isSystemInDarkTheme()) {
+        TemperateWeatherTheme(lightTheme = isSystemInDarkTheme()) {
             ContentView()
         }
     }

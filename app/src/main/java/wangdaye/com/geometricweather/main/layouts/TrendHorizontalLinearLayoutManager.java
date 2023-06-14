@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.layouts;
+package nowsci.com.temperateweather.main.layouts;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -6,8 +6,8 @@ import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendLayoutManager;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendLayoutManager;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 public class TrendHorizontalLinearLayoutManager extends TrendLayoutManager {
 

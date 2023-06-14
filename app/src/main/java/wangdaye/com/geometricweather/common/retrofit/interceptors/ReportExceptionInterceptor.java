@@ -1,10 +1,10 @@
-package wangdaye.com.geometricweather.common.retrofit.interceptors;
+package nowsci.com.temperateweather.common.retrofit.interceptors;
 
 import okhttp3.Interceptor;
 import okhttp3.Protocol;
 import okhttp3.Request;
 import okhttp3.Response;
-import wangdaye.com.geometricweather.common.utils.helpers.BuglyHelper;
+import nowsci.com.temperateweather.common.utils.helpers.BuglyHelper;
 
 abstract class ReportExceptionInterceptor implements Interceptor {
 
@@ -18,7 +18,7 @@ abstract class ReportExceptionInterceptor implements Interceptor {
                 .request(request)
                 .protocol(Protocol.HTTP_2)
                 .code(400)
-                .message("Handle an error in GeometricWeather.")
+                .message("Handle an error in TemperateWeather.")
                 .body(null)
                 .build();
     }

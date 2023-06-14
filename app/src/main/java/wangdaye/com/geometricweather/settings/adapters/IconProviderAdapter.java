@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.adapters;
+package nowsci.com.temperateweather.settings.adapters;
 
 import android.app.Activity;
 import android.graphics.drawable.AdaptiveIconDrawable;
@@ -20,11 +20,11 @@ import java.util.List;
 
 import james.adaptiveicon.AdaptiveIcon;
 import james.adaptiveicon.AdaptiveIconView;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.ImageHelper;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.helpers.ImageHelper;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
 
 public class IconProviderAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
@@ -93,7 +93,7 @@ public class IconProviderAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
         void onBindView() {
             ImageHelper.load(itemView.getContext(), appStore, R.drawable.ic_play_store);
             appStore.setOnClickListener(v ->
-                    mListener.onAppStoreItemClicked("Geometric Weather Icon"));
+                    mListener.onAppStoreItemClicked("Temperate Weather Icon"));
 
             ImageHelper.load(
                     itemView.getContext(),
@@ -103,7 +103,7 @@ public class IconProviderAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
                             : R.drawable.ic_github_dark
             );
             gitHub.setOnClickListener(v ->
-                    mListener.onGitHubItemClicked("https://github.com/WangDaYeeeeee/IconProvider-For-GeometricWeather"));
+                    mListener.onGitHubItemClicked("https://github.com/WangDaYeeeeee/IconProvider-For-TemperateWeather"));
 
             ImageHelper.load(itemView.getContext(), chronus, R.drawable.ic_chronus);
             chronus.setOnClickListener(v ->

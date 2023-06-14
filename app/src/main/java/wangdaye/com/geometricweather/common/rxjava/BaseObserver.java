@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.rxjava;
+package nowsci.com.temperateweather.common.rxjava;
 
 import io.reactivex.observers.DisposableObserver;
 

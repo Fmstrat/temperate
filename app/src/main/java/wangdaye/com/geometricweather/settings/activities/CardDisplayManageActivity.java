@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.activities;
+package nowsci.com.temperateweather.settings.activities;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -24,19 +24,19 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.CardDisplay;
-import wangdaye.com.geometricweather.common.ui.adapters.TagAdapter;
-import wangdaye.com.geometricweather.common.ui.decotarions.GridMarginsDecoration;
-import wangdaye.com.geometricweather.common.ui.decotarions.ListDecoration;
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarAppBarLayout;
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarRecyclerView;
-import wangdaye.com.geometricweather.common.ui.widgets.slidingItem.SlidingItemTouchCallback;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.settings.adapters.CardDisplayAdapter;
-import wangdaye.com.geometricweather.theme.ThemeManager;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.options.appearance.CardDisplay;
+import nowsci.com.temperateweather.common.ui.adapters.TagAdapter;
+import nowsci.com.temperateweather.common.ui.decotarions.GridMarginsDecoration;
+import nowsci.com.temperateweather.common.ui.decotarions.ListDecoration;
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarAppBarLayout;
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarRecyclerView;
+import nowsci.com.temperateweather.common.ui.widgets.slidingItem.SlidingItemTouchCallback;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.settings.adapters.CardDisplayAdapter;
+import nowsci.com.temperateweather.theme.ThemeManager;
 
 public class CardDisplayManageActivity extends GeoActivity {
 

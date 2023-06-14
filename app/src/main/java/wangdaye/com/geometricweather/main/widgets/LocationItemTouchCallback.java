@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.widgets;
+package nowsci.com.temperateweather.main.widgets;
 
 import android.graphics.Canvas;
 import android.view.View;
@@ -12,12 +12,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.ui.widgets.slidingItem.SlidingItemTouchCallback;
-import wangdaye.com.geometricweather.common.utils.helpers.SnackbarHelper;
-import wangdaye.com.geometricweather.main.MainActivityViewModel;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.ui.widgets.slidingItem.SlidingItemTouchCallback;
+import nowsci.com.temperateweather.common.utils.helpers.SnackbarHelper;
+import nowsci.com.temperateweather.main.MainActivityViewModel;
 
 public class LocationItemTouchCallback extends SlidingItemTouchCallback {
 

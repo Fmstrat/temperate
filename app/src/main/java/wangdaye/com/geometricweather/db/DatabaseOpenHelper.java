@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.db;
+package nowsci.com.temperateweather.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -7,15 +7,15 @@ import com.github.yuweiguocn.library.greendao.MigrationHelper;
 
 import org.greenrobot.greendao.database.Database;
 
-import wangdaye.com.geometricweather.db.entities.AlertEntityDao;
-import wangdaye.com.geometricweather.db.entities.ChineseCityEntityDao;
-import wangdaye.com.geometricweather.db.entities.DailyEntityDao;
-import wangdaye.com.geometricweather.db.entities.DaoMaster;
-import wangdaye.com.geometricweather.db.entities.HistoryEntityDao;
-import wangdaye.com.geometricweather.db.entities.HourlyEntityDao;
-import wangdaye.com.geometricweather.db.entities.LocationEntityDao;
-import wangdaye.com.geometricweather.db.entities.MinutelyEntityDao;
-import wangdaye.com.geometricweather.db.entities.WeatherEntityDao;
+import nowsci.com.temperateweather.db.entities.AlertEntityDao;
+import nowsci.com.temperateweather.db.entities.ChineseCityEntityDao;
+import nowsci.com.temperateweather.db.entities.DailyEntityDao;
+import nowsci.com.temperateweather.db.entities.DaoMaster;
+import nowsci.com.temperateweather.db.entities.HistoryEntityDao;
+import nowsci.com.temperateweather.db.entities.HourlyEntityDao;
+import nowsci.com.temperateweather.db.entities.LocationEntityDao;
+import nowsci.com.temperateweather.db.entities.MinutelyEntityDao;
+import nowsci.com.temperateweather.db.entities.WeatherEntityDao;
 
 class DatabaseOpenHelper extends DaoMaster.OpenHelper {
 

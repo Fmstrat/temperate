@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews;
+package nowsci.com.temperateweather.remoteviews;
 
 import android.content.Context;
 import android.text.TextPaint;
@@ -7,23 +7,23 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.remoteviews.presenters.MaterialYouCurrentWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.MaterialYouForecastWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.ClockDayDetailsWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.ClockDayHorizontalWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.ClockDayVerticalWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.ClockDayWeekWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.DailyTrendWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.DayWeekWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.DayWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.HourlyTrendWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.MultiCityWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.TextWidgetIMP;
-import wangdaye.com.geometricweather.remoteviews.presenters.WeekWidgetIMP;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.remoteviews.presenters.MaterialYouCurrentWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.MaterialYouForecastWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.ClockDayDetailsWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.ClockDayHorizontalWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.ClockDayVerticalWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.ClockDayWeekWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.DailyTrendWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.DayWeekWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.DayWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.HourlyTrendWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.MultiCityWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.TextWidgetIMP;
+import nowsci.com.temperateweather.remoteviews.presenters.WeekWidgetIMP;
 
 public class WidgetHelper {
 

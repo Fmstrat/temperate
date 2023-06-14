@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.main.holder;
+package nowsci.com.temperateweather.main.adapters.main.holder;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -8,13 +8,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.main.adapters.DetailsAdapter;
-import wangdaye.com.geometricweather.theme.ThemeManager;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherViewController;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.main.adapters.DetailsAdapter;
+import nowsci.com.temperateweather.theme.ThemeManager;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.weatherView.WeatherViewController;
 
 public class DetailsViewHolder extends AbstractMainCardViewHolder {
 

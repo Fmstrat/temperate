@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.json.atmoaura;
+package nowsci.com.temperateweather.weather.json.atmoaura;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.trend.daily;
+package nowsci.com.temperateweather.main.adapters.trend.daily;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,17 +11,17 @@ import androidx.annotation.NonNull;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.AirQuality;
-import wangdaye.com.geometricweather.common.basic.models.weather.Daily;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerView;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.chart.PolylineAndHistogramView;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
-import wangdaye.com.geometricweather.theme.ThemeManager;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherViewController;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.AirQuality;
+import nowsci.com.temperateweather.common.basic.models.weather.Daily;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerView;
+import nowsci.com.temperateweather.common.ui.widgets.trend.chart.PolylineAndHistogramView;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.theme.ThemeManager;
+import nowsci.com.temperateweather.theme.weatherView.WeatherViewController;
 
 /**
  * Daily air quality adapter.

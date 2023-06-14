@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.main;
+package nowsci.com.temperateweather.main.adapters.main;
 
 import android.annotation.SuppressLint;
 import android.content.res.ColorStateList;
@@ -16,14 +16,14 @@ import androidx.core.widget.ImageViewCompat;
 import java.text.DateFormat;
 import java.util.TimeZone;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.Base;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.main.MainActivity;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.Base;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.main.MainActivity;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
 
 public class FirstCardHeaderController
         implements View.OnClickListener {

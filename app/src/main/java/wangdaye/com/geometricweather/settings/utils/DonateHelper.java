@@ -1,11 +1,11 @@
-package wangdaye.com.geometricweather.settings.utils;
+package nowsci.com.temperateweather.settings.utils;
 
 import android.didikee.donate.AlipayDonate;
 import android.didikee.donate.WeiXinDonate;
 
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.utils.helpers.SnackbarHelper;
-import wangdaye.com.geometricweather.settings.dialogs.WechatDonateDialog;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.utils.helpers.SnackbarHelper;
+import nowsci.com.temperateweather.settings.dialogs.WechatDonateDialog;
 
 public class DonateHelper {
 

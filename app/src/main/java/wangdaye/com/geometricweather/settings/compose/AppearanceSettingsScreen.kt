@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.compose
+package nowsci.com.temperateweather.settings.compose
 
 import android.app.Activity
 import android.content.Context
@@ -11,22 +11,22 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import wangdaye.com.geometricweather.GeometricWeather.Companion.instance
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.CardDisplay
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.DailyTrendDisplay
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.HourlyTrendDisplay
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.Language
-import wangdaye.com.geometricweather.common.basic.models.weather.Temperature
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper
-import wangdaye.com.geometricweather.common.utils.helpers.SnackbarHelper
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.settings.dialogs.ProvidersPreviewerDialog
-import wangdaye.com.geometricweather.settings.preference.*
-import wangdaye.com.geometricweather.settings.preference.composables.CheckboxPreferenceView
-import wangdaye.com.geometricweather.settings.preference.composables.ListPreferenceView
-import wangdaye.com.geometricweather.settings.preference.composables.PreferenceView
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory
+import nowsci.com.temperateweather.TemperateWeather.Companion.instance
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.models.options.appearance.CardDisplay
+import nowsci.com.temperateweather.common.basic.models.options.appearance.DailyTrendDisplay
+import nowsci.com.temperateweather.common.basic.models.options.appearance.HourlyTrendDisplay
+import nowsci.com.temperateweather.common.basic.models.options.appearance.Language
+import nowsci.com.temperateweather.common.basic.models.weather.Temperature
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper
+import nowsci.com.temperateweather.common.utils.helpers.SnackbarHelper
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.settings.dialogs.ProvidersPreviewerDialog
+import nowsci.com.temperateweather.settings.preference.*
+import nowsci.com.temperateweather.settings.preference.composables.CheckboxPreferenceView
+import nowsci.com.temperateweather.settings.preference.composables.ListPreferenceView
+import nowsci.com.temperateweather.settings.preference.composables.PreferenceView
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory
 
 @Composable
 fun AppearanceSettingsScreen(

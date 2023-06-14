@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.insets
+package nowsci.com.temperateweather.common.ui.widgets.insets
 
 import android.content.Context
 import android.os.Build
@@ -7,12 +7,12 @@ import android.view.WindowInsets
 import androidx.annotation.RequiresApi
 import androidx.core.view.ViewCompat
 import com.google.android.material.appbar.AppBarLayout
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarHelper
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarView
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarView.FitSide
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
-import wangdaye.com.geometricweather.theme.ThemeManager
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarHelper
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarView
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarView.FitSide
+import nowsci.com.temperateweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.theme.ThemeManager
 
 class FitSystemBarAppBarLayout @JvmOverloads constructor(
     context: Context,

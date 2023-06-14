@@ -1,15 +1,15 @@
-package wangdaye.com.geometricweather.daily.adapter.holder;
+package nowsci.com.temperateweather.daily.adapter.holder;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.ColorStateList;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.PollenUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Pollen;
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
-import wangdaye.com.geometricweather.daily.adapter.model.DailyPollen;
-import wangdaye.com.geometricweather.databinding.ItemWeatherDailyPollenBinding;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.options.unit.PollenUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Pollen;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.daily.adapter.model.DailyPollen;
+import nowsci.com.temperateweather.databinding.ItemWeatherDailyPollenBinding;
 
 public class PollenHolder extends DailyWeatherAdapter.ViewHolder {
 

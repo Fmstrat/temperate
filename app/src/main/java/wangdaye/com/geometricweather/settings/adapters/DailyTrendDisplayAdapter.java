@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.adapters;
+package nowsci.com.temperateweather.settings.adapters;
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
@@ -14,9 +14,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.DailyTrendDisplay;
-import wangdaye.com.geometricweather.common.ui.widgets.slidingItem.SlidingItemContainerLayout;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.options.appearance.DailyTrendDisplay;
+import nowsci.com.temperateweather.common.ui.widgets.slidingItem.SlidingItemContainerLayout;
 
 public class DailyTrendDisplayAdapter extends RecyclerView.Adapter<DailyTrendDisplayAdapter.ViewHolder> {
 

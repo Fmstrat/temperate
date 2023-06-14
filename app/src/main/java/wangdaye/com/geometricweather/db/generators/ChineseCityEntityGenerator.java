@@ -1,10 +1,10 @@
-package wangdaye.com.geometricweather.db.generators;
+package nowsci.com.temperateweather.db.generators;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.ChineseCity;
-import wangdaye.com.geometricweather.db.entities.ChineseCityEntity;
+import nowsci.com.temperateweather.common.basic.models.ChineseCity;
+import nowsci.com.temperateweather.db.entities.ChineseCityEntity;
 
 public class ChineseCityEntityGenerator {
 

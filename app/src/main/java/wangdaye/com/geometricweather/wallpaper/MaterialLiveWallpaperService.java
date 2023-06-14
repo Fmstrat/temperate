@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.wallpaper;
+package nowsci.com.temperateweather.wallpaper;
 
 import android.app.WallpaperColors;
 import android.content.Context;
@@ -24,18 +24,18 @@ import androidx.annotation.RequiresApi;
 import androidx.annotation.Size;
 import androidx.core.content.res.ResourcesCompat;
 
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper;
-import wangdaye.com.geometricweather.db.DatabaseHelper;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherView;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherViewController;
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.DelayRotateController;
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.IntervalComputer;
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.MaterialWeatherView;
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.WeatherImplementorFactory;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper;
+import nowsci.com.temperateweather.db.DatabaseHelper;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.theme.weatherView.WeatherView;
+import nowsci.com.temperateweather.theme.weatherView.WeatherViewController;
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.DelayRotateController;
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.IntervalComputer;
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.MaterialWeatherView;
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.WeatherImplementorFactory;
 
 public class MaterialLiveWallpaperService extends WallpaperService {
 

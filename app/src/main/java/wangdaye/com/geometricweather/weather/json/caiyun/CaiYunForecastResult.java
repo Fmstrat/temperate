@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.json.caiyun;
+package nowsci.com.temperateweather.weather.json.caiyun;
 
 import com.google.gson.annotations.SerializedName;
 

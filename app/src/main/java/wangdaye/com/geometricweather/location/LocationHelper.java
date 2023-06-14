@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.location;
+package nowsci.com.temperateweather.location;
 
 import android.Manifest;
 import android.content.Context;
@@ -14,19 +14,19 @@ import java.util.TimeZone;
 import javax.inject.Inject;
 
 import dagger.hilt.android.qualifiers.ApplicationContext;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.provider.LocationProvider;
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.common.utils.NetworkUtils;
-import wangdaye.com.geometricweather.db.DatabaseHelper;
-import wangdaye.com.geometricweather.location.services.AMapLocationService;
-import wangdaye.com.geometricweather.location.services.AndroidLocationService;
-import wangdaye.com.geometricweather.location.services.BaiduLocationService;
-import wangdaye.com.geometricweather.location.services.LocationService;
-import wangdaye.com.geometricweather.location.services.ip.BaiduIPLocationService;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.weather.WeatherServiceSet;
-import wangdaye.com.geometricweather.weather.services.WeatherService;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.provider.LocationProvider;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.utils.NetworkUtils;
+import nowsci.com.temperateweather.db.DatabaseHelper;
+import nowsci.com.temperateweather.location.services.AMapLocationService;
+import nowsci.com.temperateweather.location.services.AndroidLocationService;
+import nowsci.com.temperateweather.location.services.BaiduLocationService;
+import nowsci.com.temperateweather.location.services.LocationService;
+import nowsci.com.temperateweather.location.services.ip.BaiduIPLocationService;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.weather.WeatherServiceSet;
+import nowsci.com.temperateweather.weather.services.WeatherService;
 
 /**
  * Location helper.

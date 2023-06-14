@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.location;
+package nowsci.com.temperateweather.main.adapters.location;
 
 import android.content.Context;
 
@@ -8,12 +8,12 @@ import androidx.annotation.Nullable;
 import java.text.DateFormat;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Alert;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Alert;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
 
 public class LocationModel {
 

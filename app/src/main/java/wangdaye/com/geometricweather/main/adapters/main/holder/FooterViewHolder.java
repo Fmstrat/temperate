@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.main.holder;
+package nowsci.com.temperateweather.main.adapters.main.holder;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -17,11 +17,11 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.theme.ThemeManager;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.theme.ThemeManager;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
 
 public class FooterViewHolder extends AbstractMainViewHolder {
 

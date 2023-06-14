@@ -9,7 +9,7 @@ plugins {
 android {
     compileSdkVersion 33
     defaultConfig {
-        applicationId "wangdaye.com.geometricweather"
+        applicationId "nowsci.com.temperateweather"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 30102
@@ -34,7 +34,7 @@ android {
 
             android.applicationVariants.all { variant ->
                 variant.outputs.all {
-                    outputFileName = "GeometricWeather ${variant.versionName}.apk"
+                    outputFileName = "TemperateWeather ${variant.versionName}.apk"
                 }
             }
         }

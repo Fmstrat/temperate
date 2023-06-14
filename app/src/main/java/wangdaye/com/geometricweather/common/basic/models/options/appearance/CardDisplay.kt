@@ -1,10 +1,10 @@
-package wangdaye.com.geometricweather.common.basic.models.options.appearance
+package nowsci.com.temperateweather.common.basic.models.options.appearance
 
 import android.content.Context
 import android.text.TextUtils
 import androidx.annotation.StringRes
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.models.options._basic.BaseEnum
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.models.options._basic.BaseEnum
 
 enum class CardDisplay(
     override val id: String,

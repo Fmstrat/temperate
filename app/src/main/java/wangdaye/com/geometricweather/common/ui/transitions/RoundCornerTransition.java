@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.transitions;
+package nowsci.com.temperateweather.common.ui.transitions;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -15,7 +15,7 @@ import android.view.ViewOutlineProvider;
 
 import androidx.annotation.RequiresApi;
 
-import wangdaye.com.geometricweather.R;
+import nowsci.com.temperateweather.R;
 
 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 public class RoundCornerTransition extends Transition {
@@ -23,7 +23,7 @@ public class RoundCornerTransition extends Transition {
     private final float mRadiusFrom;
     private final float mRadiusTo;
 
-    private static final String PROPNAME_RADIUS = "geometricweather:roundCorner:radius";
+    private static final String PROPNAME_RADIUS = "temperateweather:roundCorner:radius";
 
     private static final String[] transitionProperties = {
             PROPNAME_RADIUS

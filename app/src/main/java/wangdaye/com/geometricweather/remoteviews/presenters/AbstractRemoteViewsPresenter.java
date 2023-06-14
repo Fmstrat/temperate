@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews.presenters;
+package nowsci.com.temperateweather.remoteviews.presenters;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -29,24 +29,24 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.NotificationTextColor;
-import wangdaye.com.geometricweather.common.basic.models.options.WidgetWeekIconMode;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.DistanceUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.PrecipitationUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.PressureUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.ProbabilityUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.RelativeHumidityUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Base;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.common.utils.helpers.LunarHelper;
-import wangdaye.com.geometricweather.remoteviews.WidgetHelper;
-import wangdaye.com.geometricweather.settings.ConfigStore;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.NotificationTextColor;
+import nowsci.com.temperateweather.common.basic.models.options.WidgetWeekIconMode;
+import nowsci.com.temperateweather.common.basic.models.options.unit.DistanceUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.PrecipitationUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.PressureUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.ProbabilityUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.RelativeHumidityUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Base;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.common.utils.helpers.LunarHelper;
+import nowsci.com.temperateweather.remoteviews.WidgetHelper;
+import nowsci.com.temperateweather.settings.ConfigStore;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public abstract class AbstractRemoteViewsPresenter {
 

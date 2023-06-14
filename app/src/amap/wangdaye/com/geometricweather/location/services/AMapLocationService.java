@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.location.services;
+package nowsci.com.temperateweather.location.services;
 
 import android.Manifest;
 import android.content.Context;
@@ -12,9 +12,9 @@ import com.amap.api.location.AMapLocationClientOption;
 import com.amap.api.location.AMapLocationListener;
 import com.amap.api.location.CoordinateConverter;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.location.utils.LocationException;
-import wangdaye.com.geometricweather.common.utils.helpers.BuglyHelper;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.location.utils.LocationException;
+import nowsci.com.temperateweather.common.utils.helpers.BuglyHelper;
 
 /**
  * A map location service.
@@ -73,7 +73,7 @@ public class AMapLocationService extends LocationService {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             mNotificationManager.createNotificationChannel(getLocationNotificationChannel(context));
             mAMAPClient.enableBackgroundLocation(
-                    GeometricWeather.NOTIFICATION_ID_LOCATION,
+                    TemperateWeather.NOTIFICATION_ID_LOCATION,
                     getLocationNotification(context));
         }
         mAMAPClient.startLocation();

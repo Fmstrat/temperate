@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.layouts;
+package nowsci.com.temperateweather.main.layouts;
 
 import android.view.View;
 import android.view.ViewGroup;

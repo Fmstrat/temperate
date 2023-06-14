@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.slidingItem;
+package nowsci.com.temperateweather.common.ui.widgets.slidingItem;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -15,8 +15,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.core.widget.ImageViewCompat;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 public class SlidingItemContainerLayout extends FrameLayout {
 

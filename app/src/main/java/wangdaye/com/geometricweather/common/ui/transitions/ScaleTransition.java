@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.transitions;
+package nowsci.com.temperateweather.common.ui.transitions;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.RequiresApi;
 
-import wangdaye.com.geometricweather.R;
+import nowsci.com.temperateweather.R;
 
 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 public class ScaleTransition extends Transition {
@@ -23,8 +23,8 @@ public class ScaleTransition extends Transition {
     private static final int TYPE_SHOW = 1;
     private static final int TYPE_HIDE = 2;
 
-    private static final String PROPNAME_X = "geometricweather:scale:x";
-    private static final String PROPNAME_Y = "geometricweather:scale:y";
+    private static final String PROPNAME_X = "temperateweather:scale:x";
+    private static final String PROPNAME_Y = "temperateweather:scale:y";
 
     private static final String[] transitionProperties = {
             PROPNAME_X, PROPNAME_Y

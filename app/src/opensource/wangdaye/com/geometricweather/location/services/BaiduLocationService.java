@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.location.services;
+package nowsci.com.temperateweather.location.services;
 
 import android.content.Context;
 

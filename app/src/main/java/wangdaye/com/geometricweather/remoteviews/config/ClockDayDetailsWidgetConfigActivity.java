@@ -1,11 +1,11 @@
-package wangdaye.com.geometricweather.remoteviews.config;
+package nowsci.com.temperateweather.remoteviews.config;
 
 import android.view.View;
 import android.widget.RemoteViews;
 
 import dagger.hilt.android.AndroidEntryPoint;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.remoteviews.presenters.ClockDayDetailsWidgetIMP;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.remoteviews.presenters.ClockDayDetailsWidgetIMP;
 
 /**
  * Clock day details widget config activity.

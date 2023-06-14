@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.trend;
+package nowsci.com.temperateweather.main.adapters.trend;
 
 import android.view.ViewGroup;
 
@@ -6,19 +6,19 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.PrecipitationUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.SpeedUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.main.adapters.trend.daily.DailyTemperatureAdapter;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerView;
-import wangdaye.com.geometricweather.main.adapters.trend.daily.AbsDailyTrendAdapter;
-import wangdaye.com.geometricweather.main.adapters.trend.daily.DailyAirQualityAdapter;
-import wangdaye.com.geometricweather.main.adapters.trend.daily.DailyPrecipitationAdapter;
-import wangdaye.com.geometricweather.main.adapters.trend.daily.DailyUVAdapter;
-import wangdaye.com.geometricweather.main.adapters.trend.daily.DailyWindAdapter;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.PrecipitationUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.SpeedUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.main.adapters.trend.daily.DailyTemperatureAdapter;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerView;
+import nowsci.com.temperateweather.main.adapters.trend.daily.AbsDailyTrendAdapter;
+import nowsci.com.temperateweather.main.adapters.trend.daily.DailyAirQualityAdapter;
+import nowsci.com.temperateweather.main.adapters.trend.daily.DailyPrecipitationAdapter;
+import nowsci.com.temperateweather.main.adapters.trend.daily.DailyUVAdapter;
+import nowsci.com.temperateweather.main.adapters.trend.daily.DailyWindAdapter;
 
 public class DailyTrendAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

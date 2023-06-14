@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews.presenters;
+package nowsci.com.temperateweather.remoteviews.presenters;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
@@ -11,20 +11,20 @@ import android.widget.RemoteViews;
 
 import java.util.Date;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.background.receiver.widget.WidgetClockDayDetailsProvider;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.RelativeHumidityUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Temperature;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.remoteviews.WidgetHelper;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.common.utils.helpers.LunarHelper;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.background.receiver.widget.WidgetClockDayDetailsProvider;
+import nowsci.com.temperateweather.common.basic.models.options.unit.RelativeHumidityUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Temperature;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.remoteviews.WidgetHelper;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.common.utils.helpers.LunarHelper;
 
 public class ClockDayDetailsWidgetIMP extends AbstractRemoteViewsPresenter {
 
@@ -239,7 +239,7 @@ public class ClockDayDetailsWidgetIMP extends AbstractRemoteViewsPresenter {
                 getWeatherPendingIntent(
                         context,
                         location,
-                        GeometricWeather.WIDGET_CLOCK_DAY_DETAILS_PENDING_INTENT_CODE_WEATHER
+                        TemperateWeather.WIDGET_CLOCK_DAY_DETAILS_PENDING_INTENT_CODE_WEATHER
                 )
         );
 
@@ -248,21 +248,21 @@ public class ClockDayDetailsWidgetIMP extends AbstractRemoteViewsPresenter {
                 R.id.widget_clock_day_clock_light,
                 getAlarmPendingIntent(
                         context,
-                        GeometricWeather.WIDGET_CLOCK_DAY_DETAILS_PENDING_INTENT_CODE_CLOCK_LIGHT
+                        TemperateWeather.WIDGET_CLOCK_DAY_DETAILS_PENDING_INTENT_CODE_CLOCK_LIGHT
                 )
         );
         views.setOnClickPendingIntent(
                 R.id.widget_clock_day_clock_normal,
                 getAlarmPendingIntent(
                         context,
-                        GeometricWeather.WIDGET_CLOCK_DAY_DETAILS_PENDING_INTENT_CODE_CLOCK_NORMAL
+                        TemperateWeather.WIDGET_CLOCK_DAY_DETAILS_PENDING_INTENT_CODE_CLOCK_NORMAL
                 )
         );
         views.setOnClickPendingIntent(
                 R.id.widget_clock_day_clock_black,
                 getAlarmPendingIntent(
                         context,
-                        GeometricWeather.WIDGET_CLOCK_DAY_DETAILS_PENDING_INTENT_CODE_CLOCK_BLACK
+                        TemperateWeather.WIDGET_CLOCK_DAY_DETAILS_PENDING_INTENT_CODE_CLOCK_BLACK
                 )
         );
 
@@ -271,7 +271,7 @@ public class ClockDayDetailsWidgetIMP extends AbstractRemoteViewsPresenter {
                 R.id.widget_clock_day_title,
                 getCalendarPendingIntent(
                         context,
-                        GeometricWeather.WIDGET_CLOCK_DAY_DETAILS_PENDING_INTENT_CODE_CALENDAR
+                        TemperateWeather.WIDGET_CLOCK_DAY_DETAILS_PENDING_INTENT_CODE_CALENDAR
                 )
         );
     }

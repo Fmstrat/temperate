@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.db.converters;
+package nowsci.com.temperateweather.db.converters;
 
 import org.greenrobot.greendao.converter.PropertyConverter;
 

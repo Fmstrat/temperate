@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.trend.chart;
+package nowsci.com.temperateweather.common.ui.widgets.trend.chart;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -16,9 +16,9 @@ import androidx.core.graphics.ColorUtils;
 
 import android.util.AttributeSet;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.ui.widgets.DayNightShaderWrapper;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.ui.widgets.DayNightShaderWrapper;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 /**
  * Polyline and histogram view.

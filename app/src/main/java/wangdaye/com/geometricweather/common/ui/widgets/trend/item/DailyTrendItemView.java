@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.trend.item;
+package nowsci.com.temperateweather.common.ui.widgets.trend.item;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,10 +14,10 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerView;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.chart.AbsChartItemView;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerView;
+import nowsci.com.temperateweather.common.ui.widgets.trend.chart.AbsChartItemView;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 /**
  * Daily trend item view.

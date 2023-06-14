@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.main;
+package nowsci.com.temperateweather.main.adapters.main;
 
 import android.animation.Animator;
 import android.view.ViewGroup;
@@ -10,23 +10,23 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.CardDisplay;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherView;
-import wangdaye.com.geometricweather.main.adapters.main.holder.AbstractMainCardViewHolder;
-import wangdaye.com.geometricweather.main.adapters.main.holder.AbstractMainViewHolder;
-import wangdaye.com.geometricweather.main.adapters.main.holder.AirQualityViewHolder;
-import wangdaye.com.geometricweather.main.adapters.main.holder.AllergenViewHolder;
-import wangdaye.com.geometricweather.main.adapters.main.holder.AstroViewHolder;
-import wangdaye.com.geometricweather.main.adapters.main.holder.DailyViewHolder;
-import wangdaye.com.geometricweather.main.adapters.main.holder.DetailsViewHolder;
-import wangdaye.com.geometricweather.main.adapters.main.holder.FooterViewHolder;
-import wangdaye.com.geometricweather.main.adapters.main.holder.HeaderViewHolder;
-import wangdaye.com.geometricweather.main.adapters.main.holder.HourlyViewHolder;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.appearance.CardDisplay;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.theme.weatherView.WeatherView;
+import nowsci.com.temperateweather.main.adapters.main.holder.AbstractMainCardViewHolder;
+import nowsci.com.temperateweather.main.adapters.main.holder.AbstractMainViewHolder;
+import nowsci.com.temperateweather.main.adapters.main.holder.AirQualityViewHolder;
+import nowsci.com.temperateweather.main.adapters.main.holder.AllergenViewHolder;
+import nowsci.com.temperateweather.main.adapters.main.holder.AstroViewHolder;
+import nowsci.com.temperateweather.main.adapters.main.holder.DailyViewHolder;
+import nowsci.com.temperateweather.main.adapters.main.holder.DetailsViewHolder;
+import nowsci.com.temperateweather.main.adapters.main.holder.FooterViewHolder;
+import nowsci.com.temperateweather.main.adapters.main.holder.HeaderViewHolder;
+import nowsci.com.temperateweather.main.adapters.main.holder.HourlyViewHolder;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class MainAdapter extends RecyclerView.Adapter<AbstractMainViewHolder> {
 

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.insets;
+package nowsci.com.temperateweather.common.ui.widgets.insets;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,9 +12,9 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarHelper;
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarView;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarHelper;
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarView;
 
 public class FitSystemBarRecyclerView extends RecyclerView
         implements FitBothSideBarView {

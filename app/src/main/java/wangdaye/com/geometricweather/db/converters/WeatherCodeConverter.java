@@ -1,8 +1,8 @@
-package wangdaye.com.geometricweather.db.converters;
+package nowsci.com.temperateweather.db.converters;
 
 import org.greenrobot.greendao.converter.PropertyConverter;
 
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
 
 public class WeatherCodeConverter implements PropertyConverter<WeatherCode, String> {
 

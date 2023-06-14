@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.images.pixel;
+package nowsci.com.temperateweather.common.ui.images.pixel;
 
 import android.graphics.Canvas;
 import android.graphics.Color;

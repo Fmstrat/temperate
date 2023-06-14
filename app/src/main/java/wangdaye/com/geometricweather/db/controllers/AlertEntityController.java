@@ -1,14 +1,14 @@
-package wangdaye.com.geometricweather.db.controllers;
+package nowsci.com.temperateweather.db.controllers;
 
 import androidx.annotation.NonNull;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.db.entities.AlertEntity;
-import wangdaye.com.geometricweather.db.entities.AlertEntityDao;
-import wangdaye.com.geometricweather.db.entities.DaoSession;
-import wangdaye.com.geometricweather.db.converters.WeatherSourceConverter;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.db.entities.AlertEntity;
+import nowsci.com.temperateweather.db.entities.AlertEntityDao;
+import nowsci.com.temperateweather.db.entities.DaoSession;
+import nowsci.com.temperateweather.db.converters.WeatherSourceConverter;
 
 public class AlertEntityController extends AbsEntityController {
 

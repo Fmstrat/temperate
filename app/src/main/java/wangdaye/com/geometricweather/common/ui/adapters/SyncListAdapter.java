@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.adapters;
+package nowsci.com.temperateweather.common.ui.adapters;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;

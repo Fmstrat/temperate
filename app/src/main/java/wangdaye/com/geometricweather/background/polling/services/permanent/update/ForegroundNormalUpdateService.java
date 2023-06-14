@@ -1,16 +1,16 @@
-package wangdaye.com.geometricweather.background.polling.services.permanent.update;
+package nowsci.com.temperateweather.background.polling.services.permanent.update;
 
 import android.content.Context;
 
 import java.util.List;
 
 import dagger.hilt.android.AndroidEntryPoint;
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.background.polling.services.basic.ForegroundUpdateService;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.background.polling.services.permanent.PermanentServiceHelper;
-import wangdaye.com.geometricweather.remoteviews.NotificationHelper;
-import wangdaye.com.geometricweather.remoteviews.WidgetHelper;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.background.polling.services.basic.ForegroundUpdateService;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.background.polling.services.permanent.PermanentServiceHelper;
+import nowsci.com.temperateweather.remoteviews.NotificationHelper;
+import nowsci.com.temperateweather.remoteviews.WidgetHelper;
 
 /**
  * Foreground normal update service.
@@ -37,6 +37,6 @@ public class ForegroundNormalUpdateService extends ForegroundUpdateService {
 
     @Override
     public int getForegroundNotificationId() {
-        return GeometricWeather.NOTIFICATION_ID_UPDATING_NORMALLY;
+        return TemperateWeather.NOTIFICATION_ID_UPDATING_NORMALLY;
     }
 }

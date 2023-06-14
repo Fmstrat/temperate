@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic.models.options._basic
+package nowsci.com.temperateweather.common.basic.models.options._basic
 
 import android.content.Context
 

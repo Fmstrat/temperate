@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.activities
+package nowsci.com.temperateweather.settings.activities
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -11,15 +11,15 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.GeoActivity
-import wangdaye.com.geometricweather.common.ui.widgets.Material3Scaffold
-import wangdaye.com.geometricweather.common.ui.widgets.generateCollapsedScrollBehavior
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitStatusBarTopAppBar
-import wangdaye.com.geometricweather.settings.compose.ServiceProviderSettingsScreen
-import wangdaye.com.geometricweather.settings.compose.SettingsProviderAdvancedSettingsScreen
-import wangdaye.com.geometricweather.settings.compose.SettingsScreenRouter
-import wangdaye.com.geometricweather.theme.compose.GeometricWeatherTheme
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.GeoActivity
+import nowsci.com.temperateweather.common.ui.widgets.Material3Scaffold
+import nowsci.com.temperateweather.common.ui.widgets.generateCollapsedScrollBehavior
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitStatusBarTopAppBar
+import nowsci.com.temperateweather.settings.compose.ServiceProviderSettingsScreen
+import nowsci.com.temperateweather.settings.compose.SettingsProviderAdvancedSettingsScreen
+import nowsci.com.temperateweather.settings.compose.SettingsScreenRouter
+import nowsci.com.temperateweather.theme.compose.TemperateWeatherTheme
 
 class SelectProviderActivity : GeoActivity() {
 
@@ -27,7 +27,7 @@ class SelectProviderActivity : GeoActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            GeometricWeatherTheme(lightTheme = !isSystemInDarkTheme()) {
+            TemperateWeatherTheme(lightTheme = !isSystemInDarkTheme()) {
                 ContentView()
             }
         }
@@ -72,7 +72,7 @@ class SelectProviderActivity : GeoActivity() {
     @Preview
     @Composable
     private fun DefaultPreview() {
-        GeometricWeatherTheme(lightTheme = isSystemInDarkTheme()) {
+        TemperateWeatherTheme(lightTheme = isSystemInDarkTheme()) {
             ContentView()
         }
     }

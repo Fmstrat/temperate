@@ -1,13 +1,13 @@
-package wangdaye.com.geometricweather.common.basic.models
+package nowsci.com.temperateweather.common.basic.models
 
 import android.content.Context
 import android.os.Parcel
 import android.os.Parcelable
 import android.text.TextUtils
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource
-import wangdaye.com.geometricweather.common.basic.models.weather.Astro
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource
+import nowsci.com.temperateweather.common.basic.models.weather.Astro
+import nowsci.com.temperateweather.common.basic.models.weather.Weather
 import java.util.*
 import kotlin.math.abs
 

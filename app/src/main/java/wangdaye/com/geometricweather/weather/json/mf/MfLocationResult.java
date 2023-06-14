@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.json.mf;
+package nowsci.com.temperateweather.weather.json.mf;
 
 /**
  * Mf location result.

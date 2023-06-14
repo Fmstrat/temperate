@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets;
+package nowsci.com.temperateweather.common.ui.widgets;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -14,7 +14,7 @@ import androidx.annotation.Nullable;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.weather.Minutely;
+import nowsci.com.temperateweather.common.basic.models.weather.Minutely;
 
 public class PrecipitationBar extends View {
 

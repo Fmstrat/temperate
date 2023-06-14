@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.astro;
+package nowsci.com.temperateweather.common.ui.widgets.astro;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -9,7 +9,7 @@ import androidx.annotation.ColorInt;
 import android.util.AttributeSet;
 import android.view.View;
 
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 public class MoonPhaseView extends View {
 

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.implementor;
+package nowsci.com.temperateweather.theme.weatherView.materialWeatherView.implementor;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -7,7 +7,7 @@ import android.graphics.Paint;
 import androidx.annotation.ColorInt;
 import androidx.annotation.Size;
 
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.MaterialWeatherView;
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.MaterialWeatherView;
 
 /**
  * Clear day implementor.

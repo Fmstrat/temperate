@@ -1,19 +1,19 @@
-package wangdaye.com.geometricweather.background.polling;
+package nowsci.com.temperateweather.background.polling;
 
 import android.content.Context;
 import android.os.Build;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.background.polling.services.permanent.PermanentServiceHelper;
-import wangdaye.com.geometricweather.background.polling.work.WorkerHelper;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.db.DatabaseHelper;
-import wangdaye.com.geometricweather.remoteviews.NotificationHelper;
-import wangdaye.com.geometricweather.remoteviews.WidgetHelper;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.background.polling.services.permanent.PermanentServiceHelper;
+import nowsci.com.temperateweather.background.polling.work.WorkerHelper;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.db.DatabaseHelper;
+import nowsci.com.temperateweather.remoteviews.NotificationHelper;
+import nowsci.com.temperateweather.remoteviews.WidgetHelper;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class PollingManager {
 

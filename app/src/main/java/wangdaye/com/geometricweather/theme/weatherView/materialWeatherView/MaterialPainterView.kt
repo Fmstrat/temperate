@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.weatherView.materialWeatherView
+package nowsci.com.temperateweather.theme.weatherView.materialWeatherView
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -12,8 +12,8 @@ import android.view.View
 import androidx.annotation.FloatRange
 import androidx.annotation.Size
 import androidx.core.content.res.ResourcesCompat
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
-import wangdaye.com.geometricweather.theme.weatherView.WeatherView.WeatherKindRule
+import nowsci.com.temperateweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.theme.weatherView.WeatherView.WeatherKindRule
 import kotlin.math.abs
 import kotlin.math.acos
 import kotlin.math.sqrt

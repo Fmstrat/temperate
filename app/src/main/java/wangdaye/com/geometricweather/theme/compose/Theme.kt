@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.compose
+package nowsci.com.temperateweather.theme.compose
 
 import android.os.Build
 import androidx.compose.material.ripple.rememberRipple
@@ -6,12 +6,12 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.*
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
-import wangdaye.com.geometricweather.theme.compose.day.LightThemeColors
-import wangdaye.com.geometricweather.theme.compose.day.dynamicLightColors
-import wangdaye.com.geometricweather.theme.compose.night.DarkThemeColors
-import wangdaye.com.geometricweather.theme.compose.night.dynamicDarkColors
+import nowsci.com.temperateweather.theme.compose.day.LightThemeColors
+import nowsci.com.temperateweather.theme.compose.day.dynamicLightColors
+import nowsci.com.temperateweather.theme.compose.night.DarkThemeColors
+import nowsci.com.temperateweather.theme.compose.night.dynamicDarkColors
 
-class GeometricWeatherColors {
+class TemperateWeatherColors {
 
     companion object {
         val LightPrimary1 = Color(0xffcfebf0)
@@ -55,21 +55,21 @@ class GeometricWeatherColors {
     }
 }
 
-private val DayColors = GeometricWeatherDayNightColors(
-    titleColor = GeometricWeatherColors.LightTitleText,
-    bodyColor = GeometricWeatherColors.LightContentText,
-    captionColor = GeometricWeatherColors.LightSubtitleText,
+private val DayColors = TemperateWeatherDayNightColors(
+    titleColor = TemperateWeatherColors.LightTitleText,
+    bodyColor = TemperateWeatherColors.LightContentText,
+    captionColor = TemperateWeatherColors.LightSubtitleText,
     isDark = false,
 )
-private val NightColors = GeometricWeatherDayNightColors(
-    titleColor = GeometricWeatherColors.DarkTitleText,
-    bodyColor = GeometricWeatherColors.DarkContentText,
-    captionColor = GeometricWeatherColors.DarkSubtitleText,
+private val NightColors = TemperateWeatherDayNightColors(
+    titleColor = TemperateWeatherColors.DarkTitleText,
+    bodyColor = TemperateWeatherColors.DarkContentText,
+    captionColor = TemperateWeatherColors.DarkSubtitleText,
     isDark = true,
 )
 
 @Composable
-fun GeometricWeatherTheme(
+fun TemperateWeatherTheme(
     lightTheme: Boolean,
     content: @Composable () -> Unit
 ) {
@@ -85,18 +85,18 @@ fun GeometricWeatherTheme(
     }
     val colors = if (lightTheme) DayColors else NightColors
 
-    ProvideGeometricWeatherDayNightColors(colors = colors) {
+    ProvideTemperateWeatherDayNightColors(colors = colors) {
         MaterialTheme(
             colorScheme = scheme,
-            typography = GeometricWeatherTypography,
+            typography = TemperateWeatherTypography,
             content = content
         )
     }
 }
 
 @Composable
-fun ProvideGeometricWeatherDayNightColors(
-    colors: GeometricWeatherDayNightColors,
+fun ProvideTemperateWeatherDayNightColors(
+    colors: TemperateWeatherDayNightColors,
     content: @Composable () -> Unit
 ) {
     val value = remember {
@@ -112,17 +112,17 @@ fun ProvideGeometricWeatherDayNightColors(
 }
 
 object DayNightTheme {
-    val colors: GeometricWeatherDayNightColors
+    val colors: TemperateWeatherDayNightColors
         @Composable
         get() = LocalDayNightColors.current
 }
 
-private val LocalDayNightColors = staticCompositionLocalOf<GeometricWeatherDayNightColors> {
-    error("No GeometricWeatherDayNightColors provided")
+private val LocalDayNightColors = staticCompositionLocalOf<TemperateWeatherDayNightColors> {
+    error("No TemperateWeatherDayNightColors provided")
 }
 
 @Stable
-class GeometricWeatherDayNightColors(
+class TemperateWeatherDayNightColors(
     titleColor: Color,
     bodyColor: Color,
     captionColor: Color,
@@ -137,14 +137,14 @@ class GeometricWeatherDayNightColors(
     var isDark by mutableStateOf(isDark)
         private set
 
-    fun update(other: GeometricWeatherDayNightColors) {
+    fun update(other: TemperateWeatherDayNightColors) {
         titleColor = other.titleColor
         bodyColor = other.bodyColor
         captionColor = other.captionColor
         isDark = other.isDark
     }
 
-    fun copy(): GeometricWeatherDayNightColors = GeometricWeatherDayNightColors(
+    fun copy(): TemperateWeatherDayNightColors = TemperateWeatherDayNightColors(
         titleColor = titleColor,
         bodyColor = bodyColor,
         captionColor = captionColor,

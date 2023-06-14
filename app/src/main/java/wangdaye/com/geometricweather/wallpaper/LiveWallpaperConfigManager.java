@@ -1,8 +1,8 @@
-package wangdaye.com.geometricweather.wallpaper;
+package nowsci.com.temperateweather.wallpaper;
 
 import android.content.Context;
 
-import wangdaye.com.geometricweather.settings.ConfigStore;
+import nowsci.com.temperateweather.settings.ConfigStore;
 
 public class LiveWallpaperConfigManager {
 

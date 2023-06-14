@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews;
+package nowsci.com.temperateweather.remoteviews;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -27,15 +27,15 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.Alert;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.remoteviews.presenters.notification.NormalNotificationIMP;
-import wangdaye.com.geometricweather.settings.ConfigStore;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.Alert;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.remoteviews.presenters.notification.NormalNotificationIMP;
+import nowsci.com.temperateweather.settings.ConfigStore;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class NotificationHelper {
 
@@ -58,9 +58,9 @@ public class NotificationHelper {
     @RequiresApi(api = Build.VERSION_CODES.O)
     private static NotificationChannel getAlertNotificationChannel(Context context, @ColorInt int color) {
         NotificationChannel channel = new NotificationChannel(
-                GeometricWeather.NOTIFICATION_CHANNEL_ID_ALERT,
-                GeometricWeather.getNotificationChannelName(
-                        context, GeometricWeather.NOTIFICATION_CHANNEL_ID_ALERT),
+                TemperateWeather.NOTIFICATION_CHANNEL_ID_ALERT,
+                TemperateWeather.getNotificationChannelName(
+                        context, TemperateWeather.NOTIFICATION_CHANNEL_ID_ALERT),
                 NotificationManager.IMPORTANCE_DEFAULT);
         channel.setShowBadge(true);
         channel.setLightColor(color);
@@ -70,7 +70,7 @@ public class NotificationHelper {
     private static NotificationCompat.Builder getNotificationBuilder(Context context, @DrawableRes int iconId,
                                                                      String title, String subtitle, String content,
                                                                      @ColorInt int color, PendingIntent intent) {
-        return new NotificationCompat.Builder(context, GeometricWeather.NOTIFICATION_CHANNEL_ID_ALERT)
+        return new NotificationCompat.Builder(context, TemperateWeather.NOTIFICATION_CHANNEL_ID_ALERT)
                 .setSmallIcon(iconId)
                 .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_launcher))
                 .setContentTitle(title)
@@ -139,7 +139,7 @@ public class NotificationHelper {
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N && inGroup) {
                 manager.notify(
-                        GeometricWeather.NOTIFICATION_ID_ALERT_GROUP,
+                        TemperateWeather.NOTIFICATION_ID_ALERT_GROUP,
                         buildAlertGroupSummaryNotification(context, location, alert, notificationId)
                 );
             }
@@ -185,7 +185,7 @@ public class NotificationHelper {
                                                                    Location location,
                                                                    Alert alert,
                                                                    int notificationId) {
-        return new NotificationCompat.Builder(context, GeometricWeather.NOTIFICATION_CHANNEL_ID_ALERT)
+        return new NotificationCompat.Builder(context, TemperateWeather.NOTIFICATION_CHANNEL_ID_ALERT)
                 .setSmallIcon(R.drawable.ic_alert)
                 .setContentTitle(alert.getDescription())
                 .setGroup(NOTIFICATION_GROUP_KEY)
@@ -206,9 +206,9 @@ public class NotificationHelper {
         ConfigStore config = ConfigStore.getInstance(context, PREFERENCE_NOTIFICATION);
 
         int id = config.getInt(
-                KEY_NOTIFICATION_ID, GeometricWeather.NOTIFICATION_ID_ALERT_MIN) + 1;
-        if (id > GeometricWeather.NOTIFICATION_ID_ALERT_MAX) {
-            id = GeometricWeather.NOTIFICATION_ID_ALERT_MIN;
+                KEY_NOTIFICATION_ID, TemperateWeather.NOTIFICATION_ID_ALERT_MIN) + 1;
+        if (id > TemperateWeather.NOTIFICATION_ID_ALERT_MAX) {
+            id = TemperateWeather.NOTIFICATION_ID_ALERT_MIN;
         }
 
         config.edit()
@@ -251,7 +251,7 @@ public class NotificationHelper {
                     Manifest.permission.POST_NOTIFICATIONS
             ) == PackageManager.PERMISSION_GRANTED) {
                 manager.notify(
-                        GeometricWeather.NOTIFICATION_ID_PRECIPITATION,
+                        TemperateWeather.NOTIFICATION_ID_PRECIPITATION,
                         getNotificationBuilder(
                                 context,
                                 R.drawable.ic_precipitation,
@@ -267,7 +267,7 @@ public class NotificationHelper {
                                 getColor(context, location),
                                 PendingIntent.getActivity(
                                         context,
-                                        GeometricWeather.NOTIFICATION_ID_PRECIPITATION,
+                                        TemperateWeather.NOTIFICATION_ID_PRECIPITATION,
                                         IntentHelper.buildMainActivityIntent(location),
                                         PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT
                                 )

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews.presenters;
+package nowsci.com.temperateweather.remoteviews.presenters;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
@@ -9,14 +9,14 @@ import androidx.core.content.ContextCompat;
 import android.util.TypedValue;
 import android.widget.RemoteViews;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.background.receiver.widget.WidgetTextProvider;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.background.receiver.widget.WidgetTextProvider;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 public class TextWidgetIMP extends AbstractRemoteViewsPresenter {
 
@@ -100,7 +100,7 @@ public class TextWidgetIMP extends AbstractRemoteViewsPresenter {
                 getWeatherPendingIntent(
                         context,
                         location,
-                        GeometricWeather.WIDGET_TEXT_PENDING_INTENT_CODE_WEATHER
+                        TemperateWeather.WIDGET_TEXT_PENDING_INTENT_CODE_WEATHER
                 )
         );
 
@@ -109,7 +109,7 @@ public class TextWidgetIMP extends AbstractRemoteViewsPresenter {
                 R.id.widget_text_date,
                 getCalendarPendingIntent(
                         context,
-                        GeometricWeather.WIDGET_TEXT_PENDING_INTENT_CODE_CALENDAR
+                        TemperateWeather.WIDGET_TEXT_PENDING_INTENT_CODE_CALENDAR
                 )
         );
     }

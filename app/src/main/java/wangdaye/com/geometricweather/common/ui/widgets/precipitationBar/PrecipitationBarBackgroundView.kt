@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.precipitationBar
+package nowsci.com.temperateweather.common.ui.widgets.precipitationBar
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,8 +7,8 @@ import android.view.View
 import androidx.annotation.ColorInt
 import androidx.annotation.Size
 import androidx.core.graphics.ColorUtils
-import wangdaye.com.geometricweather.common.ui.widgets.DayNightShaderWrapper
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.common.ui.widgets.DayNightShaderWrapper
+import nowsci.com.temperateweather.common.utils.DisplayUtils
 
 private const val POLYLINE_SIZE_DIP = 3.5f
 private const val SHADOW_ALPHA_FACTOR_LIGHT = 0.2f

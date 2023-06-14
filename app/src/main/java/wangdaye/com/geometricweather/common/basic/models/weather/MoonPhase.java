@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic.models.weather;
+package nowsci.com.temperateweather.common.basic.models.weather;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 
 import java.io.Serializable;
 
-import wangdaye.com.geometricweather.R;
+import nowsci.com.temperateweather.R;
 
 /**
  * Moon phase.

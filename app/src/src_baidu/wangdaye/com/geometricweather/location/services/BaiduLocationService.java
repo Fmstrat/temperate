@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.location.services;
+package nowsci.com.temperateweather.location.services;
 
 import android.Manifest;
 import android.content.Context;
@@ -11,9 +11,9 @@ import com.baidu.location.BDLocation;
 import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.location.utils.LocationException;
-import wangdaye.com.geometricweather.common.utils.helpers.BuglyHelper;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.location.utils.LocationException;
+import nowsci.com.temperateweather.common.utils.helpers.BuglyHelper;
 
 /**
  * Baidu location service.
@@ -84,7 +84,7 @@ public class BaiduLocationService extends LocationService {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             mNotificationManager.createNotificationChannel(getLocationNotificationChannel(context));
             mBaiduClient.enableLocInForeground(
-                    GeometricWeather.NOTIFICATION_ID_LOCATION,
+                    TemperateWeather.NOTIFICATION_ID_LOCATION,
                     getLocationNotification(context));
         }
         mBaiduClient.start();

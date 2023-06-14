@@ -1,6 +1,6 @@
-package wangdaye.com.geometricweather.main
+package nowsci.com.temperateweather.main
 
-import wangdaye.com.geometricweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.basic.models.Location
 
 class Indicator(val total: Int, val index: Int) {
 

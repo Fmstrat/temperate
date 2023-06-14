@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic.models.weather;
+package nowsci.com.temperateweather.common.basic.models.weather;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,8 +10,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 /**
  * Hourly.

@@ -1,23 +1,23 @@
-package wangdaye.com.geometricweather.db.generators;
+package nowsci.com.temperateweather.db.generators;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.common.basic.models.weather.AirQuality;
-import wangdaye.com.geometricweather.common.basic.models.weather.Astro;
-import wangdaye.com.geometricweather.common.basic.models.weather.Daily;
-import wangdaye.com.geometricweather.common.basic.models.weather.HalfDay;
-import wangdaye.com.geometricweather.common.basic.models.weather.MoonPhase;
-import wangdaye.com.geometricweather.common.basic.models.weather.Pollen;
-import wangdaye.com.geometricweather.common.basic.models.weather.Precipitation;
-import wangdaye.com.geometricweather.common.basic.models.weather.PrecipitationDuration;
-import wangdaye.com.geometricweather.common.basic.models.weather.PrecipitationProbability;
-import wangdaye.com.geometricweather.common.basic.models.weather.Temperature;
-import wangdaye.com.geometricweather.common.basic.models.weather.UV;
-import wangdaye.com.geometricweather.common.basic.models.weather.Wind;
-import wangdaye.com.geometricweather.db.entities.DailyEntity;
-import wangdaye.com.geometricweather.db.converters.WeatherSourceConverter;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.basic.models.weather.AirQuality;
+import nowsci.com.temperateweather.common.basic.models.weather.Astro;
+import nowsci.com.temperateweather.common.basic.models.weather.Daily;
+import nowsci.com.temperateweather.common.basic.models.weather.HalfDay;
+import nowsci.com.temperateweather.common.basic.models.weather.MoonPhase;
+import nowsci.com.temperateweather.common.basic.models.weather.Pollen;
+import nowsci.com.temperateweather.common.basic.models.weather.Precipitation;
+import nowsci.com.temperateweather.common.basic.models.weather.PrecipitationDuration;
+import nowsci.com.temperateweather.common.basic.models.weather.PrecipitationProbability;
+import nowsci.com.temperateweather.common.basic.models.weather.Temperature;
+import nowsci.com.temperateweather.common.basic.models.weather.UV;
+import nowsci.com.temperateweather.common.basic.models.weather.Wind;
+import nowsci.com.temperateweather.db.entities.DailyEntity;
+import nowsci.com.temperateweather.db.converters.WeatherSourceConverter;
 
 public class DailyEntityGenerator {
 

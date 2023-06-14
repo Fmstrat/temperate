@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.utils
+package nowsci.com.temperateweather.main.utils
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,13 +7,13 @@ import androidx.annotation.AttrRes
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.models.Location
-import wangdaye.com.geometricweather.common.basic.models.options.DarkMode
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
-import wangdaye.com.geometricweather.main.MainActivity
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.theme.ThemeManager
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.basic.models.options.DarkMode
+import nowsci.com.temperateweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.main.MainActivity
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.theme.ThemeManager
 
 private val preloadAttrIds = intArrayOf(
     R.attr.colorPrimary,

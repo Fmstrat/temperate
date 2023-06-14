@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.preference
+package nowsci.com.temperateweather.settings.preference
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.*
@@ -8,9 +8,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import wangdaye.com.geometricweather.common.ui.widgets.getCardListItemMarginDp
-import wangdaye.com.geometricweather.settings.preference.composables.SectionFooter
-import wangdaye.com.geometricweather.settings.preference.composables.SectionHeader
+import nowsci.com.temperateweather.common.ui.widgets.getCardListItemMarginDp
+import nowsci.com.temperateweather.settings.preference.composables.SectionFooter
+import nowsci.com.temperateweather.settings.preference.composables.SectionHeader
 
 fun LazyListScope.sectionHeaderItem(
     @StringRes sectionTitleId: Int

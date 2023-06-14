@@ -1,12 +1,12 @@
-package wangdaye.com.geometricweather.main
+package nowsci.com.temperateweather.main
 
 import android.content.Context
-import wangdaye.com.geometricweather.common.basic.models.Location
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper
-import wangdaye.com.geometricweather.db.DatabaseHelper
-import wangdaye.com.geometricweather.location.LocationHelper
-import wangdaye.com.geometricweather.weather.WeatherHelper
-import wangdaye.com.geometricweather.weather.WeatherHelper.OnRequestWeatherListener
+import nowsci.com.temperateweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper
+import nowsci.com.temperateweather.db.DatabaseHelper
+import nowsci.com.temperateweather.location.LocationHelper
+import nowsci.com.temperateweather.weather.WeatherHelper
+import nowsci.com.temperateweather.weather.WeatherHelper.OnRequestWeatherListener
 import java.util.concurrent.Executors
 import javax.inject.Inject
 

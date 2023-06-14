@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme
+package nowsci.com.temperateweather.theme
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,12 +7,12 @@ import android.graphics.Color
 import android.util.TypedValue
 import androidx.annotation.AttrRes
 import androidx.appcompat.app.AppCompatDelegate
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.livedata.EqualtableLiveData
-import wangdaye.com.geometricweather.common.basic.models.options.DarkMode
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.theme.weatherView.WeatherThemeDelegate
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.MaterialWeatherThemeDelegate
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.livedata.EqualtableLiveData
+import nowsci.com.temperateweather.common.basic.models.options.DarkMode
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.theme.weatherView.WeatherThemeDelegate
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.MaterialWeatherThemeDelegate
 
 
 class ThemeManager private constructor(
@@ -93,6 +93,6 @@ class ThemeManager private constructor(
             }
         }
     ).apply {
-        setTheme(R.style.GeometricWeatherTheme)
+        setTheme(R.style.TemperateWeatherTheme)
     }
 }

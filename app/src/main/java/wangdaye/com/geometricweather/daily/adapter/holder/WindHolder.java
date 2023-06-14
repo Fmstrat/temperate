@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.daily.adapter.holder;
+package nowsci.com.temperateweather.daily.adapter.holder;
 
 import android.annotation.SuppressLint;
 import android.content.res.ColorStateList;
@@ -10,12 +10,12 @@ import android.widget.TextView;
 
 import androidx.appcompat.widget.AppCompatImageView;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.SpeedUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Wind;
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
-import wangdaye.com.geometricweather.daily.adapter.model.DailyWind;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.options.unit.SpeedUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Wind;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.daily.adapter.model.DailyWind;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class WindHolder extends DailyWeatherAdapter.ViewHolder {
 

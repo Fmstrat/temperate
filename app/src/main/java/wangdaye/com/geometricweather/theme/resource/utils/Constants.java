@@ -1,17 +1,17 @@
-package wangdaye.com.geometricweather.theme.resource.utils;
+package nowsci.com.temperateweather.theme.resource.utils;
 
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
 
 public class Constants {
 
-    public static final String ACTION_ICON_PROVIDER = "com.wangdaye.geometricweather.ICON_PROVIDER";
+    public static final String ACTION_ICON_PROVIDER = "com.nowsci.temperateweather.ICON_PROVIDER";
     public static final String CATEGORY_CHRONUS_ICON_PACK = "com.dvtonder.chronus.ICON_PACK";
 
-    public static final String META_DATA_PROVIDER_CONFIG = "com.wangdaye.geometricweather.PROVIDER_CONFIG";
-    public static final String META_DATA_DRAWABLE_FILTER = "com.wangdaye.geometricweather.DRAWABLE_FILTER";
-    public static final String META_DATA_ANIMATOR_FILTER = "com.wangdaye.geometricweather.ANIMATOR_FILTER";
-    public static final String META_DATA_SHORTCUT_FILTER = "com.wangdaye.geometricweather.SHORTCUT_FILTER";
-    public static final String META_DATA_SUN_MOON_FILTER = "com.wangdaye.geometricweather.SUN_MOON_FILTER";
+    public static final String META_DATA_PROVIDER_CONFIG = "com.nowsci.temperateweather.PROVIDER_CONFIG";
+    public static final String META_DATA_DRAWABLE_FILTER = "com.nowsci.temperateweather.DRAWABLE_FILTER";
+    public static final String META_DATA_ANIMATOR_FILTER = "com.nowsci.temperateweather.ANIMATOR_FILTER";
+    public static final String META_DATA_SHORTCUT_FILTER = "com.nowsci.temperateweather.SHORTCUT_FILTER";
+    public static final String META_DATA_SUN_MOON_FILTER = "com.nowsci.temperateweather.SUN_MOON_FILTER";
 
     private static final String RESOURCES_CLEAR = "weather_clear";
     private static final String RESOURCES_PARTLY_CLOUDY = "weather_partly_cloudy";

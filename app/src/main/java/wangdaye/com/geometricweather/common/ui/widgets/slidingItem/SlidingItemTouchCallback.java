@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.slidingItem;
+package nowsci.com.temperateweather.common.ui.widgets.slidingItem;
 
 import android.graphics.Canvas;
 import android.view.View;
@@ -9,7 +9,7 @@ import androidx.core.view.ViewCompat;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.R;
+import nowsci.com.temperateweather.R;
 
 public abstract class SlidingItemTouchCallback extends ItemTouchHelper.Callback {
 

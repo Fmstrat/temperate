@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main
+package nowsci.com.temperateweather.main
 
 import android.Manifest
 import android.app.Application
@@ -10,12 +10,12 @@ import androidx.core.app.ActivityCompat
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.SavedStateHandle
 import dagger.hilt.android.lifecycle.HiltViewModel
-import wangdaye.com.geometricweather.common.basic.GeoViewModel
-import wangdaye.com.geometricweather.common.basic.livedata.BusLiveData
-import wangdaye.com.geometricweather.common.basic.livedata.EqualtableLiveData
-import wangdaye.com.geometricweather.common.basic.models.Location
-import wangdaye.com.geometricweather.main.utils.StatementManager
-import wangdaye.com.geometricweather.settings.SettingsManager
+import nowsci.com.temperateweather.common.basic.GeoViewModel
+import nowsci.com.temperateweather.common.basic.livedata.BusLiveData
+import nowsci.com.temperateweather.common.basic.livedata.EqualtableLiveData
+import nowsci.com.temperateweather.common.basic.models.Location
+import nowsci.com.temperateweather.main.utils.StatementManager
+import nowsci.com.temperateweather.settings.SettingsManager
 import javax.inject.Inject
 
 @HiltViewModel

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic;
+package nowsci.com.temperateweather.common.basic;
 
 import android.app.Application;
 

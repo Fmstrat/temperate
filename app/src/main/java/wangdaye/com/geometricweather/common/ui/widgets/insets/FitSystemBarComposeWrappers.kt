@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.insets
+package nowsci.com.temperateweather.common.ui.widgets.insets
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -15,7 +15,7 @@ import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import wangdaye.com.geometricweather.R
+import nowsci.com.temperateweather.R
 import kotlin.math.ln
 
 private val topAppBarElevation = 6.dp

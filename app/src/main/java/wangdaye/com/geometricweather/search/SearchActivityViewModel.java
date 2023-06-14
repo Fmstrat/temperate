@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.search;
+package nowsci.com.temperateweather.search;
 
 import android.app.Application;
 
@@ -12,9 +12,9 @@ import java.util.List;
 import javax.inject.Inject;
 
 import dagger.hilt.android.lifecycle.HiltViewModel;
-import wangdaye.com.geometricweather.common.basic.GeoViewModel;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.basic.GeoViewModel;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
 
 @HiltViewModel
 public class SearchActivityViewModel extends GeoViewModel {

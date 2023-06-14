@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.main.holder;
+package nowsci.com.temperateweather.main.adapters.main.holder;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -12,10 +12,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper;
-import wangdaye.com.geometricweather.main.utils.MainModuleUtils;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper;
+import nowsci.com.temperateweather.main.utils.MainModuleUtils;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
 
 public abstract class AbstractMainViewHolder extends RecyclerView.ViewHolder {
 

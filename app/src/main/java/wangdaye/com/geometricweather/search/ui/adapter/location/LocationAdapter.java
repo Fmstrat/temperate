@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.search.ui.adapter.location;
+package nowsci.com.temperateweather.search.ui.adapter.location;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -15,11 +15,11 @@ import com.turingtechnologies.materialscrollbar.ICustomAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.ui.adapters.SyncListAdapter;
-import wangdaye.com.geometricweather.databinding.ItemLocationCardBinding;
-import wangdaye.com.geometricweather.theme.ThemeManager;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.ui.adapters.SyncListAdapter;
+import nowsci.com.temperateweather.databinding.ItemLocationCardBinding;
+import nowsci.com.temperateweather.theme.ThemeManager;
 
 /**
  * Location adapter.

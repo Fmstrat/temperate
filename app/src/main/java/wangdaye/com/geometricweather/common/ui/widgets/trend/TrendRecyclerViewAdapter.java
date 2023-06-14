@@ -1,8 +1,8 @@
-package wangdaye.com.geometricweather.common.ui.widgets.trend;
+package nowsci.com.temperateweather.common.ui.widgets.trend;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.Location;
 
 public abstract class TrendRecyclerViewAdapter<VH extends RecyclerView.ViewHolder>
         extends RecyclerView.Adapter<VH> {

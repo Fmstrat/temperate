@@ -1,10 +1,10 @@
-package wangdaye.com.geometricweather.background.receiver.widget;
+package nowsci.com.temperateweather.background.receiver.widget;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 
-import wangdaye.com.geometricweather.background.polling.PollingManager;
+import nowsci.com.temperateweather.background.polling.PollingManager;
 
 /**
  * Abstract widget provider.

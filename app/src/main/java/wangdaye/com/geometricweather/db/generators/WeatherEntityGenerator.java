@@ -1,20 +1,20 @@
-package wangdaye.com.geometricweather.db.generators;
+package nowsci.com.temperateweather.db.generators;
 
 import androidx.annotation.Nullable;
 
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.AirQuality;
-import wangdaye.com.geometricweather.common.basic.models.weather.Base;
-import wangdaye.com.geometricweather.common.basic.models.weather.Current;
-import wangdaye.com.geometricweather.common.basic.models.weather.Precipitation;
-import wangdaye.com.geometricweather.common.basic.models.weather.PrecipitationProbability;
-import wangdaye.com.geometricweather.common.basic.models.weather.Temperature;
-import wangdaye.com.geometricweather.common.basic.models.weather.UV;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.basic.models.weather.Wind;
-import wangdaye.com.geometricweather.db.entities.HistoryEntity;
-import wangdaye.com.geometricweather.db.entities.WeatherEntity;
-import wangdaye.com.geometricweather.db.converters.WeatherSourceConverter;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.AirQuality;
+import nowsci.com.temperateweather.common.basic.models.weather.Base;
+import nowsci.com.temperateweather.common.basic.models.weather.Current;
+import nowsci.com.temperateweather.common.basic.models.weather.Precipitation;
+import nowsci.com.temperateweather.common.basic.models.weather.PrecipitationProbability;
+import nowsci.com.temperateweather.common.basic.models.weather.Temperature;
+import nowsci.com.temperateweather.common.basic.models.weather.UV;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.basic.models.weather.Wind;
+import nowsci.com.temperateweather.db.entities.HistoryEntity;
+import nowsci.com.temperateweather.db.entities.WeatherEntity;
+import nowsci.com.temperateweather.db.converters.WeatherSourceConverter;
 
 public class WeatherEntityGenerator {
 

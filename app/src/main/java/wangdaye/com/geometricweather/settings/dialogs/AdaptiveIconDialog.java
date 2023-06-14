@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.dialogs;
+package nowsci.com.temperateweather.settings.dialogs;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,10 +13,10 @@ import java.util.Random;
 
 import james.adaptiveicon.AdaptiveIcon;
 import james.adaptiveicon.AdaptiveIconView;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
 
 public class AdaptiveIconDialog {
 

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic.models.weather;
+package nowsci.com.temperateweather.common.basic.models.weather;
 
 import android.content.Context;
 
@@ -6,8 +6,8 @@ import androidx.annotation.Nullable;
 
 import java.io.Serializable;
 
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 /**
  * Temperature.

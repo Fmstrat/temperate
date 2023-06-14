@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.weatherView;
+package nowsci.com.temperateweather.theme.weatherView;
 
 import android.content.Context;
 import android.view.Window;
@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.Px;
 import androidx.annotation.Size;
 
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
 
 /**
  * Weather view.

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.json.owm;
+package nowsci.com.temperateweather.weather.json.owm;
 
 /**
  * OpenWeather location result.

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.trend;
+package nowsci.com.temperateweather.common.ui.widgets.trend;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -13,10 +13,10 @@ import androidx.core.content.ContextCompat;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.ui.widgets.horizontal.HorizontalRecyclerView;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.item.AbsTrendItemView;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.ui.widgets.horizontal.HorizontalRecyclerView;
+import nowsci.com.temperateweather.common.ui.widgets.trend.item.AbsTrendItemView;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 /**
  * Trend recycler view.

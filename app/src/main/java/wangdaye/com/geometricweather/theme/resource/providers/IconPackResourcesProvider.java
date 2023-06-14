@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.resource.providers;
+package nowsci.com.temperateweather.theme.resource.providers;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -25,12 +25,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.theme.resource.utils.Config;
-import wangdaye.com.geometricweather.theme.resource.utils.Constants;
-import wangdaye.com.geometricweather.theme.resource.utils.ResourceUtils;
-import wangdaye.com.geometricweather.theme.resource.utils.XmlHelper;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.theme.resource.utils.Config;
+import nowsci.com.temperateweather.theme.resource.utils.Constants;
+import nowsci.com.temperateweather.theme.resource.utils.ResourceUtils;
+import nowsci.com.temperateweather.theme.resource.utils.XmlHelper;
 
 public class IconPackResourcesProvider extends ResourceProvider {
 

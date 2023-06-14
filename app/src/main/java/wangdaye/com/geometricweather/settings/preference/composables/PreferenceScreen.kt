@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.preference.composables
+package nowsci.com.temperateweather.settings.preference.composables
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxHeight

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.astro;
+package nowsci.com.temperateweather.common.ui.widgets.astro;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -25,8 +25,8 @@ import android.view.View;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.view.ViewCompat;
 
-import wangdaye.com.geometricweather.common.ui.widgets.DayNightShaderWrapper;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.ui.widgets.DayNightShaderWrapper;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 public class SunMoonView extends View {
 

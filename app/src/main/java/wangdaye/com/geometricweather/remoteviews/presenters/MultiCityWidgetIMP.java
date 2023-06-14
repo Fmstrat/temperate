@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews.presenters;
+package nowsci.com.temperateweather.remoteviews.presenters;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
@@ -13,17 +13,17 @@ import androidx.annotation.IntRange;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.background.receiver.widget.WidgetMultiCityProvider;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Temperature;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.background.receiver.widget.WidgetMultiCityProvider;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Temperature;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class MultiCityWidgetIMP extends AbstractRemoteViewsPresenter {
 
@@ -238,7 +238,7 @@ public class MultiCityWidgetIMP extends AbstractRemoteViewsPresenter {
                 getWeatherPendingIntent(
                         context,
                         location,
-                        GeometricWeather.WIDGET_MULTI_CITY_PENDING_INTENT_CODE_WEATHER_1 + 2 * index
+                        TemperateWeather.WIDGET_MULTI_CITY_PENDING_INTENT_CODE_WEATHER_1 + 2 * index
                 )
         );
     }

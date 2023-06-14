@@ -1,10 +1,10 @@
-package wangdaye.com.geometricweather.db.entities;
+package nowsci.com.temperateweather.db.entities;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Id;
 import org.greenrobot.greendao.annotation.Generated;
 
-import wangdaye.com.geometricweather.common.basic.models.ChineseCity;
+import nowsci.com.temperateweather.common.basic.models.ChineseCity;
 
 /**
  * Chinese city entity.

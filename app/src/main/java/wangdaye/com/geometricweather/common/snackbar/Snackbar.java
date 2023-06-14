@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.snackbar;
+package nowsci.com.temperateweather.common.snackbar;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -38,7 +38,7 @@ import java.lang.annotation.RetentionPolicy;
 
 import javax.annotation.Nullable;
 
-import wangdaye.com.geometricweather.R;
+import nowsci.com.temperateweather.R;
 
 public final class Snackbar {
 
@@ -327,7 +327,7 @@ public final class Snackbar {
             mAnimator.cancel();
         }
 
-        mAnimator = wangdaye.com.geometricweather.common.snackbar.Utils.getEnterAnimator(mView, mCardStyle);
+        mAnimator = nowsci.com.temperateweather.common.snackbar.Utils.getEnterAnimator(mView, mCardStyle);
         mAnimator.setDuration(ANIMATION_DURATION);
         mAnimator.addListener(new AnimatorListenerAdapter() {
             @Override
@@ -355,7 +355,7 @@ public final class Snackbar {
         mAnimator = ObjectAnimator.ofFloat(
                 mView, "translationY", mView.getTranslationY(), mView.getHeight()
         ).setDuration(ANIMATION_DURATION);
-        mAnimator.setInterpolator(wangdaye.com.geometricweather.common.snackbar.Utils.FAST_OUT_SLOW_IN_INTERPOLATOR);
+        mAnimator.setInterpolator(nowsci.com.temperateweather.common.snackbar.Utils.FAST_OUT_SLOW_IN_INTERPOLATOR);
         mAnimator.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationStart(Animator animation) {

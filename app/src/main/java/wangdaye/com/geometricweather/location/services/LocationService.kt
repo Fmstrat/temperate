@@ -1,19 +1,19 @@
-package wangdaye.com.geometricweather.location.services
+package nowsci.com.temperateweather.location.services
 
 import android.Manifest
 import android.app.Notification
-import wangdaye.com.geometricweather.GeometricWeather.Companion.getNotificationChannelName
+import nowsci.com.temperateweather.TemperateWeather.Companion.getNotificationChannelName
 import androidx.core.app.ActivityCompat
 import android.content.pm.PackageManager
 import androidx.annotation.RequiresApi
 import android.app.NotificationChannel
-import wangdaye.com.geometricweather.GeometricWeather
+import nowsci.com.temperateweather.TemperateWeather
 import android.app.NotificationManager
 import android.content.Context
 import android.os.Build
 import androidx.core.content.ContextCompat
 import androidx.core.app.NotificationCompat
-import wangdaye.com.geometricweather.R
+import nowsci.com.temperateweather.R
 
 abstract class LocationService {
 
@@ -61,10 +61,10 @@ abstract class LocationService {
     @RequiresApi(api = Build.VERSION_CODES.O)
     fun getLocationNotificationChannel(context: Context): NotificationChannel {
         val channel = NotificationChannel(
-            GeometricWeather.NOTIFICATION_CHANNEL_ID_LOCATION,
+            TemperateWeather.NOTIFICATION_CHANNEL_ID_LOCATION,
             getNotificationChannelName(
                 context,
-                GeometricWeather.NOTIFICATION_CHANNEL_ID_LOCATION
+                TemperateWeather.NOTIFICATION_CHANNEL_ID_LOCATION
             ),
             NotificationManager.IMPORTANCE_MIN
         )
@@ -75,7 +75,7 @@ abstract class LocationService {
 
     fun getLocationNotification(context: Context): Notification {
         return NotificationCompat
-            .Builder(context, GeometricWeather.NOTIFICATION_CHANNEL_ID_LOCATION)
+            .Builder(context, TemperateWeather.NOTIFICATION_CHANNEL_ID_LOCATION)
             .setSmallIcon(R.drawable.ic_location)
             .setContentTitle(context.getString(R.string.feedback_request_location))
             .setContentText(context.getString(R.string.feedback_request_location_in_background))

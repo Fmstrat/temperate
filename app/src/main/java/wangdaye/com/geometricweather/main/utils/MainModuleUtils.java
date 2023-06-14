@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.utils;
+package nowsci.com.temperateweather.main.utils;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -6,9 +6,9 @@ import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.view.View;
 
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class MainModuleUtils {
 

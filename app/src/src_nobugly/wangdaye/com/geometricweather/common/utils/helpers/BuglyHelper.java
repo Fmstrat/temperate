@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.utils.helpers;
+package nowsci.com.temperateweather.common.utils.helpers;
 
 import android.content.Context;
 

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.adapters;
+package nowsci.com.temperateweather.common.ui.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,8 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.ui.widgets.TagView;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.ui.widgets.TagView;
 
 public class TagAdapter extends RecyclerView.Adapter<TagAdapter.ViewHolder> {
 

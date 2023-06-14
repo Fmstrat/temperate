@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.precipitationBar
+package nowsci.com.temperateweather.common.ui.widgets.precipitationBar
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,7 +14,7 @@ import android.view.ViewConfiguration
 import android.view.ViewGroup
 import androidx.annotation.ColorInt
 import com.google.android.material.button.MaterialButton
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.common.utils.DisplayUtils
 import kotlin.math.abs
 
 private const val INDICATOR_TEXT_SIZE_DIP = 12f

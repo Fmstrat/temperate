@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.daily;
+package nowsci.com.temperateweather.daily;
 
 import android.annotation.SuppressLint;
 import android.graphics.drawable.ColorDrawable;
@@ -15,20 +15,20 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TimeZone;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.Daily;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarAppBarLayout;
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarRecyclerView;
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarViewPager;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper;
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
-import wangdaye.com.geometricweather.db.DatabaseHelper;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.theme.ThemeManager;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.Daily;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarAppBarLayout;
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarRecyclerView;
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarViewPager;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.db.DatabaseHelper;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.theme.ThemeManager;
 
 /**
  * Daily weather activity.

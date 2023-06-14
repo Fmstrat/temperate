@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.main.holder;
+package nowsci.com.temperateweather.main.adapters.main.holder;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -18,14 +18,14 @@ import org.jetbrains.annotations.NotNull;
 import java.util.List;
 
 import io.reactivex.disposables.Disposable;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.ui.widgets.NumberAnimTextView;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.theme.ThemeManager;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherView;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.ui.widgets.NumberAnimTextView;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.theme.ThemeManager;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.weatherView.WeatherView;
 
 public class HeaderViewHolder extends AbstractMainViewHolder {
 

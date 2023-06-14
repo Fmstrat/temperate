@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.polling.services.permanent.observer;
+package nowsci.com.temperateweather.background.polling.services.permanent.observer;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -10,8 +10,8 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
 
 public class FakeForegroundService extends Service {
 
@@ -21,9 +21,9 @@ public class FakeForegroundService extends Service {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel(
-                    GeometricWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND,
-                    GeometricWeather.getNotificationChannelName(
-                            this, GeometricWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND),
+                    TemperateWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND,
+                    TemperateWeather.getNotificationChannelName(
+                            this, TemperateWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND),
                     NotificationManager.IMPORTANCE_LOW);
             channel.setShowBadge(false);
             channel.setLightColor(ContextCompat.getColor(this, R.color.colorPrimary));
@@ -32,11 +32,11 @@ public class FakeForegroundService extends Service {
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             startForeground(
-                    GeometricWeather.NOTIFICATION_ID_RUNNING_IN_BACKGROUND,
+                    TemperateWeather.NOTIFICATION_ID_RUNNING_IN_BACKGROUND,
                     TimeObserverService.getForegroundNotification(this, false));
         } else {
             startForeground(
-                    GeometricWeather.NOTIFICATION_ID_RUNNING_IN_BACKGROUND,
+                    TemperateWeather.NOTIFICATION_ID_RUNNING_IN_BACKGROUND,
                     TimeObserverService.getForegroundNotification(this, true));
         }
         stopSelf();

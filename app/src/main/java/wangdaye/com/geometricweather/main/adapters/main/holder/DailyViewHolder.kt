@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.main.holder
+package nowsci.com.temperateweather.main.adapters.main.holder
 
 import android.annotation.SuppressLint
 import android.text.TextUtils
@@ -7,21 +7,21 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.GeoActivity
-import wangdaye.com.geometricweather.common.basic.models.Location
-import wangdaye.com.geometricweather.common.ui.adapters.TagAdapter
-import wangdaye.com.geometricweather.common.ui.decotarions.GridMarginsDecoration
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerView
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
-import wangdaye.com.geometricweather.main.adapters.trend.DailyTrendAdapter
-import wangdaye.com.geometricweather.main.layouts.TrendHorizontalLinearLayoutManager
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider.Companion.getColor
-import wangdaye.com.geometricweather.main.widgets.TrendRecyclerViewScrollBar
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.theme.ThemeManager
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider
-import wangdaye.com.geometricweather.theme.weatherView.WeatherViewController
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.GeoActivity
+import nowsci.com.temperateweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.ui.adapters.TagAdapter
+import nowsci.com.temperateweather.common.ui.decotarions.GridMarginsDecoration
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerView
+import nowsci.com.temperateweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.main.adapters.trend.DailyTrendAdapter
+import nowsci.com.temperateweather.main.layouts.TrendHorizontalLinearLayoutManager
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider.Companion.getColor
+import nowsci.com.temperateweather.main.widgets.TrendRecyclerViewScrollBar
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.theme.ThemeManager
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider
+import nowsci.com.temperateweather.theme.weatherView.WeatherViewController
 
 class DailyViewHolder(
     parent: ViewGroup

@@ -1,7 +1,7 @@
-package wangdaye.com.geometricweather.main.fragments
+package nowsci.com.temperateweather.main.fragments
 
-import wangdaye.com.geometricweather.common.basic.GeoFragment
-import wangdaye.com.geometricweather.common.bus.EventBus
+import nowsci.com.temperateweather.common.basic.GeoFragment
+import nowsci.com.temperateweather.common.bus.EventBus
 
 class ModifyMainSystemBarMessage
 

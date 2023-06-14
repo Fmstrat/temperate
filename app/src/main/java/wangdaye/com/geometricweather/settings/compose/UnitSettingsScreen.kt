@@ -1,15 +1,15 @@
-package wangdaye.com.geometricweather.settings.compose
+package nowsci.com.temperateweather.settings.compose
 
 import android.content.Context
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.models.options.unit.*
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.settings.preference.bottomInsetItem
-import wangdaye.com.geometricweather.settings.preference.composables.ListPreferenceView
-import wangdaye.com.geometricweather.settings.preference.composables.PreferenceScreen
-import wangdaye.com.geometricweather.settings.preference.listPreferenceItem
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.models.options.unit.*
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.settings.preference.bottomInsetItem
+import nowsci.com.temperateweather.settings.preference.composables.ListPreferenceView
+import nowsci.com.temperateweather.settings.preference.composables.PreferenceScreen
+import nowsci.com.temperateweather.settings.preference.listPreferenceItem
 
 @Composable
 fun UnitSettingsScreen(

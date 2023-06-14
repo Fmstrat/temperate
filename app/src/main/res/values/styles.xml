@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- app theme -->
-    <style name="GeometricWeatherTheme" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="TemperateWeatherTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/md_theme_primary</item>
         <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
@@ -50,12 +50,12 @@
         <item name="actionBarSize">@dimen/action_bar_height</item>
     </style>
 
-    <style name="GeometricWeatherTheme.Main" parent="GeometricWeatherTheme">
+    <style name="TemperateWeatherTheme.Main" parent="TemperateWeatherTheme">
         <item name="android:windowBackground">@drawable/launch_background</item>
         <item name="colorControlHighlight">@color/colorRipple_regular</item>
     </style>
 
-    <style name="GeometricWeatherTheme.Search" parent="GeometricWeatherTheme">
+    <style name="TemperateWeatherTheme.Search" parent="TemperateWeatherTheme">
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowEnterTransition">@transition/search_activity_enter</item>
         <item name="android:windowReturnTransition">@transition/search_activity_return</item>
@@ -63,12 +63,12 @@
         <item name="android:windowSharedElementReturnTransition">@transition/search_activity_shared_return</item>
     </style>
 
-    <style name="GeometricWeatherTheme.AppBarTheme">
+    <style name="TemperateWeatherTheme.AppBarTheme">
         <item name="android:background">?attr/colorSurface</item>
         <item name="elevation">0dp</item>
     </style>
 
-    <style name="GeometricWeatherTheme.ToolbarTheme">
+    <style name="TemperateWeatherTheme.ToolbarTheme">
         <item name="titleTextAppearance">?attr/textAppearanceHeadline6</item>
         <item name="subtitleTextAppearance">?attr/textAppearanceSubtitle1</item>
 

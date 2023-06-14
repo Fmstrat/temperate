@@ -1,9 +1,9 @@
-package wangdaye.com.geometricweather.daily.adapter.model;
+package nowsci.com.temperateweather.daily.adapter.model;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.Nullable;
 
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
 
 public class Title implements DailyWeatherAdapter.ViewModel {
 

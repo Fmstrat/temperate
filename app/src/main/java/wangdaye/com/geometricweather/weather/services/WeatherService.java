@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.services;
+package nowsci.com.temperateweather.weather.services;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -9,9 +9,9 @@ import androidx.annotation.WorkerThread;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.utils.LanguageUtils;
-import wangdaye.com.geometricweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.utils.LanguageUtils;
+import nowsci.com.temperateweather.common.basic.models.Location;
 
 /**
  * Weather service.

@@ -1,10 +1,10 @@
-package wangdaye.com.geometricweather.common.basic.models.weather;
+package nowsci.com.temperateweather.common.basic.models.weather;
 
 import androidx.annotation.Nullable;
 
 import java.io.Serializable;
 
-import wangdaye.com.geometricweather.common.basic.models.options.unit.ProbabilityUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.ProbabilityUnit;
 
 /**
  * Precipitation duration.

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather;
+package nowsci.com.temperateweather.weather;
 
 import android.content.Context;
 
@@ -11,16 +11,16 @@ import javax.inject.Inject;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.CompositeDisposable;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.rxjava.BaseObserver;
-import wangdaye.com.geometricweather.common.rxjava.ObserverContainer;
-import wangdaye.com.geometricweather.common.rxjava.SchedulerTransformer;
-import wangdaye.com.geometricweather.common.utils.NetworkUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper;
-import wangdaye.com.geometricweather.db.DatabaseHelper;
-import wangdaye.com.geometricweather.weather.services.WeatherService;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.rxjava.BaseObserver;
+import nowsci.com.temperateweather.common.rxjava.ObserverContainer;
+import nowsci.com.temperateweather.common.rxjava.SchedulerTransformer;
+import nowsci.com.temperateweather.common.utils.NetworkUtils;
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper;
+import nowsci.com.temperateweather.db.DatabaseHelper;
+import nowsci.com.temperateweather.weather.services.WeatherService;
 
 public class WeatherHelper {
 

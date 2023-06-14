@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.activities;
+package nowsci.com.temperateweather.settings.activities;
 
 import android.annotation.SuppressLint;
 import android.graphics.drawable.Drawable;
@@ -12,22 +12,22 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarAppBarLayout;
-import wangdaye.com.geometricweather.theme.ThemeManager;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.providers.DefaultResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.providers.PixelResourcesProvider;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory;
-import wangdaye.com.geometricweather.settings.adapters.WeatherIconAdapter;
-import wangdaye.com.geometricweather.settings.dialogs.AdaptiveIconDialog;
-import wangdaye.com.geometricweather.settings.dialogs.AnimatableIconDialog;
-import wangdaye.com.geometricweather.settings.dialogs.MinimalIconDialog;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarAppBarLayout;
+import nowsci.com.temperateweather.theme.ThemeManager;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.providers.DefaultResourceProvider;
+import nowsci.com.temperateweather.theme.resource.providers.PixelResourcesProvider;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory;
+import nowsci.com.temperateweather.settings.adapters.WeatherIconAdapter;
+import nowsci.com.temperateweather.settings.dialogs.AdaptiveIconDialog;
+import nowsci.com.temperateweather.settings.dialogs.AnimatableIconDialog;
+import nowsci.com.temperateweather.settings.dialogs.MinimalIconDialog;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
 
 public class PreviewIconActivity extends GeoActivity {
 

@@ -1,12 +1,12 @@
-package wangdaye.com.geometricweather.db.generators;
+package nowsci.com.temperateweather.db.generators;
 
 import androidx.annotation.Nullable;
 
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.common.basic.models.weather.History;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.db.entities.HistoryEntity;
-import wangdaye.com.geometricweather.db.converters.WeatherSourceConverter;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.basic.models.weather.History;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.db.entities.HistoryEntity;
+import nowsci.com.temperateweather.db.converters.WeatherSourceConverter;
 
 public class HistoryEntityGenerator {
 

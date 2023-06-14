@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters;
+package nowsci.com.temperateweather.main.adapters;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -11,11 +11,11 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.ui.adapters.AnimationAdapterWrapper;
-import wangdaye.com.geometricweather.main.adapters.location.LocationAdapter;
-import wangdaye.com.geometricweather.main.adapters.location.LocationHolder;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.ui.adapters.AnimationAdapterWrapper;
+import nowsci.com.temperateweather.main.adapters.location.LocationAdapter;
+import nowsci.com.temperateweather.main.adapters.location.LocationHolder;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 public class LocationAdapterAnimWrapper
         extends AnimationAdapterWrapper<LocationAdapter, LocationHolder> {

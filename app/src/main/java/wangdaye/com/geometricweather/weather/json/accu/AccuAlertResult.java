@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.json.accu;
+package nowsci.com.temperateweather.weather.json.accu;
 
 import java.util.Date;
 import java.util.List;

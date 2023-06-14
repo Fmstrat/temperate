@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.compose.day
+package nowsci.com.temperateweather.theme.compose.day
 import androidx.compose.ui.graphics.Color
 
 val day_md_theme_light_primary = Color(0xFF205daf)

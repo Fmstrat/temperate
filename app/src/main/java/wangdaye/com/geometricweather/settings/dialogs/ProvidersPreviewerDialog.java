@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.dialogs;
+package nowsci.com.temperateweather.settings.dialogs;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -17,19 +17,19 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.settings.adapters.IconProviderAdapter;
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.settings.adapters.IconProviderAdapter;
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
 
 public class ProvidersPreviewerDialog {
 
     public static final String ACTION_RESOURCE_PROVIDER_CHANGED
-            = "com.wangdaye.geometricweather.RESOURCE_PROVIDER_CHANGED";
+            = "com.nowsci.temperateweather.RESOURCE_PROVIDER_CHANGED";
     public static final String KEY_PACKAGE_NAME = "package_name";
 
     public interface OnProviderSelectedCallback {
@@ -81,7 +81,7 @@ public class ProvidersPreviewerDialog {
         listView.setVisibility(View.GONE);
 
         AsyncHelper.runOnIO(emitter -> emitter.send(
-                ResourcesProviderFactory.getProviderList(GeometricWeather.getInstance()),
+                ResourcesProviderFactory.getProviderList(TemperateWeather.getInstance()),
                 true
         ), (AsyncHelper.Callback<List<ResourceProvider>>) (resourceProviders, done) -> bindAdapter(
                 activity,

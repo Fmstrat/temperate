@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main
+package nowsci.com.temperateweather.main
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -16,28 +16,28 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.background.polling.PollingManager
-import wangdaye.com.geometricweather.common.basic.GeoActivity
-import wangdaye.com.geometricweather.common.basic.models.Location
-import wangdaye.com.geometricweather.common.bus.EventBus
-import wangdaye.com.geometricweather.common.snackbar.SnackbarContainer
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
-import wangdaye.com.geometricweather.common.utils.helpers.AsyncHelper
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper
-import wangdaye.com.geometricweather.common.utils.helpers.ShortcutsHelper
-import wangdaye.com.geometricweather.common.utils.helpers.SnackbarHelper
-import wangdaye.com.geometricweather.databinding.ActivityMainBinding
-import wangdaye.com.geometricweather.main.dialogs.LocationHelpDialog
-import wangdaye.com.geometricweather.main.fragments.HomeFragment
-import wangdaye.com.geometricweather.main.fragments.ManagementFragment
-import wangdaye.com.geometricweather.main.fragments.ModifyMainSystemBarMessage
-import wangdaye.com.geometricweather.main.fragments.PushedManagementFragment
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider
-import wangdaye.com.geometricweather.remoteviews.NotificationHelper
-import wangdaye.com.geometricweather.remoteviews.WidgetHelper
-import wangdaye.com.geometricweather.search.SearchActivity
-import wangdaye.com.geometricweather.settings.SettingsChangedMessage
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.background.polling.PollingManager
+import nowsci.com.temperateweather.common.basic.GeoActivity
+import nowsci.com.temperateweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.bus.EventBus
+import nowsci.com.temperateweather.common.snackbar.SnackbarContainer
+import nowsci.com.temperateweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.common.utils.helpers.AsyncHelper
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper
+import nowsci.com.temperateweather.common.utils.helpers.ShortcutsHelper
+import nowsci.com.temperateweather.common.utils.helpers.SnackbarHelper
+import nowsci.com.temperateweather.databinding.ActivityMainBinding
+import nowsci.com.temperateweather.main.dialogs.LocationHelpDialog
+import nowsci.com.temperateweather.main.fragments.HomeFragment
+import nowsci.com.temperateweather.main.fragments.ManagementFragment
+import nowsci.com.temperateweather.main.fragments.ModifyMainSystemBarMessage
+import nowsci.com.temperateweather.main.fragments.PushedManagementFragment
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider
+import nowsci.com.temperateweather.remoteviews.NotificationHelper
+import nowsci.com.temperateweather.remoteviews.WidgetHelper
+import nowsci.com.temperateweather.search.SearchActivity
+import nowsci.com.temperateweather.settings.SettingsChangedMessage
 
 @AndroidEntryPoint
 class MainActivity : GeoActivity(),
@@ -50,13 +50,13 @@ class MainActivity : GeoActivity(),
     companion object {
         const val SEARCH_ACTIVITY = 4
 
-        const val ACTION_MAIN = "com.wangdaye.geometricweather.Main"
+        const val ACTION_MAIN = "com.nowsci.temperateweather.Main"
         const val KEY_MAIN_ACTIVITY_LOCATION_FORMATTED_ID = "MAIN_ACTIVITY_LOCATION_FORMATTED_ID"
 
-        const val ACTION_MANAGEMENT = "com.wangdaye.geomtricweather.ACTION_MANAGEMENT"
-        const val ACTION_SHOW_ALERTS = "com.wangdaye.geomtricweather.ACTION_SHOW_ALERTS"
+        const val ACTION_MANAGEMENT = "com.nowsci.geomtricweather.ACTION_MANAGEMENT"
+        const val ACTION_SHOW_ALERTS = "com.nowsci.geomtricweather.ACTION_SHOW_ALERTS"
 
-        const val ACTION_SHOW_DAILY_FORECAST = "com.wangdaye.geomtricweather.ACTION_SHOW_DAILY_FORECAST"
+        const val ACTION_SHOW_DAILY_FORECAST = "com.nowsci.geomtricweather.ACTION_SHOW_DAILY_FORECAST"
         const val KEY_DAILY_INDEX = "DAILY_INDEX"
 
         private const val TAG_FRAGMENT_HOME = "fragment_main"

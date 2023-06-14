@@ -1,9 +1,9 @@
-package wangdaye.com.geometricweather.weather.apis;
+package nowsci.com.temperateweather.weather.apis;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
-import wangdaye.com.geometricweather.weather.json.atmoaura.AtmoAuraQAResult;
+import nowsci.com.temperateweather.weather.json.atmoaura.AtmoAuraQAResult;
 
 /**
  * API Atmo AURA

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.dialogs;
+package nowsci.com.temperateweather.main.dialogs;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -10,9 +10,9 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.main.MainActivity;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.main.MainActivity;
 
 public class LocationHelpDialog {
 

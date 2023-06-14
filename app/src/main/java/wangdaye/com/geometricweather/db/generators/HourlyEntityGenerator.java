@@ -1,17 +1,17 @@
-package wangdaye.com.geometricweather.db.generators;
+package nowsci.com.temperateweather.db.generators;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.common.basic.models.weather.Hourly;
-import wangdaye.com.geometricweather.common.basic.models.weather.Precipitation;
-import wangdaye.com.geometricweather.common.basic.models.weather.PrecipitationProbability;
-import wangdaye.com.geometricweather.common.basic.models.weather.Temperature;
-import wangdaye.com.geometricweather.common.basic.models.weather.UV;
-import wangdaye.com.geometricweather.common.basic.models.weather.Wind;
-import wangdaye.com.geometricweather.db.entities.HourlyEntity;
-import wangdaye.com.geometricweather.db.converters.WeatherSourceConverter;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.basic.models.weather.Hourly;
+import nowsci.com.temperateweather.common.basic.models.weather.Precipitation;
+import nowsci.com.temperateweather.common.basic.models.weather.PrecipitationProbability;
+import nowsci.com.temperateweather.common.basic.models.weather.Temperature;
+import nowsci.com.temperateweather.common.basic.models.weather.UV;
+import nowsci.com.temperateweather.common.basic.models.weather.Wind;
+import nowsci.com.temperateweather.db.entities.HourlyEntity;
+import nowsci.com.temperateweather.db.converters.WeatherSourceConverter;
 
 public class HourlyEntityGenerator {
 

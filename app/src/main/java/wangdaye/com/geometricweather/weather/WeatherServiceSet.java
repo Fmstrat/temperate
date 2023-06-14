@@ -1,15 +1,15 @@
-package wangdaye.com.geometricweather.weather;
+package nowsci.com.temperateweather.weather;
 
 import androidx.annotation.NonNull;
 
 import javax.inject.Inject;
 
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.weather.services.AccuWeatherService;
-import wangdaye.com.geometricweather.weather.services.CaiYunWeatherService;
-import wangdaye.com.geometricweather.weather.services.MfWeatherService;
-import wangdaye.com.geometricweather.weather.services.OwmWeatherService;
-import wangdaye.com.geometricweather.weather.services.WeatherService;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.weather.services.AccuWeatherService;
+import nowsci.com.temperateweather.weather.services.CaiYunWeatherService;
+import nowsci.com.temperateweather.weather.services.MfWeatherService;
+import nowsci.com.temperateweather.weather.services.OwmWeatherService;
+import nowsci.com.temperateweather.weather.services.WeatherService;
 
 public class WeatherServiceSet {
 

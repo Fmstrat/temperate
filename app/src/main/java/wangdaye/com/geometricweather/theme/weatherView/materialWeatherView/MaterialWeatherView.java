@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.weatherView.materialWeatherView;
+package nowsci.com.temperateweather.theme.weatherView.materialWeatherView;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -12,8 +12,8 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import androidx.annotation.Nullable;
 import androidx.annotation.Size;
 
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherView;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.weatherView.WeatherView;
 
 public class MaterialWeatherView extends ViewGroup
         implements WeatherView {

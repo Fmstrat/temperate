@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic
+package nowsci.com.temperateweather.common.basic
 
 import android.content.Intent
 import android.graphics.Rect
@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import androidx.annotation.CallSuper
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Lifecycle
-import wangdaye.com.geometricweather.GeometricWeather
-import wangdaye.com.geometricweather.common.basic.insets.FitHorizontalSystemBarRootLayout
-import wangdaye.com.geometricweather.common.snackbar.SnackbarContainer
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
-import wangdaye.com.geometricweather.common.utils.LanguageUtils
-import wangdaye.com.geometricweather.settings.SettingsManager
+import nowsci.com.temperateweather.TemperateWeather
+import nowsci.com.temperateweather.common.basic.insets.FitHorizontalSystemBarRootLayout
+import nowsci.com.temperateweather.common.snackbar.SnackbarContainer
+import nowsci.com.temperateweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.common.utils.LanguageUtils
+import nowsci.com.temperateweather.settings.SettingsManager
 
 abstract class GeoActivity : AppCompatActivity() {
 
@@ -72,7 +72,7 @@ abstract class GeoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         fitHorizontalSystemBarRootLayout = FitHorizontalSystemBarRootLayout(this)
 
-        GeometricWeather.instance.addActivity(this)
+        TemperateWeather.instance.addActivity(this)
 
         LanguageUtils.setLanguage(
             this,
@@ -107,31 +107,31 @@ abstract class GeoActivity : AppCompatActivity() {
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
-        GeometricWeather.instance.setTopActivity(this)
+        TemperateWeather.instance.setTopActivity(this)
     }
 
     @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        GeometricWeather.instance.setTopActivity(this)
+        TemperateWeather.instance.setTopActivity(this)
     }
 
     @CallSuper
     override fun onResume() {
         super.onResume()
-        GeometricWeather.instance.setTopActivity(this)
+        TemperateWeather.instance.setTopActivity(this)
     }
 
     @CallSuper
     override fun onPause() {
         super.onPause()
-        GeometricWeather.instance.checkToCleanTopActivity(this)
+        TemperateWeather.instance.checkToCleanTopActivity(this)
     }
 
     @CallSuper
     override fun onDestroy() {
         super.onDestroy()
-        GeometricWeather.instance.removeActivity(this)
+        TemperateWeather.instance.removeActivity(this)
     }
 
     open val snackbarContainer: SnackbarContainer?

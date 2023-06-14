@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.modules.junit4.PowerMockRunner;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.options._basic.Utils;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.options._basic.Utils;
 
 @RunWith(PowerMockRunner.class)
 public class UtilsTest {

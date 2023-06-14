@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings
+package nowsci.com.temperateweather.settings
 
 import android.content.Context
 import android.content.SharedPreferences

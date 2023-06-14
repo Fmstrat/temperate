@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets;
+package nowsci.com.temperateweather.common.ui.widgets;
 
 import android.animation.Animator;
 import android.content.Context;
@@ -14,7 +14,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.Size;
 import androidx.appcompat.widget.AppCompatImageView;
 
-import wangdaye.com.geometricweather.R;
+import nowsci.com.temperateweather.R;
 
 public class AnimatableIconView extends FrameLayout {
 

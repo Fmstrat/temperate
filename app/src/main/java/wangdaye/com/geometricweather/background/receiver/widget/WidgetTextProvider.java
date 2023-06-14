@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.receiver.widget;
+package nowsci.com.temperateweather.background.receiver.widget;
 
 /**
  * Widget text provider.

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.daily.adapter.holder;
+package nowsci.com.temperateweather.daily.adapter.holder;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -9,10 +9,10 @@ import android.widget.TextView;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.core.widget.ImageViewCompat;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.weather.UV;
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
-import wangdaye.com.geometricweather.daily.adapter.model.DailyUV;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.weather.UV;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.daily.adapter.model.DailyUV;
 
 public class UVHolder extends DailyWeatherAdapter.ViewHolder {
 

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.search.ui;
+package nowsci.com.temperateweather.search.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

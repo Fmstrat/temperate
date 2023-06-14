@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets;
+package nowsci.com.temperateweather.common.ui.widgets;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,7 +15,7 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatTextView;
 
-import wangdaye.com.geometricweather.R;
+import nowsci.com.temperateweather.R;
 
 public class TagView extends AppCompatTextView {
 

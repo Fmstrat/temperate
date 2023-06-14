@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.insets;
+package nowsci.com.temperateweather.common.ui.widgets.insets;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -16,8 +16,8 @@ import androidx.viewpager.widget.ViewPager;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarHelper;
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarView;
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarHelper;
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarView;
 
 public class FitSystemBarViewPager extends ViewPager
         implements FitBothSideBarView {

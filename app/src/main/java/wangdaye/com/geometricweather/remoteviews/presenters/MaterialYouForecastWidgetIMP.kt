@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews.presenters
+package nowsci.com.temperateweather.remoteviews.presenters
 
 import android.appwidget.AppWidgetManager
 import android.content.ComponentName
@@ -7,14 +7,14 @@ import android.os.Build
 import android.util.SizeF
 import android.widget.RemoteViews
 import androidx.annotation.LayoutRes
-import wangdaye.com.geometricweather.GeometricWeather
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.background.receiver.widget.WidgetMaterialYouForecastProvider
-import wangdaye.com.geometricweather.common.basic.models.Location
-import wangdaye.com.geometricweather.common.basic.models.options.NotificationTextColor
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory
+import nowsci.com.temperateweather.TemperateWeather
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.background.receiver.widget.WidgetMaterialYouForecastProvider
+import nowsci.com.temperateweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.basic.models.options.NotificationTextColor
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.theme.resource.ResourceHelper
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory
 
 class MaterialYouForecastWidgetIMP: AbstractRemoteViewsPresenter() {
 
@@ -501,7 +501,7 @@ private fun buildRemoteViews(
         AbstractRemoteViewsPresenter.getWeatherPendingIntent(
             context,
             location,
-            GeometricWeather.WIDGET_MATERIAL_YOU_FORECAST_PENDING_INTENT_CODE_WEATHER
+            TemperateWeather.WIDGET_MATERIAL_YOU_FORECAST_PENDING_INTENT_CODE_WEATHER
         )
     )
 

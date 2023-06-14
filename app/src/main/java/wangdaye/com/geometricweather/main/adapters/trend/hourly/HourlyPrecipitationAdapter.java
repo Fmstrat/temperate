@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.trend.hourly;
+package nowsci.com.temperateweather.main.adapters.trend.hourly;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,21 +10,21 @@ import androidx.annotation.NonNull;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.PrecipitationUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Hourly;
-import wangdaye.com.geometricweather.common.basic.models.weather.Precipitation;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerView;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.chart.PolylineAndHistogramView;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.theme.ThemeManager;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherViewController;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.PrecipitationUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Hourly;
+import nowsci.com.temperateweather.common.basic.models.weather.Precipitation;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerView;
+import nowsci.com.temperateweather.common.ui.widgets.trend.chart.PolylineAndHistogramView;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.theme.ThemeManager;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.weatherView.WeatherViewController;
 
 /**
  * Hourly precipitation adapter.

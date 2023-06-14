@@ -14,7 +14,7 @@
     </changeBounds>
 
     <transition
-        class="wangdaye.com.geometricweather.common.ui.transitions.RoundCornerTransition"
+        class="nowsci.com.temperateweather.common.ui.transitions.RoundCornerTransition"
         android:interpolator="@android:interpolator/fast_out_slow_in"
         android:duration="350"
         app:radius_from="0dp"
@@ -26,7 +26,7 @@
     </transition>
 
     <transition
-        class="wangdaye.com.geometricweather.common.ui.transitions.ScaleTransition"
+        class="nowsci.com.temperateweather.common.ui.transitions.ScaleTransition"
         android:interpolator="@android:interpolator/decelerate_quad"
         android:duration="350"
         app:scale_type="hide">

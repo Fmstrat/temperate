@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets
+package nowsci.com.temperateweather.common.ui.widgets
 
 import android.content.Context
 import androidx.compose.foundation.layout.ColumnScope
@@ -13,7 +13,7 @@ import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import wangdaye.com.geometricweather.R
+import nowsci.com.temperateweather.R
 import kotlin.math.ln
 
 // helper.

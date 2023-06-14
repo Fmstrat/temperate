@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.activities
+package nowsci.com.temperateweather.settings.activities
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -24,20 +24,20 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import wangdaye.com.geometricweather.BuildConfig
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.GeoActivity
-import wangdaye.com.geometricweather.common.ui.widgets.Material3CardListItem
-import wangdaye.com.geometricweather.common.ui.widgets.Material3Scaffold
-import wangdaye.com.geometricweather.common.ui.widgets.generateCollapsedScrollBehavior
-import wangdaye.com.geometricweather.common.ui.widgets.getCardListItemMarginDp
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitStatusBarTopAppBar
-import wangdaye.com.geometricweather.common.ui.widgets.insets.bottomInsetItem
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper
-import wangdaye.com.geometricweather.settings.utils.DonateHelper
-import wangdaye.com.geometricweather.theme.compose.DayNightTheme
-import wangdaye.com.geometricweather.theme.compose.GeometricWeatherTheme
-import wangdaye.com.geometricweather.theme.compose.rememberThemeRipple
+import nowsci.com.temperateweather.BuildConfig
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.GeoActivity
+import nowsci.com.temperateweather.common.ui.widgets.Material3CardListItem
+import nowsci.com.temperateweather.common.ui.widgets.Material3Scaffold
+import nowsci.com.temperateweather.common.ui.widgets.generateCollapsedScrollBehavior
+import nowsci.com.temperateweather.common.ui.widgets.getCardListItemMarginDp
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitStatusBarTopAppBar
+import nowsci.com.temperateweather.common.ui.widgets.insets.bottomInsetItem
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper
+import nowsci.com.temperateweather.settings.utils.DonateHelper
+import nowsci.com.temperateweather.theme.compose.DayNightTheme
+import nowsci.com.temperateweather.theme.compose.TemperateWeatherTheme
+import nowsci.com.temperateweather.theme.compose.rememberThemeRipple
 
 private class AboutAppLinkItem(
     @DrawableRes val iconId: Int,
@@ -60,7 +60,7 @@ class AboutActivity : GeoActivity() {
         ) {
             IntentHelper.startWebViewActivity(
                 this@AboutActivity,
-                "https://github.com/WangDaYeeeeee/GeometricWeather"
+                "https://github.com/fmstrat/temperate"
             )
         },
         AboutAppLinkItem(
@@ -69,7 +69,7 @@ class AboutActivity : GeoActivity() {
         ) {
             IntentHelper.startWebViewActivity(
                 this@AboutActivity,
-                "mailto:wangdayeeeeee@gmail.com"
+                "mailto:nowscieeeee@gmail.com"
             )
         },
     )
@@ -88,6 +88,11 @@ class AboutActivity : GeoActivity() {
         },
     )
     private val contributors = arrayOf(
+        ContributorItem(
+            name = "Fmstrat",
+            url = "https://github.com/fmstrat",
+            flag = "🇺🇸",
+        ),
         ContributorItem(
             name = "WangDaYeeeeee",
             url = "https://github.com/WangDaYeeeeee",
@@ -276,7 +281,7 @@ class AboutActivity : GeoActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            GeometricWeatherTheme(lightTheme = !isSystemInDarkTheme()) {
+            TemperateWeatherTheme(lightTheme = !isSystemInDarkTheme()) {
                 ContentView()
             }
         }
@@ -444,7 +449,7 @@ class AboutActivity : GeoActivity() {
     @Preview
     @Composable
     private fun DefaultPreview() {
-        GeometricWeatherTheme(lightTheme = isSystemInDarkTheme()) {
+        TemperateWeatherTheme(lightTheme = isSystemInDarkTheme()) {
             ContentView()
         }
     }

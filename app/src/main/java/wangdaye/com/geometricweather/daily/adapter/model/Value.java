@@ -1,6 +1,6 @@
-package wangdaye.com.geometricweather.daily.adapter.model;
+package nowsci.com.temperateweather.daily.adapter.model;
 
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
 
 public class Value implements DailyWeatherAdapter.ViewModel {
 

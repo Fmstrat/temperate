@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.dialogs;
+package nowsci.com.temperateweather.main.dialogs;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -10,17 +10,17 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.text.SimpleDateFormat;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.PrecipitationUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.ProbabilityUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Hourly;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.common.ui.widgets.AnimatableIconView;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.options.unit.PrecipitationUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.ProbabilityUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Hourly;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.common.ui.widgets.AnimatableIconView;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
 
 public class HourlyWeatherDialog {
 

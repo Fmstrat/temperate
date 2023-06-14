@@ -1,8 +1,8 @@
-package wangdaye.com.geometricweather.search.ui.adapter.source;
+package nowsci.com.temperateweather.search.ui.adapter.source;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.databinding.ItemWeatherSourceBinding;
+import nowsci.com.temperateweather.databinding.ItemWeatherSourceBinding;
 
 class WeatherSourceHolder extends RecyclerView.ViewHolder {
 

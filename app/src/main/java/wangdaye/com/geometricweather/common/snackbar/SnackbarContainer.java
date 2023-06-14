@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.snackbar;
+package nowsci.com.temperateweather.common.snackbar;
 
 import android.view.ViewGroup;
 

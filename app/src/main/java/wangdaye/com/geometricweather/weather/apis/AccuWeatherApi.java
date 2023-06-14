@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.apis;
+package nowsci.com.temperateweather.weather.apis;
 
 import java.util.List;
 
@@ -7,13 +7,13 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
-import wangdaye.com.geometricweather.weather.json.accu.AccuAlertResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuAqiResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuDailyResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuHourlyResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuLocationResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuMinuteResult;
-import wangdaye.com.geometricweather.weather.json.accu.AccuCurrentResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuAlertResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuAqiResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuDailyResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuHourlyResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuLocationResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuMinuteResult;
+import nowsci.com.temperateweather.weather.json.accu.AccuCurrentResult;
 
 /**
  * Accu api.

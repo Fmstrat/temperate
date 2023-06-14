@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.di;
+package nowsci.com.temperateweather.common.di;
 
 import android.content.Context;
 
@@ -7,8 +7,8 @@ import dagger.Provides;
 import dagger.hilt.InstallIn;
 import dagger.hilt.android.qualifiers.ApplicationContext;
 import dagger.hilt.components.SingletonComponent;
-import wangdaye.com.geometricweather.db.DatabaseHelper;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.db.DatabaseHelper;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 @InstallIn(SingletonComponent.class)
 @Module

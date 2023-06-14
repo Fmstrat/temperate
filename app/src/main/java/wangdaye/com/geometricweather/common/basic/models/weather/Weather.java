@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic.models.weather;
+package nowsci.com.temperateweather.common.basic.models.weather;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;
 
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
 
 public class Weather
         implements Serializable {

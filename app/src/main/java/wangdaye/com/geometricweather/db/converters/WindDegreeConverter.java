@@ -1,8 +1,8 @@
-package wangdaye.com.geometricweather.db.converters;
+package nowsci.com.temperateweather.db.converters;
 
 import org.greenrobot.greendao.converter.PropertyConverter;
 
-import wangdaye.com.geometricweather.common.basic.models.weather.WindDegree;
+import nowsci.com.temperateweather.common.basic.models.weather.WindDegree;
 
 public class WindDegreeConverter implements PropertyConverter<WindDegree, Float> {
 

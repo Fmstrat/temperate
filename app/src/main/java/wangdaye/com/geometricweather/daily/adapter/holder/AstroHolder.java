@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.daily.adapter.holder;
+package nowsci.com.temperateweather.daily.adapter.holder;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,13 +12,13 @@ import androidx.core.content.ContextCompat;
 
 import java.util.TimeZone;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.weather.Astro;
-import wangdaye.com.geometricweather.common.basic.models.weather.MoonPhase;
-import wangdaye.com.geometricweather.common.ui.widgets.astro.MoonPhaseView;
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
-import wangdaye.com.geometricweather.daily.adapter.model.DailyAstro;
-import wangdaye.com.geometricweather.theme.ThemeManager;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.weather.Astro;
+import nowsci.com.temperateweather.common.basic.models.weather.MoonPhase;
+import nowsci.com.temperateweather.common.ui.widgets.astro.MoonPhaseView;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.daily.adapter.model.DailyAstro;
+import nowsci.com.temperateweather.theme.ThemeManager;
 
 public class AstroHolder extends DailyWeatherAdapter.ViewHolder {
 

@@ -1,6 +1,6 @@
-package wangdaye.com.geometricweather.search
+package nowsci.com.temperateweather.search
 
-import wangdaye.com.geometricweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.basic.models.Location
 
 class LoadableLocationList(
     val dataList: List<Location>,

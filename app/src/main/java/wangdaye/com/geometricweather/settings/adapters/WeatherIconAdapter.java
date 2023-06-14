@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.adapters;
+package nowsci.com.temperateweather.settings.adapters;
 
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
 
 public class WeatherIconAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

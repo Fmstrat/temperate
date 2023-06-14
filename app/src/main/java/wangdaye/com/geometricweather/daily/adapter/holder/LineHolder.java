@@ -1,10 +1,10 @@
-package wangdaye.com.geometricweather.daily.adapter.holder;
+package nowsci.com.temperateweather.daily.adapter.holder;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
 
 public class LineHolder extends DailyWeatherAdapter.ViewHolder {
 

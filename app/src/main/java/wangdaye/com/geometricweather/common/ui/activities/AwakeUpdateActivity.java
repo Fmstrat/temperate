@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.activities;
+package nowsci.com.temperateweather.common.ui.activities;
 
 import android.os.Bundle;
 import android.widget.Toast;
@@ -6,8 +6,8 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.background.polling.PollingManager;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.background.polling.PollingManager;
 
 public class AwakeUpdateActivity extends AppCompatActivity {
 

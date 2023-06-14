@@ -1,6 +1,6 @@
-package wangdaye.com.geometricweather.common.basic.models
+package nowsci.com.temperateweather.common.basic.models
 
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource
 import java.util.*
 
 data class ChineseCity(

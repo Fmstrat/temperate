@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.main.holder;
+package nowsci.com.temperateweather.main.adapters.main.holder;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,18 +11,18 @@ import androidx.annotation.Nullable;
 
 import java.util.TimeZone;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.Daily;
-import wangdaye.com.geometricweather.common.ui.widgets.horizontal.HorizontalViewPager2;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.main.adapters.HomePollenAdapter;
-import wangdaye.com.geometricweather.main.adapters.HomePollenViewHolder;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
-import wangdaye.com.geometricweather.theme.ThemeManager;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherViewController;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.Daily;
+import nowsci.com.temperateweather.common.ui.widgets.horizontal.HorizontalViewPager2;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.main.adapters.HomePollenAdapter;
+import nowsci.com.temperateweather.main.adapters.HomePollenViewHolder;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.theme.ThemeManager;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.weatherView.WeatherViewController;
 
 public class AllergenViewHolder extends AbstractMainCardViewHolder {
 

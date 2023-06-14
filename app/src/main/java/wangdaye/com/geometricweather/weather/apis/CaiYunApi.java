@@ -1,10 +1,10 @@
-package wangdaye.com.geometricweather.weather.apis;
+package nowsci.com.temperateweather.weather.apis;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
-import wangdaye.com.geometricweather.weather.json.caiyun.CaiYunForecastResult;
-import wangdaye.com.geometricweather.weather.json.caiyun.CaiYunMainlyResult;
+import nowsci.com.temperateweather.weather.json.caiyun.CaiYunForecastResult;
+import nowsci.com.temperateweather.weather.json.caiyun.CaiYunMainlyResult;
 
 public interface CaiYunApi {
 

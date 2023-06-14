@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.interfaces;
+package nowsci.com.temperateweather.background.interfaces;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,12 +7,12 @@ import android.service.quicksettings.Tile;
 
 import androidx.annotation.RequiresApi;
 
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.db.DatabaseHelper;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.db.DatabaseHelper;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 /**
  * Tile service.

@@ -1,15 +1,15 @@
-package wangdaye.com.geometricweather.background.polling.services.basic;
+package nowsci.com.temperateweather.background.polling.services.basic;
 
 import android.content.Context;
 
 import java.util.List;
 
 import dagger.hilt.android.AndroidEntryPoint;
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.background.polling.PollingManager;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.remoteviews.NotificationHelper;
-import wangdaye.com.geometricweather.remoteviews.WidgetHelper;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.background.polling.PollingManager;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.remoteviews.NotificationHelper;
+import nowsci.com.temperateweather.remoteviews.WidgetHelper;
 
 /**
  * Awake foreground update service.
@@ -36,6 +36,6 @@ public class AwakeForegroundUpdateService extends ForegroundUpdateService {
 
     @Override
     public int getForegroundNotificationId() {
-        return GeometricWeather.NOTIFICATION_ID_UPDATING_AWAKE;
+        return TemperateWeather.NOTIFICATION_ID_UPDATING_AWAKE;
     }
 }

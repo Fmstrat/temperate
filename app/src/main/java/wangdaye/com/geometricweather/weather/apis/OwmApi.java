@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.apis;
+package nowsci.com.temperateweather.weather.apis;
 
 import java.util.List;
 
@@ -6,10 +6,10 @@ import io.reactivex.Observable;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
-import wangdaye.com.geometricweather.weather.json.owm.OwmAirPollutionResult;
-import wangdaye.com.geometricweather.weather.json.owm.OwmLocationResult;
-import wangdaye.com.geometricweather.weather.json.owm.OwmOneCallResult;
-import wangdaye.com.geometricweather.weather.json.owm.OwmOneCallHistoryResult;
+import nowsci.com.temperateweather.weather.json.owm.OwmAirPollutionResult;
+import nowsci.com.temperateweather.weather.json.owm.OwmLocationResult;
+import nowsci.com.temperateweather.weather.json.owm.OwmOneCallResult;
+import nowsci.com.temperateweather.weather.json.owm.OwmOneCallHistoryResult;
 
 /**
  * OpenWeather API.

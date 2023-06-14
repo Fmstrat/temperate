@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews.presenters.notification;
+package nowsci.com.temperateweather.remoteviews.presenters.notification;
 
 import android.Manifest;
 import android.app.Notification;
@@ -14,21 +14,21 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.common.utils.helpers.IntentHelper;
-import wangdaye.com.geometricweather.remoteviews.presenters.AbstractRemoteViewsPresenter;
-import wangdaye.com.geometricweather.theme.ThemeManager;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.theme.weatherView.WeatherViewController;
-import wangdaye.com.geometricweather.common.utils.LanguageUtils;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.common.utils.helpers.IntentHelper;
+import nowsci.com.temperateweather.remoteviews.presenters.AbstractRemoteViewsPresenter;
+import nowsci.com.temperateweather.theme.ThemeManager;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.theme.weatherView.WeatherViewController;
+import nowsci.com.temperateweather.common.utils.LanguageUtils;
 
 /**
  * Forecast notification utils.
@@ -54,9 +54,9 @@ public class ForecastNotificationIMP extends AbstractRemoteViewsPresenter {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel(
-                    GeometricWeather.NOTIFICATION_CHANNEL_ID_FORECAST,
-                    GeometricWeather.getNotificationChannelName(
-                            context, GeometricWeather.NOTIFICATION_CHANNEL_ID_FORECAST),
+                    TemperateWeather.NOTIFICATION_CHANNEL_ID_FORECAST,
+                    TemperateWeather.getNotificationChannelName(
+                            context, TemperateWeather.NOTIFICATION_CHANNEL_ID_FORECAST),
                     NotificationManager.IMPORTANCE_DEFAULT
             );
             channel.setImportance(NotificationManager.IMPORTANCE_HIGH);
@@ -66,7 +66,7 @@ public class ForecastNotificationIMP extends AbstractRemoteViewsPresenter {
 
         // get builder.
         NotificationCompat.Builder builder = new NotificationCompat.Builder(
-                context, GeometricWeather.NOTIFICATION_CHANNEL_ID_FORECAST);
+                context, TemperateWeather.NOTIFICATION_CHANNEL_ID_FORECAST);
 
         // set notification level.
         builder.setPriority(NotificationCompat.PRIORITY_MAX);
@@ -137,8 +137,8 @@ public class ForecastNotificationIMP extends AbstractRemoteViewsPresenter {
                         context,
                         null,
                         today
-                                ? GeometricWeather.NOTIFICATION_ID_TODAY_FORECAST
-                                : GeometricWeather.NOTIFICATION_ID_TOMORROW_FORECAST
+                                ? TemperateWeather.NOTIFICATION_ID_TODAY_FORECAST
+                                : TemperateWeather.NOTIFICATION_ID_TOMORROW_FORECAST
                 )
         );
 
@@ -171,8 +171,8 @@ public class ForecastNotificationIMP extends AbstractRemoteViewsPresenter {
         ) == PackageManager.PERMISSION_GRANTED) {
             manager.notify(
                     today
-                            ? GeometricWeather.NOTIFICATION_ID_TODAY_FORECAST
-                            : GeometricWeather.NOTIFICATION_ID_TOMORROW_FORECAST,
+                            ? TemperateWeather.NOTIFICATION_ID_TODAY_FORECAST
+                            : TemperateWeather.NOTIFICATION_ID_TOMORROW_FORECAST,
                     notification
             );
         }

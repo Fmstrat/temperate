@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.json.caiyun;
+package nowsci.com.temperateweather.weather.json.caiyun;
 
 import java.util.Date;
 import java.util.List;

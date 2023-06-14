@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.compose
+package nowsci.com.temperateweather.settings.compose
 
 import android.content.Context
 import androidx.compose.foundation.layout.PaddingValues
@@ -6,20 +6,20 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringArrayResource
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
-import wangdaye.com.geometricweather.BuildConfig
-import wangdaye.com.geometricweather.GeometricWeather.Companion.instance
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.models.options.provider.LocationProvider
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource
-import wangdaye.com.geometricweather.common.utils.helpers.SnackbarHelper
-import wangdaye.com.geometricweather.db.DatabaseHelper
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.settings.preference.bottomInsetItem
-import wangdaye.com.geometricweather.settings.preference.clickablePreferenceItem
-import wangdaye.com.geometricweather.settings.preference.composables.ListPreferenceView
-import wangdaye.com.geometricweather.settings.preference.composables.PreferenceScreen
-import wangdaye.com.geometricweather.settings.preference.composables.PreferenceView
-import wangdaye.com.geometricweather.settings.preference.listPreferenceItem
+import nowsci.com.temperateweather.BuildConfig
+import nowsci.com.temperateweather.TemperateWeather.Companion.instance
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.models.options.provider.LocationProvider
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource
+import nowsci.com.temperateweather.common.utils.helpers.SnackbarHelper
+import nowsci.com.temperateweather.db.DatabaseHelper
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.settings.preference.bottomInsetItem
+import nowsci.com.temperateweather.settings.preference.clickablePreferenceItem
+import nowsci.com.temperateweather.settings.preference.composables.ListPreferenceView
+import nowsci.com.temperateweather.settings.preference.composables.PreferenceScreen
+import nowsci.com.temperateweather.settings.preference.composables.PreferenceView
+import nowsci.com.temperateweather.settings.preference.listPreferenceItem
 
 @Composable
 fun ServiceProviderSettingsScreen(

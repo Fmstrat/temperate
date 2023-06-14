@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic.models.weather;
+package nowsci.com.temperateweather.common.basic.models.weather;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,7 +10,7 @@ import androidx.core.content.ContextCompat;
 
 import java.io.Serializable;
 
-import wangdaye.com.geometricweather.R;
+import nowsci.com.temperateweather.R;
 
 /**
  * UV.

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.resource.utils;
+package nowsci.com.temperateweather.theme.resource.utils;
 
 import android.content.ContentResolver;
 import android.content.Context;

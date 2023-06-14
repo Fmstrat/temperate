@@ -1,9 +1,9 @@
-package wangdaye.com.geometricweather.common.basic.models.options
+package nowsci.com.temperateweather.common.basic.models.options
 
 import android.content.Context
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.models.options._basic.BaseEnum
-import wangdaye.com.geometricweather.common.basic.models.options._basic.Utils
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.models.options._basic.BaseEnum
+import nowsci.com.temperateweather.common.basic.models.options._basic.Utils
 
 enum class NotificationStyle(
     override val id: String

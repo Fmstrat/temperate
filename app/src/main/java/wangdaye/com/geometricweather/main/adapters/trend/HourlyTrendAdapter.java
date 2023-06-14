@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.trend;
+package nowsci.com.temperateweather.main.adapters.trend;
 
 import android.view.ViewGroup;
 
@@ -6,18 +6,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.PrecipitationUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.SpeedUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.main.adapters.trend.hourly.HourlyTemperatureAdapter;
-import wangdaye.com.geometricweather.main.adapters.trend.hourly.HourlyUVAdapter;
-import wangdaye.com.geometricweather.main.adapters.trend.hourly.HourlyWindAdapter;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerView;
-import wangdaye.com.geometricweather.main.adapters.trend.hourly.AbsHourlyTrendAdapter;
-import wangdaye.com.geometricweather.main.adapters.trend.hourly.HourlyPrecipitationAdapter;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.PrecipitationUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.SpeedUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.main.adapters.trend.hourly.HourlyTemperatureAdapter;
+import nowsci.com.temperateweather.main.adapters.trend.hourly.HourlyUVAdapter;
+import nowsci.com.temperateweather.main.adapters.trend.hourly.HourlyWindAdapter;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerView;
+import nowsci.com.temperateweather.main.adapters.trend.hourly.AbsHourlyTrendAdapter;
+import nowsci.com.temperateweather.main.adapters.trend.hourly.HourlyPrecipitationAdapter;
 
 public class HourlyTrendAdapter  extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

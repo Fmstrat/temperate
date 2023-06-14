@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.resource.providers;
+package nowsci.com.temperateweather.theme.resource.providers;
 
 import android.animation.Animator;
 import android.content.Context;
@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.Size;
 
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.theme.resource.utils.ResourceUtils;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.theme.resource.utils.ResourceUtils;
 
 public abstract class ResourceProvider {
 

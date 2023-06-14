@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.polling.work.worker;
+package nowsci.com.temperateweather.background.polling.work.worker;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,13 +11,13 @@ import androidx.work.impl.utils.futures.SettableFuture;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.background.polling.PollingUpdateHelper;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.utils.helpers.ShortcutsHelper;
-import wangdaye.com.geometricweather.location.LocationHelper;
-import wangdaye.com.geometricweather.remoteviews.NotificationHelper;
-import wangdaye.com.geometricweather.weather.WeatherHelper;
+import nowsci.com.temperateweather.background.polling.PollingUpdateHelper;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.utils.helpers.ShortcutsHelper;
+import nowsci.com.temperateweather.location.LocationHelper;
+import nowsci.com.temperateweather.remoteviews.NotificationHelper;
+import nowsci.com.temperateweather.weather.WeatherHelper;
 
 public abstract class AsyncUpdateWorker extends AsyncWorker
         implements PollingUpdateHelper.OnPollingUpdateListener {

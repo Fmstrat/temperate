@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.services;
+package nowsci.com.temperateweather.weather.services;
 
 import android.content.Context;
 
@@ -12,16 +12,16 @@ import javax.inject.Inject;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.CompositeDisposable;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.rxjava.BaseObserver;
-import wangdaye.com.geometricweather.common.rxjava.ObserverContainer;
-import wangdaye.com.geometricweather.common.rxjava.SchedulerTransformer;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.weather.apis.OwmApi;
-import wangdaye.com.geometricweather.weather.converters.OwmResultConverter;
-import wangdaye.com.geometricweather.weather.json.owm.OwmAirPollutionResult;
-import wangdaye.com.geometricweather.weather.json.owm.OwmLocationResult;
-import wangdaye.com.geometricweather.weather.json.owm.OwmOneCallResult;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.rxjava.BaseObserver;
+import nowsci.com.temperateweather.common.rxjava.ObserverContainer;
+import nowsci.com.temperateweather.common.rxjava.SchedulerTransformer;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.weather.apis.OwmApi;
+import nowsci.com.temperateweather.weather.converters.OwmResultConverter;
+import nowsci.com.temperateweather.weather.json.owm.OwmAirPollutionResult;
+import nowsci.com.temperateweather.weather.json.owm.OwmLocationResult;
+import nowsci.com.temperateweather.weather.json.owm.OwmOneCallResult;
 
 /**
  * Owm weather service.

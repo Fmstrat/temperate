@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.trend.hourly;
+package nowsci.com.temperateweather.main.adapters.trend.hourly;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,17 +14,17 @@ import androidx.core.content.ContextCompat;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.SpeedUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Hourly;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.basic.models.weather.Wind;
-import wangdaye.com.geometricweather.common.ui.images.RotateDrawable;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerView;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.chart.PolylineAndHistogramView;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.SpeedUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Hourly;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.basic.models.weather.Wind;
+import nowsci.com.temperateweather.common.ui.images.RotateDrawable;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerView;
+import nowsci.com.temperateweather.common.ui.widgets.trend.chart.PolylineAndHistogramView;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
 
 /**
  * Hourly wind adapter.

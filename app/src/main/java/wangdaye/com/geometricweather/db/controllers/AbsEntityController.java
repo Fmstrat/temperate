@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.db.controllers;
+package nowsci.com.temperateweather.db.controllers;
 
 import androidx.annotation.Nullable;
 

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.search.ui;
+package nowsci.com.temperateweather.search.ui;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarHelper;
-import wangdaye.com.geometricweather.common.basic.insets.FitBothSideBarView;
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarHelper;
+import nowsci.com.temperateweather.common.basic.insets.FitBothSideBarView;
 
 public class FitBottomBarFrameLayout extends FrameLayout implements FitBothSideBarView {
 

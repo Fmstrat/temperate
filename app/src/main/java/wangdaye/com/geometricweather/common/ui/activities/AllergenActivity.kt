@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.activities
+package nowsci.com.temperateweather.common.ui.activities
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -20,19 +20,19 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.GeoActivity
-import wangdaye.com.geometricweather.common.basic.models.options.unit.PollenUnit
-import wangdaye.com.geometricweather.common.basic.models.weather.Pollen
-import wangdaye.com.geometricweather.common.ui.widgets.Material3CardListItem
-import wangdaye.com.geometricweather.common.ui.widgets.Material3Scaffold
-import wangdaye.com.geometricweather.common.ui.widgets.generateCollapsedScrollBehavior
-import wangdaye.com.geometricweather.common.ui.widgets.getCardListItemMarginDp
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitStatusBarTopAppBar
-import wangdaye.com.geometricweather.common.ui.widgets.insets.bottomInsetItem
-import wangdaye.com.geometricweather.db.DatabaseHelper
-import wangdaye.com.geometricweather.theme.compose.DayNightTheme
-import wangdaye.com.geometricweather.theme.compose.GeometricWeatherTheme
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.GeoActivity
+import nowsci.com.temperateweather.common.basic.models.options.unit.PollenUnit
+import nowsci.com.temperateweather.common.basic.models.weather.Pollen
+import nowsci.com.temperateweather.common.ui.widgets.Material3CardListItem
+import nowsci.com.temperateweather.common.ui.widgets.Material3Scaffold
+import nowsci.com.temperateweather.common.ui.widgets.generateCollapsedScrollBehavior
+import nowsci.com.temperateweather.common.ui.widgets.getCardListItemMarginDp
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitStatusBarTopAppBar
+import nowsci.com.temperateweather.common.ui.widgets.insets.bottomInsetItem
+import nowsci.com.temperateweather.db.DatabaseHelper
+import nowsci.com.temperateweather.theme.compose.DayNightTheme
+import nowsci.com.temperateweather.theme.compose.TemperateWeatherTheme
 
 class AllergenActivity : GeoActivity() {
 
@@ -45,7 +45,7 @@ class AllergenActivity : GeoActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            GeometricWeatherTheme(lightTheme = !isSystemInDarkTheme()) {
+            TemperateWeatherTheme(lightTheme = !isSystemInDarkTheme()) {
                 ContentView()
             }
         }

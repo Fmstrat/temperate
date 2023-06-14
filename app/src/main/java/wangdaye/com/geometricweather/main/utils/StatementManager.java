@@ -1,11 +1,11 @@
-package wangdaye.com.geometricweather.main.utils;
+package nowsci.com.temperateweather.main.utils;
 
 import android.content.Context;
 
 import javax.inject.Inject;
 
 import dagger.hilt.android.qualifiers.ApplicationContext;
-import wangdaye.com.geometricweather.settings.ConfigStore;
+import nowsci.com.temperateweather.settings.ConfigStore;
 
 public class StatementManager {
 

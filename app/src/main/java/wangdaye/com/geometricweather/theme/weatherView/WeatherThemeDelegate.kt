@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.weatherView
+package nowsci.com.temperateweather.theme.weatherView
 
 import android.content.Context
 import android.view.Window

@@ -1,11 +1,11 @@
-package wangdaye.com.geometricweather.common.basic.models.options.unit
+package nowsci.com.temperateweather.common.basic.models.options.unit
 
 import android.content.Context
 import android.text.BidiFormatter
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.models.options._basic.UnitEnum
-import wangdaye.com.geometricweather.common.basic.models.options._basic.Utils
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.models.options._basic.UnitEnum
+import nowsci.com.temperateweather.common.basic.models.options._basic.Utils
+import nowsci.com.temperateweather.common.utils.DisplayUtils
 
 enum class TemperatureUnit(
     override val id: String,

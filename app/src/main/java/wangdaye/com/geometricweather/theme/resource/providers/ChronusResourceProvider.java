@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.resource.providers;
+package nowsci.com.temperateweather.theme.resource.providers;
 
 import android.animation.Animator;
 import android.content.Context;
@@ -19,10 +19,10 @@ import androidx.core.content.res.ResourcesCompat;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.theme.resource.utils.Constants;
-import wangdaye.com.geometricweather.theme.resource.utils.ResourceUtils;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.theme.resource.utils.Constants;
+import nowsci.com.temperateweather.theme.resource.utils.ResourceUtils;
 
 public class ChronusResourceProvider extends ResourceProvider {
 

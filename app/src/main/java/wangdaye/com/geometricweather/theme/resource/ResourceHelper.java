@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.resource;
+package nowsci.com.temperateweather.theme.resource;
 
 import android.animation.Animator;
 import android.content.Context;
@@ -12,12 +12,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.Size;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.options.NotificationTextColor;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.theme.resource.providers.DefaultResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.utils.ResourceUtils;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.options.NotificationTextColor;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.theme.resource.providers.DefaultResourceProvider;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.resource.utils.ResourceUtils;
 
 public class ResourceHelper {
 

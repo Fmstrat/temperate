@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.resource.providers;
+package nowsci.com.temperateweather.theme.resource.providers;
 
 import android.animation.Animator;
 import android.graphics.drawable.Drawable;
@@ -9,26 +9,26 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.Size;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.theme.resource.utils.Constants;
-import wangdaye.com.geometricweather.theme.resource.utils.ResourceUtils;
-import wangdaye.com.geometricweather.common.ui.images.pixel.PixelMoonDrawable;
-import wangdaye.com.geometricweather.common.ui.images.pixel.PixelSunDrawable;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.theme.resource.utils.Constants;
+import nowsci.com.temperateweather.theme.resource.utils.ResourceUtils;
+import nowsci.com.temperateweather.common.ui.images.pixel.PixelMoonDrawable;
+import nowsci.com.temperateweather.common.ui.images.pixel.PixelSunDrawable;
 
 public class PixelResourcesProvider extends IconPackResourcesProvider {
 
     public PixelResourcesProvider(@NonNull ResourceProvider defaultProvider) {
         super(
-                GeometricWeather.getInstance(),
-                GeometricWeather.getInstance().getPackageName(),
+                TemperateWeather.getInstance(),
+                TemperateWeather.getInstance().getPackageName(),
                 defaultProvider
         );
     }
 
     public static boolean isPixelIconProvider(@NonNull String packageName) {
         return packageName.equals(
-                GeometricWeather.getInstance().getPackageName() + ".Pixel"
+                TemperateWeather.getInstance().getPackageName() + ".Pixel"
         );
     }
 

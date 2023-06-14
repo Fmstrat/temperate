@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.services;
+package nowsci.com.temperateweather.weather.services;
 
 import android.content.Context;
 
@@ -12,22 +12,22 @@ import javax.inject.Inject;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.CompositeDisposable;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.rxjava.BaseObserver;
-import wangdaye.com.geometricweather.common.rxjava.ObserverContainer;
-import wangdaye.com.geometricweather.common.rxjava.SchedulerTransformer;
-import wangdaye.com.geometricweather.settings.SettingsManager;
-import wangdaye.com.geometricweather.weather.apis.AtmoAuraIqaApi;
-import wangdaye.com.geometricweather.weather.apis.MfWeatherApi;
-import wangdaye.com.geometricweather.weather.converters.MfResultConverter;
-import wangdaye.com.geometricweather.weather.json.atmoaura.AtmoAuraQAResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfCurrentResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfEphemerisResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfForecastResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfForecastV2Result;
-import wangdaye.com.geometricweather.weather.json.mf.MfLocationResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfRainResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfWarningsResult;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.rxjava.BaseObserver;
+import nowsci.com.temperateweather.common.rxjava.ObserverContainer;
+import nowsci.com.temperateweather.common.rxjava.SchedulerTransformer;
+import nowsci.com.temperateweather.settings.SettingsManager;
+import nowsci.com.temperateweather.weather.apis.AtmoAuraIqaApi;
+import nowsci.com.temperateweather.weather.apis.MfWeatherApi;
+import nowsci.com.temperateweather.weather.converters.MfResultConverter;
+import nowsci.com.temperateweather.weather.json.atmoaura.AtmoAuraQAResult;
+import nowsci.com.temperateweather.weather.json.mf.MfCurrentResult;
+import nowsci.com.temperateweather.weather.json.mf.MfEphemerisResult;
+import nowsci.com.temperateweather.weather.json.mf.MfForecastResult;
+import nowsci.com.temperateweather.weather.json.mf.MfForecastV2Result;
+import nowsci.com.temperateweather.weather.json.mf.MfLocationResult;
+import nowsci.com.temperateweather.weather.json.mf.MfRainResult;
+import nowsci.com.temperateweather.weather.json.mf.MfWarningsResult;
 
 /**
  * Mf weather service.

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.di;
+package nowsci.com.temperateweather.weather.di;
 
 import dagger.Module;
 import dagger.Provides;
@@ -8,12 +8,12 @@ import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
-import wangdaye.com.geometricweather.BuildConfig;
-import wangdaye.com.geometricweather.weather.apis.AccuWeatherApi;
-import wangdaye.com.geometricweather.weather.apis.AtmoAuraIqaApi;
-import wangdaye.com.geometricweather.weather.apis.CaiYunApi;
-import wangdaye.com.geometricweather.weather.apis.MfWeatherApi;
-import wangdaye.com.geometricweather.weather.apis.OwmApi;
+import nowsci.com.temperateweather.BuildConfig;
+import nowsci.com.temperateweather.weather.apis.AccuWeatherApi;
+import nowsci.com.temperateweather.weather.apis.AtmoAuraIqaApi;
+import nowsci.com.temperateweather.weather.apis.CaiYunApi;
+import nowsci.com.temperateweather.weather.apis.MfWeatherApi;
+import nowsci.com.temperateweather.weather.apis.OwmApi;
 
 @InstallIn(SingletonComponent.class)
 @Module

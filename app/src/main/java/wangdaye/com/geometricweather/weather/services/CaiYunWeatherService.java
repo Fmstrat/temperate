@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.services;
+package nowsci.com.temperateweather.weather.services;
 
 import android.content.Context;
 
@@ -12,17 +12,17 @@ import javax.inject.Inject;
 import io.reactivex.Observable;
 import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.disposables.CompositeDisposable;
-import wangdaye.com.geometricweather.common.basic.models.ChineseCity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.rxjava.BaseObserver;
-import wangdaye.com.geometricweather.common.rxjava.ObserverContainer;
-import wangdaye.com.geometricweather.common.rxjava.SchedulerTransformer;
-import wangdaye.com.geometricweather.common.utils.LanguageUtils;
-import wangdaye.com.geometricweather.db.DatabaseHelper;
-import wangdaye.com.geometricweather.weather.apis.CaiYunApi;
-import wangdaye.com.geometricweather.weather.converters.CaiyunResultConverter;
-import wangdaye.com.geometricweather.weather.json.caiyun.CaiYunForecastResult;
-import wangdaye.com.geometricweather.weather.json.caiyun.CaiYunMainlyResult;
+import nowsci.com.temperateweather.common.basic.models.ChineseCity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.rxjava.BaseObserver;
+import nowsci.com.temperateweather.common.rxjava.ObserverContainer;
+import nowsci.com.temperateweather.common.rxjava.SchedulerTransformer;
+import nowsci.com.temperateweather.common.utils.LanguageUtils;
+import nowsci.com.temperateweather.db.DatabaseHelper;
+import nowsci.com.temperateweather.weather.apis.CaiYunApi;
+import nowsci.com.temperateweather.weather.converters.CaiyunResultConverter;
+import nowsci.com.temperateweather.weather.json.caiyun.CaiYunForecastResult;
+import nowsci.com.temperateweather.weather.json.caiyun.CaiYunMainlyResult;
 
 public class CaiYunWeatherService extends WeatherService {
 

@@ -1,12 +1,12 @@
-package wangdaye.com.geometricweather.db.entities;
+package nowsci.com.temperateweather.db.entities;
 
 import org.greenrobot.greendao.annotation.Convert;
 import org.greenrobot.greendao.annotation.Entity;
 
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.db.converters.TimeZoneConverter;
-import wangdaye.com.geometricweather.db.converters.WeatherSourceConverter;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.db.converters.TimeZoneConverter;
+import nowsci.com.temperateweather.db.converters.WeatherSourceConverter;
 
 import org.greenrobot.greendao.annotation.Id;
 

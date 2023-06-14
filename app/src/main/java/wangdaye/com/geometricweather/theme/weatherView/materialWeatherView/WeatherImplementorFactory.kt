@@ -1,12 +1,12 @@
-package wangdaye.com.geometricweather.theme.weatherView.materialWeatherView
+package nowsci.com.temperateweather.theme.weatherView.materialWeatherView
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.Size
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.theme.weatherView.WeatherView
-import wangdaye.com.geometricweather.theme.weatherView.WeatherView.WeatherKindRule
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.MaterialWeatherView.WeatherAnimationImplementor
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.implementor.*
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.theme.weatherView.WeatherView
+import nowsci.com.temperateweather.theme.weatherView.WeatherView.WeatherKindRule
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.MaterialWeatherView.WeatherAnimationImplementor
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.implementor.*
 
 object WeatherImplementorFactory {
 

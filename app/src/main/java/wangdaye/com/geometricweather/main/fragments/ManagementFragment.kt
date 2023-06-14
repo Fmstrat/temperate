@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.fragments
+package nowsci.com.temperateweather.main.fragments
 
 import android.content.res.ColorStateList
 import android.content.res.Configuration
@@ -14,20 +14,20 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.GeoActivity
-import wangdaye.com.geometricweather.common.basic.models.Location
-import wangdaye.com.geometricweather.common.basic.models.Location.Companion.buildLocal
-import wangdaye.com.geometricweather.common.ui.decotarions.Material3ListItemDecoration
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
-import wangdaye.com.geometricweather.common.utils.helpers.SnackbarHelper
-import wangdaye.com.geometricweather.databinding.FragmentManagementBinding
-import wangdaye.com.geometricweather.main.MainActivityViewModel
-import wangdaye.com.geometricweather.main.adapters.LocationAdapterAnimWrapper
-import wangdaye.com.geometricweather.main.adapters.location.LocationAdapter
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider
-import wangdaye.com.geometricweather.main.widgets.LocationItemTouchCallback
-import wangdaye.com.geometricweather.main.widgets.LocationItemTouchCallback.TouchReactor
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.GeoActivity
+import nowsci.com.temperateweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.basic.models.Location.Companion.buildLocal
+import nowsci.com.temperateweather.common.ui.decotarions.Material3ListItemDecoration
+import nowsci.com.temperateweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.common.utils.helpers.SnackbarHelper
+import nowsci.com.temperateweather.databinding.FragmentManagementBinding
+import nowsci.com.temperateweather.main.MainActivityViewModel
+import nowsci.com.temperateweather.main.adapters.LocationAdapterAnimWrapper
+import nowsci.com.temperateweather.main.adapters.location.LocationAdapter
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider
+import nowsci.com.temperateweather.main.widgets.LocationItemTouchCallback
+import nowsci.com.temperateweather.main.widgets.LocationItemTouchCallback.TouchReactor
 import kotlin.math.max
 import kotlin.math.min
 

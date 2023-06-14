@@ -1,6 +1,6 @@
-package wangdaye.com.geometricweather.main.adapters.main;
+package nowsci.com.temperateweather.main.adapters.main;
 
-import wangdaye.com.geometricweather.common.ui.adapters.TagAdapter;
+import nowsci.com.temperateweather.common.ui.adapters.TagAdapter;
 
 public class MainTag implements TagAdapter.Tag {
 

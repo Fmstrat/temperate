@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.implementor;
+package nowsci.com.temperateweather.theme.weatherView.materialWeatherView.implementor;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -13,8 +13,8 @@ import androidx.core.content.ContextCompat;
 
 import java.util.Random;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.MaterialWeatherView;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.MaterialWeatherView;
 
 /**
  * Rain implementor.

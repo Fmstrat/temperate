@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.polling.services.basic;
+package nowsci.com.temperateweather.background.polling.services.basic;
 
 import android.Manifest;
 import android.app.NotificationChannel;
@@ -14,10 +14,10 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
 
 /**
  * Foreground update service.
@@ -31,9 +31,9 @@ public abstract class ForegroundUpdateService extends UpdateService {
     public void onCreate() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel(
-                    GeometricWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND,
-                    GeometricWeather.getNotificationChannelName(
-                            this, GeometricWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND),
+                    TemperateWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND,
+                    TemperateWeather.getNotificationChannelName(
+                            this, TemperateWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND),
                     NotificationManager.IMPORTANCE_MIN
             );
             channel.setShowBadge(false);
@@ -54,9 +54,9 @@ public abstract class ForegroundUpdateService extends UpdateService {
     public int onStartCommand(Intent intent, int flags, int startId) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel(
-                    GeometricWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND,
-                    GeometricWeather.getNotificationChannelName(
-                            this, GeometricWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND),
+                    TemperateWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND,
+                    TemperateWeather.getNotificationChannelName(
+                            this, TemperateWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND),
                     NotificationManager.IMPORTANCE_MIN
             );
             channel.setShowBadge(false);
@@ -89,7 +89,7 @@ public abstract class ForegroundUpdateService extends UpdateService {
     public NotificationCompat.Builder getForegroundNotification(int total) {
         return new NotificationCompat.Builder(
                 this,
-                GeometricWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND
+                TemperateWeather.NOTIFICATION_CHANNEL_ID_BACKGROUND
         ).setSmallIcon(R.drawable.ic_running_in_background)
                 .setContentTitle(getString(R.string.geometric_weather))
                 .setContentText(

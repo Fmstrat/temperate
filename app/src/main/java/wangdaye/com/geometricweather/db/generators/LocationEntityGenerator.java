@@ -1,10 +1,10 @@
-package wangdaye.com.geometricweather.db.generators;
+package nowsci.com.temperateweather.db.generators;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.db.entities.LocationEntity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.db.entities.LocationEntity;
 
 public class LocationEntityGenerator {
 

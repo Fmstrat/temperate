@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.settings.preference.composables
+package nowsci.com.temperateweather.settings.preference.composables
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.text.font.FontWeight
-import wangdaye.com.geometricweather.R
+import nowsci.com.temperateweather.R
 
 @Composable
 fun SectionHeader(

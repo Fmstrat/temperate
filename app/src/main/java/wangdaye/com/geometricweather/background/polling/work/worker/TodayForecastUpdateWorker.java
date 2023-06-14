@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.polling.work.worker;
+package nowsci.com.temperateweather.background.polling.work.worker;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,11 +12,11 @@ import java.util.List;
 
 import dagger.assisted.Assisted;
 import dagger.assisted.AssistedInject;
-import wangdaye.com.geometricweather.background.polling.PollingManager;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.location.LocationHelper;
-import wangdaye.com.geometricweather.remoteviews.presenters.notification.ForecastNotificationIMP;
-import wangdaye.com.geometricweather.weather.WeatherHelper;
+import nowsci.com.temperateweather.background.polling.PollingManager;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.location.LocationHelper;
+import nowsci.com.temperateweather.remoteviews.presenters.notification.ForecastNotificationIMP;
+import nowsci.com.temperateweather.weather.WeatherHelper;
 
 @HiltWorker
 public class TodayForecastUpdateWorker extends AsyncUpdateWorker {

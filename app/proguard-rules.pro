@@ -16,10 +16,10 @@
 #   public *;
 #}
 
--keep class wangdaye.com.geometricweather.common.basic.models.** { *; }
--keep class wangdaye.com.geometricweather.weather.json.** { *; }
--keep class wangdaye.com.geometricweather.db.entities.** { *; }
--keep class wangdaye.com.geometricweather.location.services.ip.** { *; }
+-keep class nowsci.com.temperateweather.common.basic.models.** { *; }
+-keep class nowsci.com.temperateweather.weather.json.** { *; }
+-keep class nowsci.com.temperateweather.db.entities.** { *; }
+-keep class nowsci.com.temperateweather.location.services.ip.** { *; }
 
 -dontskipnonpubliclibraryclassmembers
 -printconfiguration

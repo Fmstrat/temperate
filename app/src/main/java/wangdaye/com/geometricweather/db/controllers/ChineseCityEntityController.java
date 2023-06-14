@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.db.controllers;
+package nowsci.com.temperateweather.db.controllers;
 
 import android.text.TextUtils;
 
@@ -11,9 +11,9 @@ import org.greenrobot.greendao.query.WhereCondition;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.db.entities.ChineseCityEntityDao;
-import wangdaye.com.geometricweather.db.entities.ChineseCityEntity;
-import wangdaye.com.geometricweather.db.entities.DaoSession;
+import nowsci.com.temperateweather.db.entities.ChineseCityEntityDao;
+import nowsci.com.temperateweather.db.entities.ChineseCityEntity;
+import nowsci.com.temperateweather.db.entities.DaoSession;
 
 public class ChineseCityEntityController extends AbsEntityController {
 

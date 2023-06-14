@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.db;
+package nowsci.com.temperateweather.db;
 
 import android.content.Context;
 
@@ -7,33 +7,33 @@ import androidx.annotation.Nullable;
 
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.ChineseCity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.History;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.db.controllers.AlertEntityController;
-import wangdaye.com.geometricweather.db.controllers.ChineseCityEntityController;
-import wangdaye.com.geometricweather.db.controllers.DailyEntityController;
-import wangdaye.com.geometricweather.db.controllers.HistoryEntityController;
-import wangdaye.com.geometricweather.db.controllers.HourlyEntityController;
-import wangdaye.com.geometricweather.db.controllers.LocationEntityController;
-import wangdaye.com.geometricweather.db.controllers.MinutelyEntityController;
-import wangdaye.com.geometricweather.db.controllers.WeatherEntityController;
-import wangdaye.com.geometricweather.db.generators.AlertEntityGenerator;
-import wangdaye.com.geometricweather.db.generators.ChineseCityEntityGenerator;
-import wangdaye.com.geometricweather.db.generators.DailyEntityGenerator;
-import wangdaye.com.geometricweather.db.generators.HistoryEntityGenerator;
-import wangdaye.com.geometricweather.db.generators.HourlyEntityGenerator;
-import wangdaye.com.geometricweather.db.generators.LocationEntityGenerator;
-import wangdaye.com.geometricweather.db.generators.MinutelyEntityGenerator;
-import wangdaye.com.geometricweather.db.generators.WeatherEntityGenerator;
-import wangdaye.com.geometricweather.db.entities.ChineseCityEntity;
-import wangdaye.com.geometricweather.db.entities.DaoMaster;
-import wangdaye.com.geometricweather.db.entities.DaoSession;
-import wangdaye.com.geometricweather.db.entities.HistoryEntity;
-import wangdaye.com.geometricweather.db.entities.LocationEntity;
-import wangdaye.com.geometricweather.db.entities.WeatherEntity;
-import wangdaye.com.geometricweather.common.utils.FileUtils;
+import nowsci.com.temperateweather.common.basic.models.ChineseCity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.History;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.db.controllers.AlertEntityController;
+import nowsci.com.temperateweather.db.controllers.ChineseCityEntityController;
+import nowsci.com.temperateweather.db.controllers.DailyEntityController;
+import nowsci.com.temperateweather.db.controllers.HistoryEntityController;
+import nowsci.com.temperateweather.db.controllers.HourlyEntityController;
+import nowsci.com.temperateweather.db.controllers.LocationEntityController;
+import nowsci.com.temperateweather.db.controllers.MinutelyEntityController;
+import nowsci.com.temperateweather.db.controllers.WeatherEntityController;
+import nowsci.com.temperateweather.db.generators.AlertEntityGenerator;
+import nowsci.com.temperateweather.db.generators.ChineseCityEntityGenerator;
+import nowsci.com.temperateweather.db.generators.DailyEntityGenerator;
+import nowsci.com.temperateweather.db.generators.HistoryEntityGenerator;
+import nowsci.com.temperateweather.db.generators.HourlyEntityGenerator;
+import nowsci.com.temperateweather.db.generators.LocationEntityGenerator;
+import nowsci.com.temperateweather.db.generators.MinutelyEntityGenerator;
+import nowsci.com.temperateweather.db.generators.WeatherEntityGenerator;
+import nowsci.com.temperateweather.db.entities.ChineseCityEntity;
+import nowsci.com.temperateweather.db.entities.DaoMaster;
+import nowsci.com.temperateweather.db.entities.DaoSession;
+import nowsci.com.temperateweather.db.entities.HistoryEntity;
+import nowsci.com.temperateweather.db.entities.LocationEntity;
+import nowsci.com.temperateweather.db.entities.WeatherEntity;
+import nowsci.com.temperateweather.common.utils.FileUtils;
 
 /**
  * Database helper

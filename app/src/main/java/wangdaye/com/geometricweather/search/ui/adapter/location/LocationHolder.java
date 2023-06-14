@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.search.ui.adapter.location;
+package nowsci.com.temperateweather.search.ui.adapter.location;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.databinding.ItemLocationCardBinding;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.databinding.ItemLocationCardBinding;
 
 public class LocationHolder extends RecyclerView.ViewHolder {
 

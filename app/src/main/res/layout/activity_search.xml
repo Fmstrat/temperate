@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarAppBarLayout
+        <nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarAppBarLayout
             android:id="@+id/searchBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
 
             </RelativeLayout>
 
-        </wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarAppBarLayout>
+        </nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarAppBarLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -74,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarRecyclerView
+                <nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarRecyclerView
                     android:id="@+id/recyclerView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -106,13 +106,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <wangdaye.com.geometricweather.search.ui.FitBottomBarFrameLayout
+    <nowsci.com.temperateweather.search.ui.FitBottomBarFrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         app:layout_behavior=".common.ui.behaviors.FloatingAboveSnackbarBehavior">
 
-        <wangdaye.com.geometricweather.search.ui.FabView
+        <nowsci.com.temperateweather.search.ui.FabView
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -170,6 +170,6 @@
 
         </io.codetail.widget.RevealLinearLayout>
 
-    </wangdaye.com.geometricweather.search.ui.FitBottomBarFrameLayout>
+    </nowsci.com.temperateweather.search.ui.FitBottomBarFrameLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

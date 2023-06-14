@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.utils;
+package nowsci.com.temperateweather.common.utils;
 
 import android.content.Context;
 
@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.ChineseCity;
+import nowsci.com.temperateweather.common.basic.models.ChineseCity;
 
 /**
  * File utils.

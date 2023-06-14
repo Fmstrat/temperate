@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.fragments
+package nowsci.com.temperateweather.main.fragments
 
 import android.animation.Animator
 import android.annotation.SuppressLint
@@ -14,24 +14,24 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.graphics.ColorUtils
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.GeoActivity
-import wangdaye.com.geometricweather.common.basic.livedata.EqualtableLiveData
-import wangdaye.com.geometricweather.common.basic.models.Location
-import wangdaye.com.geometricweather.common.ui.widgets.SwipeSwitchLayout
-import wangdaye.com.geometricweather.common.ui.widgets.SwipeSwitchLayout.OnSwitchListener
-import wangdaye.com.geometricweather.databinding.FragmentHomeBinding
-import wangdaye.com.geometricweather.main.MainActivityViewModel
-import wangdaye.com.geometricweather.main.adapters.main.MainAdapter
-import wangdaye.com.geometricweather.main.layouts.MainLayoutManager
-import wangdaye.com.geometricweather.main.utils.MainModuleUtils
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.theme.ThemeManager
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider
-import wangdaye.com.geometricweather.theme.weatherView.WeatherView
-import wangdaye.com.geometricweather.theme.weatherView.WeatherViewController
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.GeoActivity
+import nowsci.com.temperateweather.common.basic.livedata.EqualtableLiveData
+import nowsci.com.temperateweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.ui.widgets.SwipeSwitchLayout
+import nowsci.com.temperateweather.common.ui.widgets.SwipeSwitchLayout.OnSwitchListener
+import nowsci.com.temperateweather.databinding.FragmentHomeBinding
+import nowsci.com.temperateweather.main.MainActivityViewModel
+import nowsci.com.temperateweather.main.adapters.main.MainAdapter
+import nowsci.com.temperateweather.main.layouts.MainLayoutManager
+import nowsci.com.temperateweather.main.utils.MainModuleUtils
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.theme.ThemeManager
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider
+import nowsci.com.temperateweather.theme.weatherView.WeatherView
+import nowsci.com.temperateweather.theme.weatherView.WeatherViewController
 
 class HomeFragment : MainModuleFragment() {
 

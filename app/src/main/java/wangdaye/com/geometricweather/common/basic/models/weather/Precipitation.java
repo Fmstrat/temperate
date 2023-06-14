@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic.models.weather;
+package nowsci.com.temperateweather.common.basic.models.weather;
 
 import android.content.Context;
 
@@ -8,8 +8,8 @@ import androidx.core.content.ContextCompat;
 
 import java.io.Serializable;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.PrecipitationUnit;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.options.unit.PrecipitationUnit;
 
 /**
  * Precipitation.

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.utils.helpers;
+package nowsci.com.temperateweather.common.utils.helpers;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -19,22 +19,22 @@ import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.util.Pair;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.background.polling.services.basic.AwakeForegroundUpdateService;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.ui.activities.AlertActivity;
-import wangdaye.com.geometricweather.common.ui.activities.AllergenActivity;
-import wangdaye.com.geometricweather.daily.DailyWeatherActivity;
-import wangdaye.com.geometricweather.main.MainActivity;
-import wangdaye.com.geometricweather.search.SearchActivity;
-import wangdaye.com.geometricweather.settings.activities.AboutActivity;
-import wangdaye.com.geometricweather.settings.activities.CardDisplayManageActivity;
-import wangdaye.com.geometricweather.settings.activities.DailyTrendDisplayManageActivity;
-import wangdaye.com.geometricweather.settings.activities.HourlyTrendDisplayManageActivity;
-import wangdaye.com.geometricweather.settings.activities.PreviewIconActivity;
-import wangdaye.com.geometricweather.settings.activities.SelectProviderActivity;
-import wangdaye.com.geometricweather.settings.activities.SettingsActivity;
-import wangdaye.com.geometricweather.wallpaper.MaterialLiveWallpaperService;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.background.polling.services.basic.AwakeForegroundUpdateService;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.ui.activities.AlertActivity;
+import nowsci.com.temperateweather.common.ui.activities.AllergenActivity;
+import nowsci.com.temperateweather.daily.DailyWeatherActivity;
+import nowsci.com.temperateweather.main.MainActivity;
+import nowsci.com.temperateweather.search.SearchActivity;
+import nowsci.com.temperateweather.settings.activities.AboutActivity;
+import nowsci.com.temperateweather.settings.activities.CardDisplayManageActivity;
+import nowsci.com.temperateweather.settings.activities.DailyTrendDisplayManageActivity;
+import nowsci.com.temperateweather.settings.activities.HourlyTrendDisplayManageActivity;
+import nowsci.com.temperateweather.settings.activities.PreviewIconActivity;
+import nowsci.com.temperateweather.settings.activities.SelectProviderActivity;
+import nowsci.com.temperateweather.settings.activities.SettingsActivity;
+import nowsci.com.temperateweather.wallpaper.MaterialLiveWallpaperService;
 
 /**
  * Intent helper.
@@ -97,7 +97,7 @@ public class IntentHelper {
     }
 
     public static Intent buildAwakeUpdateActivityIntent() {
-        return new Intent("com.wangdaye.geometricweather.UPDATE")
+        return new Intent("com.nowsci.temperateweather.UPDATE")
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     }
 

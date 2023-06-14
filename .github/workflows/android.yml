@@ -1,4 +1,4 @@
-name: Geometric Weather CI
+name: Temperate Weather CI
 
 on:
   push:

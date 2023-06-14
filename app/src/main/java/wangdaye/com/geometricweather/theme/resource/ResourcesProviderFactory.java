@@ -1,30 +1,30 @@
-package wangdaye.com.geometricweather.theme.resource;
+package nowsci.com.temperateweather.theme.resource;
 
 import android.content.Context;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.theme.resource.providers.ChronusResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.providers.DefaultResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.providers.IconPackResourcesProvider;
-import wangdaye.com.geometricweather.theme.resource.providers.PixelResourcesProvider;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.theme.resource.providers.ChronusResourceProvider;
+import nowsci.com.temperateweather.theme.resource.providers.DefaultResourceProvider;
+import nowsci.com.temperateweather.theme.resource.providers.IconPackResourcesProvider;
+import nowsci.com.temperateweather.theme.resource.providers.PixelResourcesProvider;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class ResourcesProviderFactory {
 
     public static ResourceProvider getNewInstance() {
         return getNewInstance(
                 SettingsManager
-                        .getInstance(GeometricWeather.getInstance())
+                        .getInstance(TemperateWeather.getInstance())
                         .getIconProvider()
         );
     }
 
     public static ResourceProvider getNewInstance(String packageName) {
-        Context context = GeometricWeather.getInstance();
+        Context context = TemperateWeather.getInstance();
 
         DefaultResourceProvider defaultProvider = new DefaultResourceProvider();
 
@@ -55,7 +55,7 @@ public class ResourcesProviderFactory {
         providerList.add(defaultProvider);
         providerList.add(new PixelResourcesProvider(defaultProvider));
 
-        // geometric weather icon provider.
+        // temperate weather icon provider.
         providerList.addAll(IconPackResourcesProvider.getProviderList(context, defaultProvider));
 
         // chronus icon pack.

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.background.polling.work;
+package nowsci.com.temperateweather.background.polling.work;
 
 import android.content.Context;
 
@@ -15,9 +15,9 @@ import androidx.work.WorkManager;
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
-import wangdaye.com.geometricweather.background.polling.work.worker.NormalUpdateWorker;
-import wangdaye.com.geometricweather.background.polling.work.worker.TodayForecastUpdateWorker;
-import wangdaye.com.geometricweather.background.polling.work.worker.TomorrowForecastUpdateWorker;
+import nowsci.com.temperateweather.background.polling.work.worker.NormalUpdateWorker;
+import nowsci.com.temperateweather.background.polling.work.worker.TodayForecastUpdateWorker;
+import nowsci.com.temperateweather.background.polling.work.worker.TomorrowForecastUpdateWorker;
 
 public class WorkerHelper {
 

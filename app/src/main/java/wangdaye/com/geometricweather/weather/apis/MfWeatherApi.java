@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.apis;
+package nowsci.com.temperateweather.weather.apis;
 
 import java.util.List;
 
@@ -6,13 +6,13 @@ import io.reactivex.Observable;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
-import wangdaye.com.geometricweather.weather.json.mf.MfCurrentResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfEphemerisResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfForecastResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfForecastV2Result;
-import wangdaye.com.geometricweather.weather.json.mf.MfLocationResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfRainResult;
-import wangdaye.com.geometricweather.weather.json.mf.MfWarningsResult;
+import nowsci.com.temperateweather.weather.json.mf.MfCurrentResult;
+import nowsci.com.temperateweather.weather.json.mf.MfEphemerisResult;
+import nowsci.com.temperateweather.weather.json.mf.MfForecastResult;
+import nowsci.com.temperateweather.weather.json.mf.MfForecastV2Result;
+import nowsci.com.temperateweather.weather.json.mf.MfLocationResult;
+import nowsci.com.temperateweather.weather.json.mf.MfRainResult;
+import nowsci.com.temperateweather.weather.json.mf.MfWarningsResult;
 
 /**
  * API Météo France

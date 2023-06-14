@@ -1,20 +1,20 @@
-package wangdaye.com.geometricweather.settings
+package nowsci.com.temperateweather.settings
 
 import android.content.Context
-import wangdaye.com.geometricweather.BuildConfig
-import wangdaye.com.geometricweather.GeometricWeather
-import wangdaye.com.geometricweather.common.basic.models.options.DarkMode
-import wangdaye.com.geometricweather.common.basic.models.options.NotificationStyle
-import wangdaye.com.geometricweather.common.basic.models.options.UpdateInterval
-import wangdaye.com.geometricweather.common.basic.models.options.WidgetWeekIconMode
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.CardDisplay
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.DailyTrendDisplay
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.HourlyTrendDisplay
-import wangdaye.com.geometricweather.common.basic.models.options.appearance.Language
-import wangdaye.com.geometricweather.common.basic.models.options.provider.LocationProvider
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource
-import wangdaye.com.geometricweather.common.basic.models.options.unit.*
-import wangdaye.com.geometricweather.common.bus.EventBus
+import nowsci.com.temperateweather.BuildConfig
+import nowsci.com.temperateweather.TemperateWeather
+import nowsci.com.temperateweather.common.basic.models.options.DarkMode
+import nowsci.com.temperateweather.common.basic.models.options.NotificationStyle
+import nowsci.com.temperateweather.common.basic.models.options.UpdateInterval
+import nowsci.com.temperateweather.common.basic.models.options.WidgetWeekIconMode
+import nowsci.com.temperateweather.common.basic.models.options.appearance.CardDisplay
+import nowsci.com.temperateweather.common.basic.models.options.appearance.DailyTrendDisplay
+import nowsci.com.temperateweather.common.basic.models.options.appearance.HourlyTrendDisplay
+import nowsci.com.temperateweather.common.basic.models.options.appearance.Language
+import nowsci.com.temperateweather.common.basic.models.options.provider.LocationProvider
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource
+import nowsci.com.temperateweather.common.basic.models.options.unit.*
+import nowsci.com.temperateweather.common.bus.EventBus
 
 class SettingsChangedMessage
 
@@ -182,7 +182,7 @@ class SettingsManager private constructor(context: Context) {
                 .apply()
             notifySettingsChanged()
         }
-        get() = config.getString("iconProvider", GeometricWeather.instance.packageName) ?: ""
+        get() = config.getString("iconProvider", TemperateWeather.instance.packageName) ?: ""
 
     var cardDisplayList: List<CardDisplay>
         set(value) {

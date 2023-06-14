@@ -1,9 +1,9 @@
-package wangdaye.com.geometricweather.main.widgets
+package nowsci.com.temperateweather.main.widgets
 
 import android.content.Context
 import android.util.AttributeSet
-import wangdaye.com.geometricweather.common.ui.widgets.insets.FitSystemBarRecyclerView
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.common.ui.widgets.insets.FitSystemBarRecyclerView
+import nowsci.com.temperateweather.common.utils.DisplayUtils
 
 class FitTabletRecyclerView @JvmOverloads constructor(
     context: Context,

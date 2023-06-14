@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.widgets;
+package nowsci.com.temperateweather.main.widgets;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -11,10 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
 
 public class TrendRecyclerViewScrollBar extends RecyclerView.ItemDecoration {
 

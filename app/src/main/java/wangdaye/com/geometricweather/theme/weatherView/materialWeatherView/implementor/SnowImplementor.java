@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.implementor;
+package nowsci.com.temperateweather.theme.weatherView.materialWeatherView.implementor;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -9,7 +9,7 @@ import androidx.annotation.Size;
 
 import java.util.Random;
 
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.MaterialWeatherView;
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.MaterialWeatherView;
 
 /**
  * Snow implementor.

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.location.services.ip;
+package nowsci.com.temperateweather.location.services.ip;
 
 import android.content.Context;
 
@@ -7,11 +7,11 @@ import androidx.annotation.NonNull;
 import javax.inject.Inject;
 
 import io.reactivex.disposables.CompositeDisposable;
-import wangdaye.com.geometricweather.location.services.LocationService;
-import wangdaye.com.geometricweather.common.rxjava.SchedulerTransformer;
-import wangdaye.com.geometricweather.common.rxjava.BaseObserver;
-import wangdaye.com.geometricweather.common.rxjava.ObserverContainer;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.location.services.LocationService;
+import nowsci.com.temperateweather.common.rxjava.SchedulerTransformer;
+import nowsci.com.temperateweather.common.rxjava.BaseObserver;
+import nowsci.com.temperateweather.common.rxjava.ObserverContainer;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class BaiduIPLocationService extends LocationService {
 

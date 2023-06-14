@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.db.entities;
+package nowsci.com.temperateweather.db.entities;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Id;
@@ -6,7 +6,7 @@ import org.greenrobot.greendao.annotation.Id;
 import java.util.Date;
 import org.greenrobot.greendao.annotation.Generated;
 
-import wangdaye.com.geometricweather.common.basic.models.weather.Alert;
+import nowsci.com.temperateweather.common.basic.models.weather.Alert;
 
 /**
  * Alert entity.

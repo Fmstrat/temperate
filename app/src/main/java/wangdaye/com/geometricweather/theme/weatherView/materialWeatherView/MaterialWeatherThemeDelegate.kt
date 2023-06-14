@@ -1,15 +1,15 @@
-package wangdaye.com.geometricweather.theme.weatherView.materialWeatherView
+package nowsci.com.temperateweather.theme.weatherView.materialWeatherView
 
 import android.content.Context
 import android.graphics.Color
 import android.view.Window
 import androidx.core.graphics.ColorUtils
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.utils.DisplayUtils
-import wangdaye.com.geometricweather.theme.weatherView.WeatherThemeDelegate
-import wangdaye.com.geometricweather.theme.weatherView.WeatherView
-import wangdaye.com.geometricweather.theme.weatherView.WeatherView.WeatherKindRule
-import wangdaye.com.geometricweather.theme.weatherView.materialWeatherView.implementor.*
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.utils.DisplayUtils
+import nowsci.com.temperateweather.theme.weatherView.WeatherThemeDelegate
+import nowsci.com.temperateweather.theme.weatherView.WeatherView
+import nowsci.com.temperateweather.theme.weatherView.WeatherView.WeatherKindRule
+import nowsci.com.temperateweather.theme.weatherView.materialWeatherView.implementor.*
 
 class MaterialWeatherThemeDelegate: WeatherThemeDelegate {
 

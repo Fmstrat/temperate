@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.adapters;
+package nowsci.com.temperateweather.common.ui.adapters;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

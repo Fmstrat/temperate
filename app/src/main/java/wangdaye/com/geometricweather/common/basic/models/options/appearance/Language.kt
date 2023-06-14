@@ -1,12 +1,12 @@
-package wangdaye.com.geometricweather.common.basic.models.options.appearance
+package nowsci.com.temperateweather.common.basic.models.options.appearance
 
 import android.content.Context
 import android.content.res.Resources
 import android.os.Build
 import android.text.TextUtils
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.common.basic.models.options._basic.BaseEnum
-import wangdaye.com.geometricweather.common.basic.models.options._basic.Utils
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.common.basic.models.options._basic.BaseEnum
+import nowsci.com.temperateweather.common.basic.models.options._basic.Utils
 import java.util.*
 
 enum class Language(

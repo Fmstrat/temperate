@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.db.controllers;
+package nowsci.com.temperateweather.db.controllers;
 
 import android.annotation.SuppressLint;
 
@@ -11,11 +11,11 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.db.entities.DaoSession;
-import wangdaye.com.geometricweather.db.entities.HistoryEntity;
-import wangdaye.com.geometricweather.db.entities.HistoryEntityDao;
-import wangdaye.com.geometricweather.db.converters.WeatherSourceConverter;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.db.entities.DaoSession;
+import nowsci.com.temperateweather.db.entities.HistoryEntity;
+import nowsci.com.temperateweather.db.entities.HistoryEntityDao;
+import nowsci.com.temperateweather.db.converters.WeatherSourceConverter;
 
 public class HistoryEntityController extends AbsEntityController {
 

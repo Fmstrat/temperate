@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.remoteviews.presenters;
+package nowsci.com.temperateweather.remoteviews.presenters;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
@@ -9,20 +9,20 @@ import android.net.Uri;
 import android.util.TypedValue;
 import android.widget.RemoteViews;
 
-import wangdaye.com.geometricweather.GeometricWeather;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.background.receiver.widget.WidgetWeekProvider;
-import wangdaye.com.geometricweather.common.basic.models.options.NotificationTextColor;
-import wangdaye.com.geometricweather.common.basic.models.options.WidgetWeekIconMode;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.TemperatureUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Temperature;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.remoteviews.WidgetHelper;
-import wangdaye.com.geometricweather.theme.resource.ResourceHelper;
-import wangdaye.com.geometricweather.theme.resource.providers.ResourceProvider;
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.TemperateWeather;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.background.receiver.widget.WidgetWeekProvider;
+import nowsci.com.temperateweather.common.basic.models.options.NotificationTextColor;
+import nowsci.com.temperateweather.common.basic.models.options.WidgetWeekIconMode;
+import nowsci.com.temperateweather.common.basic.models.options.unit.TemperatureUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Temperature;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.remoteviews.WidgetHelper;
+import nowsci.com.temperateweather.theme.resource.ResourceHelper;
+import nowsci.com.temperateweather.theme.resource.providers.ResourceProvider;
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class WeekWidgetIMP extends AbstractRemoteViewsPresenter {
 
@@ -244,7 +244,7 @@ public class WeekWidgetIMP extends AbstractRemoteViewsPresenter {
                 getWeatherPendingIntent(
                         context,
                         location,
-                        GeometricWeather.WIDGET_WEEK_PENDING_INTENT_CODE_WEATHER
+                        TemperateWeather.WIDGET_WEEK_PENDING_INTENT_CODE_WEATHER
                 )
         );
 
@@ -256,7 +256,7 @@ public class WeekWidgetIMP extends AbstractRemoteViewsPresenter {
                             context,
                             location,
                             0,
-                            GeometricWeather.WIDGET_WEEK_PENDING_INTENT_CODE_DAILY_FORECAST_1
+                            TemperateWeather.WIDGET_WEEK_PENDING_INTENT_CODE_DAILY_FORECAST_1
                     )
             );
             views.setOnClickPendingIntent(
@@ -265,7 +265,7 @@ public class WeekWidgetIMP extends AbstractRemoteViewsPresenter {
                             context,
                             location,
                             1,
-                            GeometricWeather.WIDGET_WEEK_PENDING_INTENT_CODE_DAILY_FORECAST_2
+                            TemperateWeather.WIDGET_WEEK_PENDING_INTENT_CODE_DAILY_FORECAST_2
                     )
             );
             views.setOnClickPendingIntent(
@@ -274,7 +274,7 @@ public class WeekWidgetIMP extends AbstractRemoteViewsPresenter {
                             context,
                             location,
                             2,
-                            GeometricWeather.WIDGET_WEEK_PENDING_INTENT_CODE_DAILY_FORECAST_3
+                            TemperateWeather.WIDGET_WEEK_PENDING_INTENT_CODE_DAILY_FORECAST_3
                     )
             );
             views.setOnClickPendingIntent(
@@ -283,7 +283,7 @@ public class WeekWidgetIMP extends AbstractRemoteViewsPresenter {
                             context,
                             location,
                             3,
-                            GeometricWeather.WIDGET_WEEK_PENDING_INTENT_CODE_DAILY_FORECAST_4
+                            TemperateWeather.WIDGET_WEEK_PENDING_INTENT_CODE_DAILY_FORECAST_4
                     )
             );
             views.setOnClickPendingIntent(
@@ -292,7 +292,7 @@ public class WeekWidgetIMP extends AbstractRemoteViewsPresenter {
                             context,
                             location,
                             4,
-                            GeometricWeather.WIDGET_WEEK_PENDING_INTENT_CODE_DAILY_FORECAST_5
+                            TemperateWeather.WIDGET_WEEK_PENDING_INTENT_CODE_DAILY_FORECAST_5
                     )
             );
         }

@@ -1,10 +1,10 @@
-package wangdaye.com.geometricweather.daily.adapter.model;
+package nowsci.com.temperateweather.daily.adapter.model;
 
 import java.util.TimeZone;
 
-import wangdaye.com.geometricweather.common.basic.models.weather.Astro;
-import wangdaye.com.geometricweather.common.basic.models.weather.MoonPhase;
-import wangdaye.com.geometricweather.daily.adapter.DailyWeatherAdapter;
+import nowsci.com.temperateweather.common.basic.models.weather.Astro;
+import nowsci.com.temperateweather.common.basic.models.weather.MoonPhase;
+import nowsci.com.temperateweather.daily.adapter.DailyWeatherAdapter;
 
 public class DailyAstro implements DailyWeatherAdapter.ViewModel {
 

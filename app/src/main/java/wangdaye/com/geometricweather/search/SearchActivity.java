@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.search;
+package nowsci.com.temperateweather.search;
 
 import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
@@ -34,18 +34,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 import dagger.hilt.android.AndroidEntryPoint;
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.ui.decotarions.Material3ListItemDecoration;
-import wangdaye.com.geometricweather.common.utils.DisplayUtils;
-import wangdaye.com.geometricweather.common.utils.helpers.SnackbarHelper;
-import wangdaye.com.geometricweather.databinding.ActivitySearchBinding;
-import wangdaye.com.geometricweather.db.DatabaseHelper;
-import wangdaye.com.geometricweather.search.ui.FabView;
-import wangdaye.com.geometricweather.search.ui.adapter.location.LocationAdapter;
-import wangdaye.com.geometricweather.search.ui.adapter.source.WeatherSourceAdapter;
-import wangdaye.com.geometricweather.theme.ThemeManager;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.ui.decotarions.Material3ListItemDecoration;
+import nowsci.com.temperateweather.common.utils.DisplayUtils;
+import nowsci.com.temperateweather.common.utils.helpers.SnackbarHelper;
+import nowsci.com.temperateweather.databinding.ActivitySearchBinding;
+import nowsci.com.temperateweather.db.DatabaseHelper;
+import nowsci.com.temperateweather.search.ui.FabView;
+import nowsci.com.temperateweather.search.ui.adapter.location.LocationAdapter;
+import nowsci.com.temperateweather.search.ui.adapter.source.WeatherSourceAdapter;
+import nowsci.com.temperateweather.theme.ThemeManager;
 
 @AndroidEntryPoint
 public class SearchActivity extends GeoActivity

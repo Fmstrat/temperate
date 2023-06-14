@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.basic;
+package nowsci.com.temperateweather.common.basic;
 
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Lifecycle;
 
-import wangdaye.com.geometricweather.common.snackbar.SnackbarContainer;
+import nowsci.com.temperateweather.common.snackbar.SnackbarContainer;
 
 public class GeoFragment extends Fragment {
 

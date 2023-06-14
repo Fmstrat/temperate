@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.theme.compose.night
+package nowsci.com.temperateweather.theme.compose.night
 import androidx.compose.ui.graphics.Color
 
 val night_md_theme_dark_primary = Color(0xFFa8c7ff)

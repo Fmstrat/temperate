@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.common.ui.widgets.trend.item;
+package nowsci.com.temperateweather.common.ui.widgets.trend.item;
 
 import android.content.Context;
 import android.os.Build;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.RequiresApi;
 
-import wangdaye.com.geometricweather.common.ui.widgets.trend.chart.AbsChartItemView;
+import nowsci.com.temperateweather.common.ui.widgets.trend.chart.AbsChartItemView;
 
 public abstract class AbsTrendItemView extends ViewGroup {
 

@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters.main;
+package nowsci.com.temperateweather.main.adapters.main;
 
 public interface ViewType {
 

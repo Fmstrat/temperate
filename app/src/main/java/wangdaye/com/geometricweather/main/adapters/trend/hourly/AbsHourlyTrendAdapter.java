@@ -1,20 +1,20 @@
-package wangdaye.com.geometricweather.main.adapters.trend.hourly;
+package nowsci.com.temperateweather.main.adapters.trend.hourly;
 
 import android.content.Context;
 import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.GeoActivity;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.weather.Hourly;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerView;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerViewAdapter;
-import wangdaye.com.geometricweather.common.ui.widgets.trend.item.HourlyTrendItemView;
-import wangdaye.com.geometricweather.main.dialogs.HourlyWeatherDialog;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.GeoActivity;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.weather.Hourly;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerView;
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerViewAdapter;
+import nowsci.com.temperateweather.common.ui.widgets.trend.item.HourlyTrendItemView;
+import nowsci.com.temperateweather.main.dialogs.HourlyWeatherDialog;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
 
 public abstract class AbsHourlyTrendAdapter extends TrendRecyclerViewAdapter<AbsHourlyTrendAdapter.ViewHolder>  {
 

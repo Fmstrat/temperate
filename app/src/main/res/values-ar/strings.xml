@@ -2,7 +2,7 @@
 
     <!-- app. -->
     <string name="app_name">الطقس</string>
-    <string name="geometric_weather">Geometric Weather</string>
+    <string name="geometric_weather">Temperate Weather</string>
 
     <!-- keyword. -->
     <string name="current_location">الموقع الحالي</string>

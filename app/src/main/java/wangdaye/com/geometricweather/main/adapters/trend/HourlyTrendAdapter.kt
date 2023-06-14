@@ -1,14 +1,14 @@
-package wangdaye.com.geometricweather.main.adapters.trend
+package nowsci.com.temperateweather.main.adapters.trend
 
 import android.annotation.SuppressLint
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import wangdaye.com.geometricweather.common.basic.GeoActivity
-import wangdaye.com.geometricweather.common.basic.models.Location
-import wangdaye.com.geometricweather.common.ui.widgets.trend.TrendRecyclerView
-import wangdaye.com.geometricweather.main.adapters.trend.hourly.*
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.theme.resource.ResourcesProviderFactory
+import nowsci.com.temperateweather.common.basic.GeoActivity
+import nowsci.com.temperateweather.common.basic.models.Location
+import nowsci.com.temperateweather.common.ui.widgets.trend.TrendRecyclerView
+import nowsci.com.temperateweather.main.adapters.trend.hourly.*
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.theme.resource.ResourcesProviderFactory
 
 @SuppressLint("NotifyDataSetChanged")
 class HourlyTrendAdapter(

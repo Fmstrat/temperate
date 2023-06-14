@@ -1,16 +1,16 @@
-package wangdaye.com.geometricweather.settings.compose
+package nowsci.com.temperateweather.settings.compose
 
 import android.content.Context
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
-import wangdaye.com.geometricweather.R
-import wangdaye.com.geometricweather.settings.SettingsManager
-import wangdaye.com.geometricweather.settings.preference.bottomInsetItem
-import wangdaye.com.geometricweather.settings.preference.composables.EditTextPreferenceView
-import wangdaye.com.geometricweather.settings.preference.composables.PreferenceScreen
-import wangdaye.com.geometricweather.settings.preference.editTextPreferenceItem
-import wangdaye.com.geometricweather.settings.preference.sectionFooterItem
-import wangdaye.com.geometricweather.settings.preference.sectionHeaderItem
+import nowsci.com.temperateweather.R
+import nowsci.com.temperateweather.settings.SettingsManager
+import nowsci.com.temperateweather.settings.preference.bottomInsetItem
+import nowsci.com.temperateweather.settings.preference.composables.EditTextPreferenceView
+import nowsci.com.temperateweather.settings.preference.composables.PreferenceScreen
+import nowsci.com.temperateweather.settings.preference.editTextPreferenceItem
+import nowsci.com.temperateweather.settings.preference.sectionFooterItem
+import nowsci.com.temperateweather.settings.preference.sectionHeaderItem
 
 @Composable
 fun SettingsProviderAdvancedSettingsScreen(

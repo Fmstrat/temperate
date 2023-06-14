@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.main.adapters;
+package nowsci.com.temperateweather.main.adapters;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -16,14 +16,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import wangdaye.com.geometricweather.R;
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.CloudCoverUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.RelativeHumidityUnit;
-import wangdaye.com.geometricweather.common.basic.models.options.unit.SpeedUnit;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.main.utils.MainThemeColorProvider;
-import wangdaye.com.geometricweather.settings.SettingsManager;
+import nowsci.com.temperateweather.R;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.unit.CloudCoverUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.RelativeHumidityUnit;
+import nowsci.com.temperateweather.common.basic.models.options.unit.SpeedUnit;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.main.utils.MainThemeColorProvider;
+import nowsci.com.temperateweather.settings.SettingsManager;
 
 public class DetailsAdapter extends RecyclerView.Adapter<DetailsAdapter.ViewHolder> {
 

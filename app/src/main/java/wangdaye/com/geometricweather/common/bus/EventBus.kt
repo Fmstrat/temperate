@@ -1,8 +1,8 @@
-package wangdaye.com.geometricweather.common.bus
+package nowsci.com.temperateweather.common.bus
 
 import android.os.Handler
 import android.os.Looper
-import wangdaye.com.geometricweather.common.basic.livedata.BusLiveData
+import nowsci.com.temperateweather.common.basic.livedata.BusLiveData
 import java.util.*
 
 class EventBus private constructor() {

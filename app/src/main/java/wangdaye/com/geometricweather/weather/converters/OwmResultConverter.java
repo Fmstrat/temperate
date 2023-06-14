@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.weather.converters;
+package nowsci.com.temperateweather.weather.converters;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -13,32 +13,32 @@ import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;
 
-import wangdaye.com.geometricweather.common.basic.models.Location;
-import wangdaye.com.geometricweather.common.basic.models.options.provider.WeatherSource;
-import wangdaye.com.geometricweather.common.basic.models.weather.AirQuality;
-import wangdaye.com.geometricweather.common.basic.models.weather.Alert;
-import wangdaye.com.geometricweather.common.basic.models.weather.Astro;
-import wangdaye.com.geometricweather.common.basic.models.weather.Base;
-import wangdaye.com.geometricweather.common.basic.models.weather.Current;
-import wangdaye.com.geometricweather.common.basic.models.weather.Daily;
-import wangdaye.com.geometricweather.common.basic.models.weather.HalfDay;
-import wangdaye.com.geometricweather.common.basic.models.weather.Hourly;
-import wangdaye.com.geometricweather.common.basic.models.weather.Minutely;
-import wangdaye.com.geometricweather.common.basic.models.weather.MoonPhase;
-import wangdaye.com.geometricweather.common.basic.models.weather.Pollen;
-import wangdaye.com.geometricweather.common.basic.models.weather.Precipitation;
-import wangdaye.com.geometricweather.common.basic.models.weather.PrecipitationDuration;
-import wangdaye.com.geometricweather.common.basic.models.weather.PrecipitationProbability;
-import wangdaye.com.geometricweather.common.basic.models.weather.Temperature;
-import wangdaye.com.geometricweather.common.basic.models.weather.UV;
-import wangdaye.com.geometricweather.common.basic.models.weather.Weather;
-import wangdaye.com.geometricweather.common.basic.models.weather.WeatherCode;
-import wangdaye.com.geometricweather.common.basic.models.weather.Wind;
-import wangdaye.com.geometricweather.common.basic.models.weather.WindDegree;
-import wangdaye.com.geometricweather.weather.json.owm.OwmAirPollutionResult;
-import wangdaye.com.geometricweather.weather.json.owm.OwmLocationResult;
-import wangdaye.com.geometricweather.weather.json.owm.OwmOneCallResult;
-import wangdaye.com.geometricweather.weather.services.WeatherService;
+import nowsci.com.temperateweather.common.basic.models.Location;
+import nowsci.com.temperateweather.common.basic.models.options.provider.WeatherSource;
+import nowsci.com.temperateweather.common.basic.models.weather.AirQuality;
+import nowsci.com.temperateweather.common.basic.models.weather.Alert;
+import nowsci.com.temperateweather.common.basic.models.weather.Astro;
+import nowsci.com.temperateweather.common.basic.models.weather.Base;
+import nowsci.com.temperateweather.common.basic.models.weather.Current;
+import nowsci.com.temperateweather.common.basic.models.weather.Daily;
+import nowsci.com.temperateweather.common.basic.models.weather.HalfDay;
+import nowsci.com.temperateweather.common.basic.models.weather.Hourly;
+import nowsci.com.temperateweather.common.basic.models.weather.Minutely;
+import nowsci.com.temperateweather.common.basic.models.weather.MoonPhase;
+import nowsci.com.temperateweather.common.basic.models.weather.Pollen;
+import nowsci.com.temperateweather.common.basic.models.weather.Precipitation;
+import nowsci.com.temperateweather.common.basic.models.weather.PrecipitationDuration;
+import nowsci.com.temperateweather.common.basic.models.weather.PrecipitationProbability;
+import nowsci.com.temperateweather.common.basic.models.weather.Temperature;
+import nowsci.com.temperateweather.common.basic.models.weather.UV;
+import nowsci.com.temperateweather.common.basic.models.weather.Weather;
+import nowsci.com.temperateweather.common.basic.models.weather.WeatherCode;
+import nowsci.com.temperateweather.common.basic.models.weather.Wind;
+import nowsci.com.temperateweather.common.basic.models.weather.WindDegree;
+import nowsci.com.temperateweather.weather.json.owm.OwmAirPollutionResult;
+import nowsci.com.temperateweather.weather.json.owm.OwmLocationResult;
+import nowsci.com.temperateweather.weather.json.owm.OwmOneCallResult;
+import nowsci.com.temperateweather.weather.services.WeatherService;
 
 public class OwmResultConverter {
 

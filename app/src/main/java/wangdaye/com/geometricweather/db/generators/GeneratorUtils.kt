@@ -1,4 +1,4 @@
-package wangdaye.com.geometricweather.db.generators
+package nowsci.com.temperateweather.db.generators
 
 object GeneratorUtils {
 
